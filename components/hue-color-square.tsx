@@ -1,19 +1,27 @@
-import { useState } from "react";
+"use client";
+
+import { toast } from "react-hot-toast";
 
 interface HueColorSquareProps {
     color: string;
+    copy: boolean;
 }
 
-export default function HueColorSquare({ color }: HueColorSquareProps) {
+export default function HueColorSquare({ color, copy }: HueColorSquareProps) {
     const colorText = color.toUpperCase().replace("#", "");
-    const [copied, setCopied] = useState(colorText);
 
     const handleCopy = () => {
         navigator.clipboard.writeText(color);
-        setCopied("copied");
-        setTimeout(() => {
-            setCopied(colorText);
-        }, 1000);
+        toast("Copied to clipboard!", {
+            icon: "✔️",
+            style: {
+                borderRadius: "10px",
+                fontSize: "14px",
+                fontWeight: "600",
+                background: "#fff",
+                color: "#000",
+            },
+        });
     };
 
     return (
@@ -21,20 +29,22 @@ export default function HueColorSquare({ color }: HueColorSquareProps) {
             <img
                 src="/square.svg"
                 alt="square"
-                className="h-12 w-12 rounded-lg"
+                className="h-12 w-12 rounded-lg shadow-lg"
                 style={{ backgroundColor: color }}
             />
-            <div
-                className="absolute left-0 top-0 hidden h-full w-full cursor-pointer rounded-lg group-hover:block"
-                onClick={handleCopy}
-            >
-                <div className="h-full w-full"></div>
-                <div className="flex w-full justify-center">
-                    <div className="-mt-1 flex w-full items-center justify-center rounded-md border bg-slate-200 py-0.5 text-xs font-semibold text-slate-800">
-                        <span>{copied}</span>
+            {copy && (
+                <div
+                    className="absolute left-0 top-0 hidden h-full w-full cursor-pointer rounded-lg group-hover:block"
+                    onClick={handleCopy}
+                >
+                    <div className="h-full w-full"></div>
+                    <div className="flex w-full justify-center">
+                        <div className="-mt-1 flex w-full items-center justify-center rounded-md border bg-slate-200 py-0.5 text-xs font-semibold text-slate-800">
+                            <span>{colorText}</span>
+                        </div>
                     </div>
                 </div>
-            </div>
+            )}
         </div>
     );
 }

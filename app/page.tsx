@@ -1,4 +1,8 @@
 import HueCard from "@/components/hue-card";
+import { HueData } from "@/types/hue-type";
+import fs from "fs";
+
+const hueData = JSON.parse(fs.readFileSync("./public/hue.json", "utf8"));
 
 export default function Home() {
     return (
@@ -16,78 +20,16 @@ export default function Home() {
             </div>
             <div className="flex justify-center px-10">
                 <div className="my-12 grid w-full grid-cols-4 gap-4">
-                    <HueCard
-                        colors={[
-                            "#eff6e0",
-                            "#aec3b0",
-                            "#598392",
-                            "#124559",
-                            "#01161e",
-                        ]}
-                    />
-                    <HueCard
-                        colors={[
-                            "#eff6e0",
-                            "#aec3b0",
-                            "#598392",
-                            "#124559",
-                            "#01161e",
-                        ]}
-                    />
-                    <HueCard
-                        colors={[
-                            "#eff6e0",
-                            "#aec3b0",
-                            "#598392",
-                            "#124559",
-                            "#01161e",
-                        ]}
-                    />
-                    <HueCard
-                        colors={[
-                            "#eff6e0",
-                            "#aec3b0",
-                            "#598392",
-                            "#124559",
-                            "#01161e",
-                        ]}
-                    />
-                    <HueCard
-                        colors={[
-                            "#eff6e0",
-                            "#aec3b0",
-                            "#598392",
-                            "#124559",
-                            "#01161e",
-                        ]}
-                    />
-                    <HueCard
-                        colors={[
-                            "#eff6e0",
-                            "#aec3b0",
-                            "#598392",
-                            "#124559",
-                            "#01161e",
-                        ]}
-                    />
-                    <HueCard
-                        colors={[
-                            "#eff6e0",
-                            "#aec3b0",
-                            "#598392",
-                            "#124559",
-                            "#01161e",
-                        ]}
-                    />
-                    <HueCard
-                        colors={[
-                            "#eff6e0",
-                            "#aec3b0",
-                            "#598392",
-                            "#124559",
-                            "#01161e",
-                        ]}
-                    />
+                    {hueData.map((hue: HueData, index: number) => (
+                        <HueCard
+                            key={index}
+                            name={hue.name}
+                            colors={hue.colors}
+                            tailwind_colors_name={hue.tailwind_colors_name}
+                            tailwind_colors={hue.tailwind_colors}
+                            background={hue.background}
+                        />
+                    ))}
                 </div>
             </div>
         </>

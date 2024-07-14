@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Pacifico } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
+import { Toaster } from "react-hot-toast";
 
 const pacifico = Pacifico({
     subsets: ["latin"],
@@ -24,6 +25,7 @@ export default function RootLayout({
             <body className={`${pacifico.variable} bg-decoration bg-white`}>
                 <Header></Header>
                 <main>{children}</main>
+                <Toaster position="bottom-center" reverseOrder={false} />
             </body>
         </html>
     );
