@@ -1,0 +1,3384 @@
+[
+    {
+        "name": "Dark Note",
+        "colors": ["#1f1f1f", "#4b3f2d", "#836a47", "#ba9561", "#f2c17b"],
+        "tailwind_colors_name": "dark-note",
+        "tailwind_colors": {
+            "50": "#1f1f1f",
+            "100": "#403628",
+            "200": "#564732",
+            "300": "#6c593d",
+            "400": "#836a47",
+            "500": "#997b51",
+            "600": "#af8d5c",
+            "700": "#c59e66",
+            "800": "#dbaf70",
+            "900": "#f2c17b"
+        },
+        "background": "#f2c17b",
+        "text": "#768f95"
+    },
+    {
+        "name": "Viridescent",
+        "colors": ["#2c3333", "#3f534a", "#5c7e6d", "#78a98f", "#95d5b2"],
+        "tailwind_colors_name": "viridescent",
+        "tailwind_colors": {
+            "50": "#2c3333",
+            "100": "#394a43",
+            "200": "#455b51",
+            "300": "#506d5f",
+            "400": "#5c7e6d",
+            "500": "#678f7a",
+            "600": "#72a188",
+            "700": "#7eb296",
+            "800": "#89c3a4",
+            "900": "#95d5b2"
+        },
+        "background": "#95d5b2",
+        "text": "#84a98c"
+    },
+    {
+        "name": "Dark",
+        "colors": ["#111", "#4e4e4e", "#838383", "#b8b8b8", "#eee"],
+        "tailwind_colors_name": "dark",
+        "tailwind_colors": {
+            "50": "#111",
+            "100": "#434343",
+            "200": "#585858",
+            "300": "#6e6e6e",
+            "400": "#838383",
+            "500": "#989898",
+            "600": "#aeaeae",
+            "700": "#c3c3c3",
+            "800": "#d8d8d8",
+            "900": "#eee"
+        },
+        "background": "#eee",
+        "text": "#444"
+    },
+    {
+        "name": "Muted",
+        "colors": ["#525252", "#68636f", "#877e96", "#a699bc", "#c5b4e3"],
+        "tailwind_colors_name": "muted",
+        "tailwind_colors": {
+            "50": "#525252",
+            "100": "#615e67",
+            "200": "#6e6977",
+            "300": "#7a7386",
+            "400": "#877e96",
+            "500": "#9389a5",
+            "600": "#9f93b4",
+            "700": "#ac9ec4",
+            "800": "#b8a9d3",
+            "900": "#c5b4e3"
+        },
+        "background": "#c5b4e3",
+        "text": "#939eae"
+    },
+    {
+        "name": "Dark Magic Girl",
+        "colors": ["#091f2c", "#423e4d", "#7e6477", "#b98aa1", "#f5b1cc"],
+        "tailwind_colors_name": "dark-magic-girl",
+        "tailwind_colors": {
+            "50": "#091f2c",
+            "100": "#363644",
+            "200": "#4e4555",
+            "300": "#665566",
+            "400": "#7e6477",
+            "500": "#957388",
+            "600": "#ad8399",
+            "700": "#c592aa",
+            "800": "#dda1bb",
+            "900": "#f5b1cc"
+        },
+        "background": "#f5b1cc",
+        "text": "#93e8d3"
+    },
+    {
+        "name": "8008",
+        "colors": ["#333a45", "#5f3a4d", "#91405e", "#c2466e", "#f44c7f"],
+        "tailwind_colors_name": "8008",
+        "tailwind_colors": {
+            "50": "#333a45",
+            "100": "#55384a",
+            "200": "#693b50",
+            "300": "#7d3d57",
+            "400": "#91405e",
+            "500": "#a44264",
+            "600": "#b8446b",
+            "700": "#cc4771",
+            "800": "#e04978",
+            "900": "#f44c7f"
+        },
+        "background": "#f44c7f",
+        "text": "#939eae"
+    },
+    {
+        "name": "Carbon",
+        "colors": ["#313131", "#5d3b23", "#904c1c", "#c35d14", "#f66e0d"],
+        "tailwind_colors_name": "carbon",
+        "tailwind_colors": {
+            "50": "#313131",
+            "100": "#533825",
+            "200": "#673f22",
+            "300": "#7c451f",
+            "400": "#904c1c",
+            "500": "#a45319",
+            "600": "#b95916",
+            "700": "#cd6013",
+            "800": "#e16710",
+            "900": "#f66e0d"
+        },
+        "background": "#f66e0d",
+        "text": "#616161"
+    },
+    {
+        "name": "Our Theme",
+        "colors": ["#ce1226", "#b6401d", "#cd701b", "#e4a018", "#fcd116"],
+        "tailwind_colors_name": "our-theme",
+        "tailwind_colors": {
+            "50": "#ce1226",
+            "100": "#b1361e",
+            "200": "#ba491d",
+            "300": "#c45d1c",
+            "400": "#cd701b",
+            "500": "#d6831a",
+            "600": "#e09719",
+            "700": "#e9aa18",
+            "800": "#f2bd17",
+            "900": "#fcd116"
+        },
+        "background": "#fcd116",
+        "text": "#6d0f19"
+    },
+    {
+        "name": "Dots",
+        "colors": ["#121520", "#545660", "#8d8e95", "#c6c6ca", "#fff"],
+        "tailwind_colors_name": "dots",
+        "tailwind_colors": {
+            "50": "#121520",
+            "100": "#484b56",
+            "200": "#5f616b",
+            "300": "#767880",
+            "400": "#8d8e95",
+            "500": "#a3a5aa",
+            "600": "#babbbf",
+            "700": "#d1d2d4",
+            "800": "#e8e8e9",
+            "900": "#fff"
+        },
+        "background": "#fff",
+        "text": "#676e8a"
+    },
+    {
+        "name": "Nautilus",
+        "colors": ["#132237", "#454127", "#7c6826", "#b38f24", "#ebb723"],
+        "tailwind_colors_name": "nautilus",
+        "tailwind_colors": {
+            "50": "#132237",
+            "100": "#3a3927",
+            "200": "#504927",
+            "300": "#665826",
+            "400": "#7c6826",
+            "500": "#927825",
+            "600": "#a88724",
+            "700": "#be9724",
+            "800": "#d4a723",
+            "900": "#ebb723"
+        },
+        "background": "#ebb723",
+        "text": "#0b4c6c"
+    },
+    {
+        "name": "Serika",
+        "colors": ["#e1e1e3", "#d5cca7", "#d9c576", "#ddbe45", "#e2b714"],
+        "tailwind_colors_name": "serika",
+        "tailwind_colors": {
+            "50": "#e1e1e3",
+            "100": "#d4cdb0",
+            "200": "#d6ca9d",
+            "300": "#d7c789",
+            "400": "#d9c576",
+            "500": "#dbc262",
+            "600": "#dcbf4e",
+            "700": "#debc3b",
+            "800": "#e0b927",
+            "900": "#e2b714"
+        },
+        "background": "#e2b714",
+        "text": "#aaaeb3"
+    },
+    {
+        "name": "Serika Dark",
+        "colors": ["#323437", "#595029", "#877222", "#b4941b", "#e2b714"],
+        "tailwind_colors_name": "serika-dark",
+        "tailwind_colors": {
+            "50": "#323437",
+            "100": "#50492b",
+            "200": "#625728",
+            "300": "#746425",
+            "400": "#877222",
+            "500": "#99801f",
+            "600": "#ab8d1c",
+            "700": "#bd9b19",
+            "800": "#cfa916",
+            "900": "#e2b714"
+        },
+        "background": "#e2b714",
+        "text": "#646669"
+    },
+    {
+        "name": "Bushido",
+        "colors": ["#242933", "#502c37", "#843741", "#b8414b", "#ec4c56"],
+        "tailwind_colors_name": "bushido",
+        "tailwind_colors": {
+            "50": "#242933",
+            "100": "#452a35",
+            "200": "#5a2e39",
+            "300": "#6f323d",
+            "400": "#843741",
+            "500": "#983b45",
+            "600": "#ad3f49",
+            "700": "#c2434d",
+            "800": "#d74751",
+            "900": "#ec4c56"
+        },
+        "background": "#ec4c56",
+        "text": "#596172"
+    },
+    {
+        "name": "Red Samurai",
+        "colors": ["#84202c", "#893d38", "#9e5d4a", "#b27d5c", "#c79e6e"],
+        "tailwind_colors_name": "red-samurai",
+        "tailwind_colors": {
+            "50": "#84202c",
+            "100": "#853634",
+            "200": "#8d433b",
+            "300": "#955042",
+            "400": "#9e5d4a",
+            "500": "#a66a51",
+            "600": "#ae7758",
+            "700": "#b6845f",
+            "800": "#be9166",
+            "900": "#c79e6e"
+        },
+        "background": "#c79e6e",
+        "text": "#55131b"
+    },
+    {
+        "name": "Rgb",
+        "colors": ["#111", "#4f4f4f", "#848484", "#b9b9b9", "#eee"],
+        "tailwind_colors_name": "rgb",
+        "tailwind_colors": {
+            "50": "#111",
+            "100": "#444444",
+            "200": "#595959",
+            "300": "#6e6e6e",
+            "400": "#848484",
+            "500": "#999999",
+            "600": "#aeaeae",
+            "700": "#c3c3c3",
+            "800": "#d8d8d8",
+            "900": "#eee"
+        },
+        "background": "#eee",
+        "text": "#444"
+    },
+    {
+        "name": "Oblivion",
+        "colors": ["#313231", "#545451", "#6f6d68", "#8a867f", "#a5a096"],
+        "tailwind_colors_name": "oblivion",
+        "tailwind_colors": {
+            "50": "#313231",
+            "100": "#4f4f4d",
+            "200": "#5a5956",
+            "300": "#64635f",
+            "400": "#6f6d68",
+            "500": "#7a7771",
+            "600": "#84817a",
+            "700": "#8f8b83",
+            "800": "#9a958c",
+            "900": "#a5a096"
+        },
+        "background": "#a5a096",
+        "text": "#5d6263"
+    },
+    {
+        "name": "Magic Girl",
+        "colors": ["#ffffff", "#f2e1e8", "#f3d1df", "#f4c1d5", "#f5b1cc"],
+        "tailwind_colors_name": "magic-girl",
+        "tailwind_colors": {
+            "50": "#ffffff",
+            "100": "#f2e5ea",
+            "200": "#f2dee6",
+            "300": "#f3d8e2",
+            "400": "#f3d1df",
+            "500": "#f3cbdb",
+            "600": "#f4c4d7",
+            "700": "#f4bed3",
+            "800": "#f4b7cf",
+            "900": "#f5b1cc"
+        },
+        "background": "#f5b1cc",
+        "text": "#93e8d3"
+    },
+    {
+        "name": "Metropolis",
+        "colors": ["#0f1f2c", "#1d4247", "#306d6c", "#439891", "#56c3b7"],
+        "tailwind_colors_name": "metropolis",
+        "tailwind_colors": {
+            "50": "#0f1f2c",
+            "100": "#1a3a3f",
+            "200": "#214b4e",
+            "300": "#295c5d",
+            "400": "#306d6c",
+            "500": "#387e7b",
+            "600": "#3f8f8a",
+            "700": "#47a099",
+            "800": "#4eb1a8",
+            "900": "#56c3b7"
+        },
+        "background": "#56c3b7",
+        "text": "#326984"
+    },
+    {
+        "name": "Mountain",
+        "colors": ["#0f0f0f", "#4d4d4d", "#808080", "#b3b3b3", "#e7e7e7"],
+        "tailwind_colors_name": "mountain",
+        "tailwind_colors": {
+            "50": "#0f0f0f",
+            "100": "#434343",
+            "200": "#575757",
+            "300": "#6c6c6c",
+            "400": "#808080",
+            "500": "#959595",
+            "600": "#a9a9a9",
+            "700": "#bebebe",
+            "800": "#d2d2d2",
+            "900": "#e7e7e7"
+        },
+        "background": "#e7e7e7",
+        "text": "#4c4c4c"
+    },
+    {
+        "name": "Laser",
+        "colors": ["#221b44", "#163858", "#0f5a75", "#077c92", "#009eaf"],
+        "tailwind_colors_name": "laser",
+        "tailwind_colors": {
+            "50": "#221b44",
+            "100": "#183252",
+            "200": "#153f5d",
+            "300": "#124d69",
+            "400": "#0f5a75",
+            "500": "#0c6880",
+            "600": "#09758c",
+            "700": "#058397",
+            "800": "#0290a3",
+            "900": "#009eaf"
+        },
+        "background": "#009eaf",
+        "text": "#b82356"
+    },
+    {
+        "name": "Retro",
+        "colors": ["#dad3c1", "#9d998c", "#726f65", "#47453e", "#1d1b17"],
+        "tailwind_colors_name": "retro",
+        "tailwind_colors": {
+            "50": "#dad3c1",
+            "100": "#a5a193",
+            "200": "#949084",
+            "300": "#837f74",
+            "400": "#726f65",
+            "500": "#615e55",
+            "600": "#504d45",
+            "700": "#3f3c36",
+            "800": "#2e2b26",
+            "900": "#1d1b17"
+        },
+        "background": "#1d1b17",
+        "text": "#918b7d"
+    },
+    {
+        "name": "Dracula",
+        "colors": ["#282a36", "#473e5f", "#6e5a92", "#9576c5", "#bd93f9"],
+        "tailwind_colors_name": "dracula",
+        "tailwind_colors": {
+            "50": "#282a36",
+            "100": "#3f3855",
+            "200": "#4f4369",
+            "300": "#5e4f7e",
+            "400": "#6e5a92",
+            "500": "#7e65a7",
+            "600": "#8d71bb",
+            "700": "#9d7cd0",
+            "800": "#ad87e4",
+            "900": "#bd93f9"
+        },
+        "background": "#bd93f9",
+        "text": "#6272a4"
+    },
+    {
+        "name": "Nord",
+        "colors": ["#242933", "#445764", "#5b7a88", "#719dac", "#88c0d0"],
+        "tailwind_colors_name": "nord",
+        "tailwind_colors": {
+            "50": "#242933",
+            "100": "#40505c",
+            "200": "#495e6b",
+            "300": "#526c79",
+            "400": "#5b7a88",
+            "500": "#648896",
+            "600": "#6c95a4",
+            "700": "#76a4b3",
+            "800": "#7fb2c1",
+            "900": "#88c0d0"
+        },
+        "background": "#88c0d0",
+        "text": "#929aaa"
+    },
+    {
+        "name": "Mr Sleeves",
+        "colors": ["#d1d7da", "#c5c2c3", "#ccbab6", "#d3b1a8", "#daa99b"],
+        "tailwind_colors_name": "mr-sleeves",
+        "tailwind_colors": {
+            "50": "#d1d7da",
+            "100": "#c4c4c6",
+            "200": "#c7c0c0",
+            "300": "#c9bdbb",
+            "400": "#ccbab6",
+            "500": "#cfb6b0",
+            "600": "#d1b3ab",
+            "700": "#d4afa5",
+            "800": "#d7aca0",
+            "900": "#daa99b"
+        },
+        "background": "#daa99b",
+        "text": "#9a9fa1"
+    },
+    {
+        "name": "Olivia",
+        "colors": ["#1c1b1d", "#544541", "#826860", "#b08b7e", "#deaf9d"],
+        "tailwind_colors_name": "olivia",
+        "tailwind_colors": {
+            "50": "#1c1b1d",
+            "100": "#4a3e3b",
+            "200": "#5d4c47",
+            "300": "#6f5a53",
+            "400": "#826860",
+            "500": "#94766c",
+            "600": "#a68478",
+            "700": "#b99284",
+            "800": "#cba090",
+            "900": "#deaf9d"
+        },
+        "background": "#deaf9d",
+        "text": "#4e3e3e"
+    },
+    {
+        "name": "Bliss",
+        "colors": ["#262727", "#635a57", "#92827d", "#c1aaa3", "#f0d3c9"],
+        "tailwind_colors_name": "bliss",
+        "tailwind_colors": {
+            "50": "#262727",
+            "100": "#59524f",
+            "200": "#6c625e",
+            "300": "#7f726d",
+            "400": "#92827d",
+            "500": "#a4928c",
+            "600": "#b7a29b",
+            "700": "#cab2aa",
+            "800": "#ddc2b9",
+            "900": "#f0d3c9"
+        },
+        "background": "#f0d3c9",
+        "text": "#665957"
+    },
+    {
+        "name": "Mizu",
+        "colors": ["#afcbdd", "#b6cfdc", "#cddee5", "#e4eced", "#fcfbf6"],
+        "tailwind_colors_name": "mizu",
+        "tailwind_colors": {
+            "50": "#afcbdd",
+            "100": "#b1ccda",
+            "200": "#bad2de",
+            "300": "#c4d8e1",
+            "400": "#cddee5",
+            "500": "#d6e3e8",
+            "600": "#e0e9eb",
+            "700": "#e9efef",
+            "800": "#f2f5f2",
+            "900": "#fcfbf6"
+        },
+        "background": "#fcfbf6",
+        "text": "#85a5bb"
+    },
+    {
+        "name": "Metaverse",
+        "colors": ["#232323", "#4b2022", "#7a2328", "#a9262e", "#d82934"],
+        "tailwind_colors_name": "metaverse",
+        "tailwind_colors": {
+            "50": "#232323",
+            "100": "#421f21",
+            "200": "#552023",
+            "300": "#672126",
+            "400": "#7a2328",
+            "500": "#8d242a",
+            "600": "#9f252d",
+            "700": "#b2262f",
+            "800": "#c52731",
+            "900": "#d82934"
+        },
+        "background": "#d82934",
+        "text": "#5e5e5e"
+    },
+    {
+        "name": "Shadow",
+        "colors": ["#000", "#4c4c4c", "#828282", "#b8b8b8", "#eee"],
+        "tailwind_colors_name": "shadow",
+        "tailwind_colors": {
+            "50": "#000",
+            "100": "#424242",
+            "200": "#575757",
+            "300": "#6d6d6d",
+            "400": "#828282",
+            "500": "#979797",
+            "600": "#adadad",
+            "700": "#c3c3c3",
+            "800": "#d8d8d8",
+            "900": "#eee"
+        },
+        "background": "#eee",
+        "text": "#444"
+    },
+    {
+        "name": "Mint",
+        "colors": ["#05385b", "#1c5c5f", "#318671", "#46b083", "#5cdb95"],
+        "tailwind_colors_name": "mint",
+        "tailwind_colors": {
+            "50": "#05385b",
+            "100": "#18535c",
+            "200": "#206463",
+            "300": "#29756a",
+            "400": "#318671",
+            "500": "#399778",
+            "600": "#42a87f",
+            "700": "#4bb986",
+            "800": "#53ca8d",
+            "900": "#5cdb95"
+        },
+        "background": "#5cdb95",
+        "text": "#20688a"
+    },
+    {
+        "name": "Miami",
+        "colors": ["#f35588", "#a56e90", "#7094a8", "#3ab9bf", "#05dfd7"],
+        "tailwind_colors_name": "miami",
+        "tailwind_colors": {
+            "50": "#f35588",
+            "100": "#b0678b",
+            "200": "#9a7595",
+            "300": "#85859e",
+            "400": "#7094a8",
+            "500": "#5aa3b1",
+            "600": "#45b2ba",
+            "700": "#2fc1c4",
+            "800": "#1ad0cd",
+            "900": "#05dfd7"
+        },
+        "background": "#05dfd7",
+        "text": "#94294c"
+    },
+    {
+        "name": "Miami Nights",
+        "colors": ["#18181a", "#442332", "#793755", "#ae4b78", "#e4609b"],
+        "tailwind_colors_name": "miami-nights",
+        "tailwind_colors": {
+            "50": "#18181a",
+            "100": "#391f2b",
+            "200": "#4e2739",
+            "300": "#642f47",
+            "400": "#793755",
+            "500": "#8e3f63",
+            "600": "#a44771",
+            "700": "#b94f7f",
+            "800": "#ce578d",
+            "900": "#e4609b"
+        },
+        "background": "#e4609b",
+        "text": "#47bac0"
+    },
+    {
+        "name": "Modern Dolch",
+        "colors": ["#2d2e30", "#3a5352", "#51817d", "#67afa8", "#7eddd3"],
+        "tailwind_colors_name": "modern-dolch",
+        "tailwind_colors": {
+            "50": "#2d2e30",
+            "100": "#364949",
+            "200": "#3f5c5a",
+            "300": "#486e6b",
+            "400": "#51817d",
+            "500": "#5a938e",
+            "600": "#62a59f",
+            "700": "#6cb8b0",
+            "800": "#75cac1",
+            "900": "#7eddd3"
+        },
+        "background": "#7eddd3",
+        "text": "#54585c"
+    },
+    {
+        "name": "Botanical",
+        "colors": ["#7b9c98", "#90a8a6", "#aec0c0", "#ccd8d9", "#eaf1f3"],
+        "tailwind_colors_name": "botanical",
+        "tailwind_colors": {
+            "50": "#7b9c98",
+            "100": "#8aa3a1",
+            "200": "#96adab",
+            "300": "#a2b6b5",
+            "400": "#aec0c0",
+            "500": "#bacaca",
+            "600": "#c6d3d4",
+            "700": "#d2ddde",
+            "800": "#dee7e8",
+            "900": "#eaf1f3"
+        },
+        "background": "#eaf1f3",
+        "text": "#495755"
+    },
+    {
+        "name": "9009",
+        "colors": ["#eeebe2", "#a09d93", "#6d6c65", "#3a3a37", "#080909"],
+        "tailwind_colors_name": "9009",
+        "tailwind_colors": {
+            "50": "#eeebe2",
+            "100": "#aaa79c",
+            "200": "#969389",
+            "300": "#817f77",
+            "400": "#6d6c65",
+            "500": "#595852",
+            "600": "#444440",
+            "700": "#30302d",
+            "800": "#1c1c1b",
+            "900": "#080909"
+        },
+        "background": "#080909",
+        "text": "#99947f"
+    },
+    {
+        "name": "Bingsu",
+        "colors": ["#b8a7aa", "#a18a92", "#977c86", "#8d6e7a", "#83616e"],
+        "tailwind_colors_name": "bingsu",
+        "tailwind_colors": {
+            "50": "#b8a7aa",
+            "100": "#a38d94",
+            "200": "#9f878f",
+            "300": "#9b828a",
+            "400": "#977c86",
+            "500": "#937781",
+            "600": "#8f717c",
+            "700": "#8b6c77",
+            "800": "#876672",
+            "900": "#83616e"
+        },
+        "background": "#83616e",
+        "text": "#48373d"
+    },
+    {
+        "name": "Terminal",
+        "colors": ["#191a1b", "#2d3916", "#465d16", "#5f8116", "#79a617"],
+        "tailwind_colors_name": "terminal",
+        "tailwind_colors": {
+            "50": "#191a1b",
+            "100": "#283216",
+            "200": "#324016",
+            "300": "#3c4f16",
+            "400": "#465d16",
+            "500": "#506c16",
+            "600": "#5a7a16",
+            "700": "#648916",
+            "800": "#6e9716",
+            "900": "#79a617"
+        },
+        "background": "#79a617",
+        "text": "#48494b"
+    },
+    {
+        "name": "Lavender",
+        "colors": ["#ada6c2", "#b1adc5", "#c2bfd1", "#d3d1dd", "#e4e3e9"],
+        "tailwind_colors_name": "lavender",
+        "tailwind_colors": {
+            "50": "#ada6c2",
+            "100": "#aea9c2",
+            "200": "#b5b0c7",
+            "300": "#bbb7cc",
+            "400": "#c2bfd1",
+            "500": "#c9c6d5",
+            "600": "#cfcdda",
+            "700": "#d6d4df",
+            "800": "#dddbe4",
+            "900": "#e4e3e9"
+        },
+        "background": "#e4e3e9",
+        "text": "#e4e3e9"
+    },
+    {
+        "name": "Taro",
+        "colors": ["#b3baff", "#7f81ad", "#5b5b7c", "#37354b", "#130f1a"],
+        "tailwind_colors_name": "taro",
+        "tailwind_colors": {
+            "50": "#b3baff",
+            "100": "#8688b7",
+            "200": "#7779a3",
+            "300": "#696a90",
+            "400": "#5b5b7c",
+            "500": "#4c4b68",
+            "600": "#3e3c55",
+            "700": "#2f2d41",
+            "800": "#211e2d",
+            "900": "#130f1a"
+        },
+        "background": "#130f1a",
+        "text": "#6f6c91"
+    },
+    {
+        "name": "Striker",
+        "colors": ["#124883", "#41678f", "#738ea8", "#a5b5c1", "#d7dcda"],
+        "tailwind_colors_name": "striker",
+        "tailwind_colors": {
+            "50": "#124883",
+            "100": "#37608a",
+            "200": "#4b6f94",
+            "300": "#5f7f9e",
+            "400": "#738ea8",
+            "500": "#879eb2",
+            "600": "#9badbc",
+            "700": "#afbdc6",
+            "800": "#c3ccd0",
+            "900": "#d7dcda"
+        },
+        "background": "#d7dcda",
+        "text": "#0f2d4e"
+    },
+    {
+        "name": "Gruvbox Dark",
+        "colors": ["#282828", "#4e3f21", "#7c5d21", "#a97b21", "#d79921"],
+        "tailwind_colors_name": "gruvbox-dark",
+        "tailwind_colors": {
+            "50": "#282828",
+            "100": "#453921",
+            "200": "#574521",
+            "300": "#695121",
+            "400": "#7c5d21",
+            "500": "#8e6921",
+            "600": "#a07521",
+            "700": "#b28121",
+            "800": "#c48d21",
+            "900": "#d79921"
+        },
+        "background": "#d79921",
+        "text": "#665c54"
+    },
+    {
+        "name": "Gruvbox Light",
+        "colors": ["#fbf1c7", "#bdc19d", "#a1b58c", "#84a97b", "#689d6a"],
+        "tailwind_colors_name": "gruvbox-light",
+        "tailwind_colors": {
+            "50": "#fbf1c7",
+            "100": "#c3c4a0",
+            "200": "#b7bf99",
+            "300": "#acba92",
+            "400": "#a1b58c",
+            "500": "#95b085",
+            "600": "#8aab7e",
+            "700": "#7ea677",
+            "800": "#73a170",
+            "900": "#689d6a"
+        },
+        "background": "#689d6a",
+        "text": "#a89984"
+    },
+    {
+        "name": "Monokai",
+        "colors": ["#272822", "#40501f", "#628124", "#84b129", "#a6e22e"],
+        "tailwind_colors_name": "monokai",
+        "tailwind_colors": {
+            "50": "#272822",
+            "100": "#3a461e",
+            "200": "#475a20",
+            "300": "#556d22",
+            "400": "#628124",
+            "500": "#709426",
+            "600": "#7da728",
+            "700": "#8bbb2a",
+            "800": "#98ce2c",
+            "900": "#a6e22e"
+        },
+        "background": "#a6e22e",
+        "text": "#e6db74"
+    },
+    {
+        "name": "Sonokai",
+        "colors": ["#2c2e34", "#414f3b", "#607a4d", "#7fa55f", "#9ed072"],
+        "tailwind_colors_name": "sonokai",
+        "tailwind_colors": {
+            "50": "#2c2e34",
+            "100": "#3b4637",
+            "200": "#47573e",
+            "300": "#546846",
+            "400": "#607a4d",
+            "500": "#6c8b54",
+            "600": "#799c5c",
+            "700": "#85ad63",
+            "800": "#91be6a",
+            "900": "#9ed072"
+        },
+        "background": "#9ed072",
+        "text": "#e7c664"
+    },
+    {
+        "name": "Camping",
+        "colors": ["#faf1e4", "#c5c8ad", "#a4b490", "#82a073", "#618c56"],
+        "tailwind_colors_name": "camping",
+        "tailwind_colors": {
+            "50": "#faf1e4",
+            "100": "#ccccb3",
+            "200": "#bec4a7",
+            "300": "#b1bc9c",
+            "400": "#a4b490",
+            "500": "#96ac84",
+            "600": "#89a479",
+            "700": "#7b9c6d",
+            "800": "#6e9461",
+            "900": "#618c56"
+        },
+        "background": "#618c56",
+        "text": "#c2b8aa"
+    },
+    {
+        "name": "Voc",
+        "colors": ["#190618", "#593b49", "#866b6a", "#b39a8b", "#e0caac"],
+        "tailwind_colors_name": "voc",
+        "tailwind_colors": {
+            "50": "#190618",
+            "100": "#503242",
+            "200": "#62454f",
+            "300": "#74585c",
+            "400": "#866b6a",
+            "500": "#987d77",
+            "600": "#aa9084",
+            "700": "#bca491",
+            "800": "#ceb79e",
+            "900": "#e0caac"
+        },
+        "background": "#e0caac",
+        "text": "#4c1e48"
+    },
+    {
+        "name": "Vaporwave",
+        "colors": ["#a4a7ea", "#aa8ed9", "#bd81d9", "#d074d9", "#e368da"],
+        "tailwind_colors_name": "vaporwave",
+        "tailwind_colors": {
+            "50": "#a4a7ea",
+            "100": "#a790d9",
+            "200": "#ae8bd9",
+            "300": "#b686d9",
+            "400": "#bd81d9",
+            "500": "#c57cd9",
+            "600": "#cc77d9",
+            "700": "#d472d9",
+            "800": "#db6dd9",
+            "900": "#e368da"
+        },
+        "background": "#e368da",
+        "text": "#7c7faf"
+    },
+    {
+        "name": "Pulse",
+        "colors": ["#181818", "#133b3c", "#146567", "#158e92", "#17b8bd"],
+        "tailwind_colors_name": "pulse",
+        "tailwind_colors": {
+            "50": "#181818",
+            "100": "#133334",
+            "200": "#134345",
+            "300": "#145456",
+            "400": "#146567",
+            "500": "#157578",
+            "600": "#158689",
+            "700": "#16969a",
+            "800": "#16a7ab",
+            "900": "#17b8bd"
+        },
+        "background": "#17b8bd",
+        "text": "#53565a"
+    },
+    {
+        "name": "Matrix",
+        "colors": ["#000000", "#075700", "#0c8f00", "#10c700", "#15ff00"],
+        "tailwind_colors_name": "matrix",
+        "tailwind_colors": {
+            "50": "#000000",
+            "100": "#064c00",
+            "200": "#086200",
+            "300": "#0a7900",
+            "400": "#0c8f00",
+            "500": "#0da500",
+            "600": "#0fbc00",
+            "700": "#11d200",
+            "800": "#13e800",
+            "900": "#15ff00"
+        },
+        "background": "#15ff00",
+        "text": "#006500"
+    },
+    {
+        "name": "Olive",
+        "colors": ["#e9e5cc", "#c3c0a8", "#b3b195", "#a2a282", "#92946f"],
+        "tailwind_colors_name": "olive",
+        "tailwind_colors": {
+            "50": "#e9e5cc",
+            "100": "#c6c3ac",
+            "200": "#c0bda4",
+            "300": "#b9b79d",
+            "400": "#b3b195",
+            "500": "#acab8d",
+            "600": "#a5a586",
+            "700": "#9f9f7e",
+            "800": "#989976",
+            "900": "#92946f"
+        },
+        "background": "#92946f",
+        "text": "#b7b39e"
+    },
+    {
+        "name": "Strawberry",
+        "colors": ["#f37f83", "#f29197", "#f5b5b7", "#f8d8d7", "#fcfcf8"],
+        "tailwind_colors_name": "strawberry",
+        "tailwind_colors": {
+            "50": "#f37f83",
+            "100": "#f18a90",
+            "200": "#f2989d",
+            "300": "#f4a6aa",
+            "400": "#f5b5b7",
+            "500": "#f6c3c4",
+            "600": "#f8d1d1",
+            "700": "#f9dfde",
+            "800": "#faedeb",
+            "900": "#fcfcf8"
+        },
+        "background": "#fcfcf8",
+        "text": "#e53c58"
+    },
+    {
+        "name": "Night Runner",
+        "colors": ["#212121", "#535314", "#8c8c0f", "#c5c509", "#feff04"],
+        "tailwind_colors_name": "night-runner",
+        "tailwind_colors": {
+            "50": "#212121",
+            "100": "#474715",
+            "200": "#5e5e13",
+            "300": "#757511",
+            "400": "#8c8c0f",
+            "500": "#a2a30c",
+            "600": "#b9ba0a",
+            "700": "#d0d108",
+            "800": "#e7e806",
+            "900": "#feff04"
+        },
+        "background": "#feff04",
+        "text": "#5c4a9c"
+    },
+    {
+        "name": "Cyberspace",
+        "colors": ["#181c18", "#0e442d", "#097247", "#04a061", "#00ce7c"],
+        "tailwind_colors_name": "cyberspace",
+        "tailwind_colors": {
+            "50": "#181c18",
+            "100": "#0f3a28",
+            "200": "#0d4d32",
+            "300": "#0b5f3d",
+            "400": "#097247",
+            "500": "#078451",
+            "600": "#05965c",
+            "700": "#03a967",
+            "800": "#01bb71",
+            "900": "#00ce7c"
+        },
+        "background": "#00ce7c",
+        "text": "#9578d3"
+    },
+    {
+        "name": "Joker",
+        "colors": ["#1a0e25", "#353d1e", "#56731e", "#77a81e", "#99de1e"],
+        "tailwind_colors_name": "joker",
+        "tailwind_colors": {
+            "50": "#1a0e25",
+            "100": "#2e321e",
+            "200": "#3b481e",
+            "300": "#495d1e",
+            "400": "#56731e",
+            "500": "#63881e",
+            "600": "#719d1e",
+            "700": "#7eb31e",
+            "800": "#8bc81e",
+            "900": "#99de1e"
+        },
+        "background": "#99de1e",
+        "text": "#7554a3"
+    },
+    {
+        "name": "Dualshot",
+        "colors": ["#737373", "#535353", "#424343", "#313232", "#212222"],
+        "tailwind_colors_name": "dualshot",
+        "tailwind_colors": {
+            "50": "#737373",
+            "100": "#565656",
+            "200": "#4f5050",
+            "300": "#494949",
+            "400": "#424343",
+            "500": "#3b3c3c",
+            "600": "#353535",
+            "700": "#2e2f2f",
+            "800": "#272828",
+            "900": "#212222"
+        },
+        "background": "#212222",
+        "text": "#aaaaaa"
+    },
+    {
+        "name": "Solarized Dark",
+        "colors": ["#002b36", "#213f20", "#425d15", "#637b0a", "#859900"],
+        "tailwind_colors_name": "solarized-dark",
+        "tailwind_colors": {
+            "50": "#002b36",
+            "100": "#1a3922",
+            "200": "#27451e",
+            "300": "#355119",
+            "400": "#425d15",
+            "500": "#4f6911",
+            "600": "#5d750c",
+            "700": "#6a8108",
+            "800": "#778d04",
+            "900": "#859900"
+        },
+        "background": "#859900",
+        "text": "#2aa198"
+    },
+    {
+        "name": "Solarized Light",
+        "colors": ["#fdf6e3", "#cac88e", "#b3b85f", "#9ca82f", "#859900"],
+        "tailwind_colors_name": "solarized-light",
+        "tailwind_colors": {
+            "50": "#fdf6e3",
+            "100": "#cfcb98",
+            "200": "#c6c585",
+            "300": "#bcbe72",
+            "400": "#b3b85f",
+            "500": "#aab24c",
+            "600": "#a0ab39",
+            "700": "#97a525",
+            "800": "#8e9f12",
+            "900": "#859900"
+        },
+        "background": "#859900",
+        "text": "#2aa198"
+    },
+    {
+        "name": "Terra",
+        "colors": ["#0c100e", "#2d4728", "#4c7138", "#6a9b48", "#89c559"],
+        "tailwind_colors_name": "terra",
+        "tailwind_colors": {
+            "50": "#0c100e",
+            "100": "#273e25",
+            "200": "#334f2b",
+            "300": "#3f6032",
+            "400": "#4c7138",
+            "500": "#58813f",
+            "600": "#649245",
+            "700": "#70a34c",
+            "800": "#7cb452",
+            "900": "#89c559"
+        },
+        "background": "#89c559",
+        "text": "#436029"
+    },
+    {
+        "name": "Red Dragon",
+        "colors": ["#1a0b0c", "#4a1211", "#861f1c", "#c22c27", "#ff3a32"],
+        "tailwind_colors_name": "red-dragon",
+        "tailwind_colors": {
+            "50": "#1a0b0c",
+            "100": "#3e0f0e",
+            "200": "#561413",
+            "300": "#6e1a17",
+            "400": "#861f1c",
+            "500": "#9e2420",
+            "600": "#b62a24",
+            "700": "#ce2f29",
+            "800": "#e6342d",
+            "900": "#ff3a32"
+        },
+        "background": "#ff3a32",
+        "text": "#e2a528"
+    },
+    {
+        "name": "Hammerhead",
+        "colors": ["#030613", "#1b464c", "#2c7370", "#3da094", "#4fcdb9"],
+        "tailwind_colors_name": "hammerhead",
+        "tailwind_colors": {
+            "50": "#030613",
+            "100": "#173d45",
+            "200": "#1e4f53",
+            "300": "#256162",
+            "400": "#2c7370",
+            "500": "#33857f",
+            "600": "#3a978d",
+            "700": "#41a99c",
+            "800": "#48bbaa",
+            "900": "#4fcdb9"
+        },
+        "background": "#4fcdb9",
+        "text": "#213c53"
+    },
+    {
+        "name": "Future Funk",
+        "colors": ["#2e1a47", "#5b4d67", "#8f8493", "#c3bbbe", "#f7f2ea"],
+        "tailwind_colors_name": "future-funk",
+        "tailwind_colors": {
+            "50": "#2e1a47",
+            "100": "#50425e",
+            "200": "#655870",
+            "300": "#7a6e81",
+            "400": "#8f8493",
+            "500": "#a39aa4",
+            "600": "#b8b0b5",
+            "700": "#cdc6c7",
+            "800": "#e2dcd8",
+            "900": "#f7f2ea"
+        },
+        "background": "#f7f2ea",
+        "text": "#c18fff"
+    },
+    {
+        "name": "Milkshake",
+        "colors": ["#ffffff", "#aebec7", "#7f8d9b", "#505c6f", "#212b43"],
+        "tailwind_colors_name": "milkshake",
+        "tailwind_colors": {
+            "50": "#ffffff",
+            "100": "#b7c7cf",
+            "200": "#a4b4be",
+            "300": "#91a0ac",
+            "400": "#7f8d9b",
+            "500": "#6c7989",
+            "600": "#596577",
+            "700": "#465266",
+            "800": "#333e54",
+            "900": "#212b43"
+        },
+        "background": "#212b43",
+        "text": "#62cfe6"
+    },
+    {
+        "name": "Aether",
+        "colors": ["#101820", "#5a4f63", "#8b7d90", "#bcabbd", "#eedaea"],
+        "tailwind_colors_name": "aether",
+        "tailwind_colors": {
+            "50": "#101820",
+            "100": "#50465a",
+            "200": "#64586c",
+            "300": "#776b7e",
+            "400": "#8b7d90",
+            "500": "#9f8fa2",
+            "600": "#b2a2b4",
+            "700": "#c6b5c6",
+            "800": "#dac7d8",
+            "900": "#eedaea"
+        },
+        "background": "#eedaea",
+        "text": "#cf6bdd"
+    },
+    {
+        "name": "Froyo",
+        "colors": ["#e1dacb", "#bdb9b0", "#a7a59f", "#91918e", "#7b7d7d"],
+        "tailwind_colors_name": "froyo",
+        "tailwind_colors": {
+            "50": "#e1dacb",
+            "100": "#c1bdb3",
+            "200": "#b8b5ac",
+            "300": "#afada5",
+            "400": "#a7a59f",
+            "500": "#9e9d98",
+            "600": "#959591",
+            "700": "#8c8d8a",
+            "800": "#838583",
+            "900": "#7b7d7d"
+        },
+        "background": "#7b7d7d",
+        "text": "#b29c5e"
+    },
+    {
+        "name": "Retrocast",
+        "colors": ["#07737a", "#3e9aa0", "#57b0b5", "#6fc5ca", "#88dbdf"],
+        "tailwind_colors_name": "retrocast",
+        "tailwind_colors": {
+            "50": "#07737a",
+            "100": "#39969b",
+            "200": "#439ea4",
+            "300": "#4da7ac",
+            "400": "#57b0b5",
+            "500": "#60b8bd",
+            "600": "#6ac1c5",
+            "700": "#74c9ce",
+            "800": "#7ed2d6",
+            "900": "#88dbdf"
+        },
+        "background": "#88dbdf",
+        "text": "#f3e03b"
+    },
+    {
+        "name": "Luna",
+        "colors": ["#221c35", "#60375a", "#924c6f", "#c46084", "#f67599"],
+        "tailwind_colors_name": "luna",
+        "tailwind_colors": {
+            "50": "#221c35",
+            "100": "#563356",
+            "200": "#6a3b5e",
+            "300": "#7e4367",
+            "400": "#924c6f",
+            "500": "#a65477",
+            "600": "#ba5c80",
+            "700": "#ce6488",
+            "800": "#e26c90",
+            "900": "#f67599"
+        },
+        "background": "#f67599",
+        "text": "#5a3a7e"
+    },
+    {
+        "name": "Graen",
+        "colors": ["#303c36", "#51594d", "#6d6d5f", "#898170", "#a59682"],
+        "tailwind_colors_name": "graen",
+        "tailwind_colors": {
+            "50": "#303c36",
+            "100": "#4c554a",
+            "200": "#575d51",
+            "300": "#626558",
+            "400": "#6d6d5f",
+            "500": "#787566",
+            "600": "#837d6d",
+            "700": "#8e8574",
+            "800": "#998d7b",
+            "900": "#a59682"
+        },
+        "background": "#a59682",
+        "text": "#181d1a"
+    },
+    {
+        "name": "Bento",
+        "colors": ["#2d394d", "#5c4254", "#925568", "#c8677c", "#ff7a90"],
+        "tailwind_colors_name": "bento",
+        "tailwind_colors": {
+            "50": "#2d394d",
+            "100": "#513e50",
+            "200": "#674658",
+            "300": "#7c4d60",
+            "400": "#925568",
+            "500": "#a85c70",
+            "600": "#bd6378",
+            "700": "#d36b80",
+            "800": "#e97288",
+            "900": "#ff7a90"
+        },
+        "background": "#ff7a90",
+        "text": "#4a768d"
+    },
+    {
+        "name": "Watermelon",
+        "colors": ["#1f4437", "#50534b", "#7d5a57", "#a96163", "#d6686f"],
+        "tailwind_colors_name": "watermelon",
+        "tailwind_colors": {
+            "50": "#1f4437",
+            "100": "#475248",
+            "200": "#59554d",
+            "300": "#6b5752",
+            "400": "#7d5a57",
+            "500": "#8e5d5b",
+            "600": "#a05f60",
+            "700": "#b26265",
+            "800": "#c4656a",
+            "900": "#d6686f"
+        },
+        "background": "#d6686f",
+        "text": "#3e7a65"
+    },
+    {
+        "name": "Menthol",
+        "colors": ["#00c18c", "#51c29d", "#8bd6be", "#c5eade", "#ffffff"],
+        "tailwind_colors_name": "menthol",
+        "tailwind_colors": {
+            "50": "#00c18c",
+            "100": "#45be97",
+            "200": "#5cc6a4",
+            "300": "#73ceb1",
+            "400": "#8bd6be",
+            "500": "#a2decb",
+            "600": "#b9e6d8",
+            "700": "#d0eee5",
+            "800": "#e7f6f2",
+            "900": "#ffffff"
+        },
+        "background": "#ffffff",
+        "text": "#186544"
+    },
+    {
+        "name": "Ishtar",
+        "colors": ["#202020", "#412320", "#5c1f19", "#761b12", "#91170c"],
+        "tailwind_colors_name": "ishtar",
+        "tailwind_colors": {
+            "50": "#202020",
+            "100": "#3c2321",
+            "200": "#46221e",
+            "300": "#51201c",
+            "400": "#5c1f19",
+            "500": "#661d16",
+            "600": "#711b14",
+            "700": "#7b1a11",
+            "800": "#86180e",
+            "900": "#91170c"
+        },
+        "background": "#91170c",
+        "text": "#847869"
+    },
+    {
+        "name": "Mashu",
+        "colors": ["#2b2b2c", "#3a3547", "#4e4663", "#62577e", "#76689a"],
+        "tailwind_colors_name": "mashu",
+        "tailwind_colors": {
+            "50": "#2b2b2c",
+            "100": "#363142",
+            "200": "#3e384d",
+            "300": "#463f58",
+            "400": "#4e4663",
+            "500": "#564c6e",
+            "600": "#5e5379",
+            "700": "#665a84",
+            "800": "#6e618f",
+            "900": "#76689a"
+        },
+        "background": "#76689a",
+        "text": "#d8a0a6"
+    },
+    {
+        "name": "Deku",
+        "colors": ["#058b8c", "#386b6a", "#625957", "#8c4743", "#b63530"],
+        "tailwind_colors_name": "deku",
+        "tailwind_colors": {
+            "50": "#058b8c",
+            "100": "#2f6e6e",
+            "200": "#406766",
+            "300": "#51605e",
+            "400": "#625957",
+            "500": "#72514f",
+            "600": "#834a47",
+            "700": "#94433f",
+            "800": "#a53c37",
+            "900": "#b63530"
+        },
+        "background": "#b63530",
+        "text": "#255458"
+    },
+    {
+        "name": "Honey",
+        "colors": ["#f2aa00", "#e8b311", "#f0c923", "#f7df34", "#fff546"],
+        "tailwind_colors_name": "honey",
+        "tailwind_colors": {
+            "50": "#f2aa00",
+            "100": "#e7af0e",
+            "200": "#eab815",
+            "300": "#edc01c",
+            "400": "#f0c923",
+            "500": "#f3d22a",
+            "600": "#f6da31",
+            "700": "#f9e338",
+            "800": "#fcec3f",
+            "900": "#fff546"
+        },
+        "background": "#fff546",
+        "text": "#a66b00"
+    },
+    {
+        "name": "Shoko",
+        "colors": ["#ced7e0", "#a9c8da", "#9cc7db", "#8ec5dc", "#81c4dd"],
+        "tailwind_colors_name": "shoko",
+        "tailwind_colors": {
+            "50": "#ced7e0",
+            "100": "#acc8da",
+            "200": "#a6c8da",
+            "300": "#a1c7db",
+            "400": "#9cc7db",
+            "500": "#96c6db",
+            "600": "#91c5dc",
+            "700": "#8bc5dc",
+            "800": "#86c4dc",
+            "900": "#81c4dd"
+        },
+        "background": "#81c4dd",
+        "text": "#7599b1"
+    },
+    {
+        "name": "Norse",
+        "colors": ["#242425", "#2e3e41", "#2d4950", "#2c545e", "#2b5f6d"],
+        "tailwind_colors_name": "norse",
+        "tailwind_colors": {
+            "50": "#242425",
+            "100": "#2f3b3e",
+            "200": "#2e4044",
+            "300": "#2e444a",
+            "400": "#2d4950",
+            "500": "#2d4d55",
+            "600": "#2c515b",
+            "700": "#2c5661",
+            "800": "#2b5a67",
+            "900": "#2b5f6d"
+        },
+        "background": "#2b5f6d",
+        "text": "#505b5e"
+    },
+    {
+        "name": "Matcha Moccha",
+        "colors": ["#523525", "#51502e", "#60763f", "#6f9b4f", "#7ec160"],
+        "tailwind_colors_name": "matcha-moccha",
+        "tailwind_colors": {
+            "50": "#523525",
+            "100": "#4e492b",
+            "200": "#545831",
+            "300": "#5a6738",
+            "400": "#60763f",
+            "500": "#668545",
+            "600": "#6c944c",
+            "700": "#72a352",
+            "800": "#78b259",
+            "900": "#7ec160"
+        },
+        "background": "#7ec160",
+        "text": "#9e6749"
+    },
+    {
+        "name": "Cafe",
+        "colors": ["#ceb18d", "#917d63", "#675947", "#3d352b", "#14120f"],
+        "tailwind_colors_name": "cafe",
+        "tailwind_colors": {
+            "50": "#ceb18d",
+            "100": "#998469",
+            "200": "#88765e",
+            "300": "#786752",
+            "400": "#675947",
+            "500": "#564b3c",
+            "600": "#463c30",
+            "700": "#352e25",
+            "800": "#24201a",
+            "900": "#14120f"
+        },
+        "background": "#14120f",
+        "text": "#d4d2d1"
+    },
+    {
+        "name": "Alpine",
+        "colors": ["#6c687f", "#9996a8", "#bbb9c5", "#dddce2", "#ffffff"],
+        "tailwind_colors_name": "alpine",
+        "tailwind_colors": {
+            "50": "#6c687f",
+            "100": "#928fa3",
+            "200": "#9f9dae",
+            "300": "#adabba",
+            "400": "#bbb9c5",
+            "500": "#c8c7d1",
+            "600": "#d6d5dc",
+            "700": "#e3e3e8",
+            "800": "#f1f1f3",
+            "900": "#ffffff"
+        },
+        "background": "#ffffff",
+        "text": "#9994b8"
+    },
+    {
+        "name": "Superuser",
+        "colors": ["#262a33", "#285a4c", "#31916d", "#3ac88e", "#43ffaf"],
+        "tailwind_colors_name": "superuser",
+        "tailwind_colors": {
+            "50": "#262a33",
+            "100": "#264f46",
+            "200": "#296553",
+            "300": "#2d7b60",
+            "400": "#31916d",
+            "500": "#34a77a",
+            "600": "#38bd87",
+            "700": "#3bd394",
+            "800": "#3fe9a1",
+            "900": "#43ffaf"
+        },
+        "background": "#43ffaf",
+        "text": "#526777"
+    },
+    {
+        "name": "Ms Cupcakes",
+        "colors": ["#ffffff", "#c9eff8", "#a5e6f6", "#81ddf4", "#5ed5f3"],
+        "tailwind_colors_name": "ms-cupcakes",
+        "tailwind_colors": {
+            "50": "#ffffff",
+            "100": "#d0f1f8",
+            "200": "#c2edf7",
+            "300": "#b3eaf7",
+            "400": "#a5e6f6",
+            "500": "#97e3f5",
+            "600": "#88dff5",
+            "700": "#7adcf4",
+            "800": "#6cd8f3",
+            "900": "#5ed5f3"
+        },
+        "background": "#5ed5f3",
+        "text": "#d64090"
+    },
+    {
+        "name": "Dollar",
+        "colors": ["#e4e4d4", "#b3beaa", "#9bac95", "#839a80", "#6b886b"],
+        "tailwind_colors_name": "dollar",
+        "tailwind_colors": {
+            "50": "#e4e4d4",
+            "100": "#b7c1ae",
+            "200": "#aebaa5",
+            "300": "#a4b39d",
+            "400": "#9bac95",
+            "500": "#91a48c",
+            "600": "#879d84",
+            "700": "#7e967b",
+            "800": "#748f73",
+            "900": "#6b886b"
+        },
+        "background": "#6b886b",
+        "text": "#8a9b69"
+    },
+    {
+        "name": "Lime",
+        "colors": ["#7c878e", "#7b8e73", "#839f64", "#8bb055", "#93c247"],
+        "tailwind_colors_name": "lime",
+        "tailwind_colors": {
+            "50": "#7c878e",
+            "100": "#798a76",
+            "200": "#7c9170",
+            "300": "#7f986a",
+            "400": "#839f64",
+            "500": "#86a65e",
+            "600": "#89ad58",
+            "700": "#8cb452",
+            "800": "#8fbb4c",
+            "900": "#93c247"
+        },
+        "background": "#93c247",
+        "text": "#4b5257"
+    },
+    {
+        "name": "Sweden",
+        "colors": ["#0058a3", "#416e6b", "#808d48", "#bfac25", "#ffcc02"],
+        "tailwind_colors_name": "sweden",
+        "tailwind_colors": {
+            "50": "#0058a3",
+            "100": "#346872",
+            "200": "#4d7463",
+            "300": "#678156",
+            "400": "#808d48",
+            "500": "#999a3a",
+            "600": "#b3a62c",
+            "700": "#ccb31d",
+            "800": "#e5bf0f",
+            "900": "#ffcc02"
+        },
+        "background": "#ffcc02",
+        "text": "#57abdb"
+    },
+    {
+        "name": "Wavez",
+        "colors": ["#1c292f", "#2f5d38", "#438839", "#57b33a", "#6bde3b"],
+        "tailwind_colors_name": "wavez",
+        "tailwind_colors": {
+            "50": "#1c292f",
+            "100": "#2b5438",
+            "200": "#336538",
+            "300": "#3b7639",
+            "400": "#438839",
+            "500": "#4b9939",
+            "600": "#53aa3a",
+            "700": "#5bbb3a",
+            "800": "#63cc3a",
+            "900": "#6bde3b"
+        },
+        "background": "#6bde3b",
+        "text": "#1f5e6b"
+    },
+    {
+        "name": "Nebula",
+        "colors": ["#212135", "#422140", "#6b2a58", "#943370", "#be3c88"],
+        "tailwind_colors_name": "nebula",
+        "tailwind_colors": {
+            "50": "#212135",
+            "100": "#3a203b",
+            "200": "#4a2344",
+            "300": "#5b274e",
+            "400": "#6b2a58",
+            "500": "#7c2e61",
+            "600": "#8c316b",
+            "700": "#9d3574",
+            "800": "#ad387e",
+            "900": "#be3c88"
+        },
+        "background": "#be3c88",
+        "text": "#19b3b8"
+    },
+    {
+        "name": "Lil Dragon",
+        "colors": ["#ebe1ef", "#c6acdf", "#b291dc", "#9e76d9", "#8a5bd6"],
+        "tailwind_colors_name": "lil-dragon",
+        "tailwind_colors": {
+            "50": "#ebe1ef",
+            "100": "#cab1df",
+            "200": "#c2a6de",
+            "300": "#ba9bdd",
+            "400": "#b291dc",
+            "500": "#aa86da",
+            "600": "#a27bd9",
+            "700": "#9a70d8",
+            "800": "#9265d7",
+            "900": "#8a5bd6"
+        },
+        "background": "#8a5bd6",
+        "text": "#a28db8"
+    },
+    {
+        "name": "Pastel",
+        "colors": ["#e0b2bd", "#dcb4ad", "#e6c9b0", "#f0deb3", "#fbf4b6"],
+        "tailwind_colors_name": "pastel",
+        "tailwind_colors": {
+            "50": "#e0b2bd",
+            "100": "#dab0ad",
+            "200": "#deb8ae",
+            "300": "#e2c1af",
+            "400": "#e6c9b0",
+            "500": "#ead2b1",
+            "600": "#eedab2",
+            "700": "#f2e3b3",
+            "800": "#f6ebb4",
+            "900": "#fbf4b6"
+        },
+        "background": "#fbf4b6",
+        "text": "#b4e9ff"
+    },
+    {
+        "name": "Alduin",
+        "colors": ["#1c1c1c", "#525046", "#817d69", "#b0aa8c", "#dfd7af"],
+        "tailwind_colors_name": "alduin",
+        "tailwind_colors": {
+            "50": "#1c1c1c",
+            "100": "#49473f",
+            "200": "#5c594d",
+            "300": "#6e6b5b",
+            "400": "#817d69",
+            "500": "#948f77",
+            "600": "#a6a185",
+            "700": "#b9b393",
+            "800": "#ccc5a1",
+            "900": "#dfd7af"
+        },
+        "background": "#dfd7af",
+        "text": "#444444"
+    },
+    {
+        "name": "Paper",
+        "colors": ["#eeeeee", "#b6b6b6", "#909090", "#6a6a6a", "#444444"],
+        "tailwind_colors_name": "paper",
+        "tailwind_colors": {
+            "50": "#eeeeee",
+            "100": "#bebebe",
+            "200": "#afafaf",
+            "300": "#9f9f9f",
+            "400": "#909090",
+            "500": "#818181",
+            "600": "#717171",
+            "700": "#626262",
+            "800": "#535353",
+            "900": "#444444"
+        },
+        "background": "#444444",
+        "text": "#b2b2b2"
+    },
+    {
+        "name": "Fundamentals",
+        "colors": ["#727474", "#6c776e", "#728675", "#78957b", "#7fa482"],
+        "tailwind_colors_name": "fundamentals",
+        "tailwind_colors": {
+            "50": "#727474",
+            "100": "#6b746d",
+            "200": "#6d7a6f",
+            "300": "#708072",
+            "400": "#728675",
+            "500": "#758c77",
+            "600": "#77927a",
+            "700": "#7a987c",
+            "800": "#7c9e7f",
+            "900": "#7fa482"
+        },
+        "background": "#7fa482",
+        "text": "#cac4be"
+    },
+    {
+        "name": "Drowning",
+        "colors": ["#191826", "#293350", "#344772", "#3f5b93", "#4a6fb5"],
+        "tailwind_colors_name": "drowning",
+        "tailwind_colors": {
+            "50": "#191826",
+            "100": "#262f49",
+            "200": "#2b3757",
+            "300": "#2f3f64",
+            "400": "#344772",
+            "500": "#384f7f",
+            "600": "#3c568c",
+            "700": "#415f9a",
+            "800": "#4567a7",
+            "900": "#4a6fb5"
+        },
+        "background": "#4a6fb5",
+        "text": "#50688c"
+    },
+    {
+        "name": "Iceberg Dark",
+        "colors": ["#161821", "#3b4356", "#53627b", "#6b81a0", "#84a0c6"],
+        "tailwind_colors_name": "iceberg-dark",
+        "tailwind_colors": {
+            "50": "#161821",
+            "100": "#363d4e",
+            "200": "#40495d",
+            "300": "#49566c",
+            "400": "#53627b",
+            "500": "#5d6e8a",
+            "600": "#667b99",
+            "700": "#7087a8",
+            "800": "#7a93b7",
+            "900": "#84a0c6"
+        },
+        "background": "#84a0c6",
+        "text": "#595e76"
+    },
+    {
+        "name": "Iceberg Light",
+        "colors": ["#e8e9ec", "#a4afcb", "#7c90bc", "#5471ad", "#2d539e"],
+        "tailwind_colors_name": "iceberg-light",
+        "tailwind_colors": {
+            "50": "#e8e9ec",
+            "100": "#acb5ce",
+            "200": "#9ca9c8",
+            "300": "#8c9cc2",
+            "400": "#7c90bc",
+            "500": "#6c84b6",
+            "600": "#5c77b0",
+            "700": "#4c6baa",
+            "800": "#3c5fa4",
+            "900": "#2d539e"
+        },
+        "background": "#2d539e",
+        "text": "#adb1c4"
+    },
+    {
+        "name": "Onedark",
+        "colors": ["#2f343f", "#344c62", "#436d91", "#528ec0", "#61afef"],
+        "tailwind_colors_name": "onedark",
+        "tailwind_colors": {
+            "50": "#2f343f",
+            "100": "#314559",
+            "200": "#37526c",
+            "300": "#3d5f7e",
+            "400": "#436d91",
+            "500": "#497aa4",
+            "600": "#4f87b6",
+            "700": "#5594c9",
+            "800": "#5ba1dc",
+            "900": "#61afef"
+        },
+        "background": "#61afef",
+        "text": "#eceff4"
+    },
+    {
+        "name": "Darling",
+        "colors": ["#fec8cd", "#f5cbcd", "#f8dcde", "#fbedee", "#ffffff"],
+        "tailwind_colors_name": "darling",
+        "tailwind_colors": {
+            "50": "#fec8cd",
+            "100": "#f4c7ca",
+            "200": "#f5ced0",
+            "300": "#f7d5d7",
+            "400": "#f8dcde",
+            "500": "#f9e3e4",
+            "600": "#fbeaeb",
+            "700": "#fcf1f1",
+            "800": "#fdf8f8",
+            "900": "#ffffff"
+        },
+        "background": "#ffffff",
+        "text": "#a30000"
+    },
+    {
+        "name": "Repose Dark",
+        "colors": ["#2f3338", "#61615c", "#88877c", "#afac9c", "#d6d2bc"],
+        "tailwind_colors_name": "repose-dark",
+        "tailwind_colors": {
+            "50": "#2f3338",
+            "100": "#595a56",
+            "200": "#686963",
+            "300": "#78786f",
+            "400": "#88877c",
+            "500": "#979689",
+            "600": "#a7a595",
+            "700": "#b6b4a2",
+            "800": "#c6c3af",
+            "900": "#d6d2bc"
+        },
+        "background": "#d6d2bc",
+        "text": "#8f8e84"
+    },
+    {
+        "name": "Repose Light",
+        "colors": ["#efead0", "#bcb8aa", "#9d9b91", "#7e7d77", "#5f605e"],
+        "tailwind_colors_name": "repose-light",
+        "tailwind_colors": {
+            "50": "#efead0",
+            "100": "#c2beaf",
+            "200": "#b5b2a5",
+            "300": "#a9a69b",
+            "400": "#9d9b91",
+            "500": "#908f86",
+            "600": "#84837c",
+            "700": "#777772",
+            "800": "#6b6b68",
+            "900": "#5f605e"
+        },
+        "background": "#5f605e",
+        "text": "#8f8e84"
+    },
+    {
+        "name": "Horizon",
+        "colors": ["#1c1e26", "#423c39", "#6d6054", "#98846f", "#c4a88a"],
+        "tailwind_colors_name": "horizon",
+        "tailwind_colors": {
+            "50": "#1c1e26",
+            "100": "#393434",
+            "200": "#4a433f",
+            "300": "#5c5149",
+            "400": "#6d6054",
+            "500": "#7e6e5f",
+            "600": "#907c69",
+            "700": "#a18b74",
+            "800": "#b2997f",
+            "900": "#c4a88a"
+        },
+        "background": "#c4a88a",
+        "text": "#db886f"
+    },
+    {
+        "name": "Rudy",
+        "colors": ["#1a2b3e", "#3b3d3b", "#625846", "#887351", "#af8f5c"],
+        "tailwind_colors_name": "rudy",
+        "tailwind_colors": {
+            "50": "#1a2b3e",
+            "100": "#333739",
+            "200": "#43423d",
+            "300": "#524d42",
+            "400": "#625846",
+            "500": "#71634a",
+            "600": "#806e4f",
+            "700": "#907953",
+            "800": "#9f8457",
+            "900": "#af8f5c"
+        },
+        "background": "#af8f5c",
+        "text": "#3a506c"
+    },
+    {
+        "name": "Stealth",
+        "colors": ["#010203", "#1b1d1e", "#25282a", "#2e3336", "#383e42"],
+        "tailwind_colors_name": "stealth",
+        "tailwind_colors": {
+            "50": "#010203",
+            "100": "#191a1b",
+            "200": "#1d1f20",
+            "300": "#212325",
+            "400": "#25282a",
+            "500": "#282c2e",
+            "600": "#2c3033",
+            "700": "#303538",
+            "800": "#34393d",
+            "900": "#383e42"
+        },
+        "background": "#383e42",
+        "text": "#5e676e"
+    },
+    {
+        "name": "80s After Dark",
+        "colors": ["#1b1d36", "#503b55", "#895f7e", "#c282a7", "#fca6d1"],
+        "tailwind_colors_name": "80s-after-dark",
+        "tailwind_colors": {
+            "50": "#1b1d36",
+            "100": "#44344d",
+            "200": "#5b425d",
+            "300": "#72506e",
+            "400": "#895f7e",
+            "500": "#a06d8f",
+            "600": "#b77b9f",
+            "700": "#ce89b0",
+            "800": "#e597c0",
+            "900": "#fca6d1"
+        },
+        "background": "#fca6d1",
+        "text": "#99d6ea"
+    },
+    {
+        "name": "Arch",
+        "colors": ["#0c0d11", "#304249", "#4a6a6d", "#649291", "#7ebab5"],
+        "tailwind_colors_name": "arch",
+        "tailwind_colors": {
+            "50": "#0c0d11",
+            "100": "#2b3a41",
+            "200": "#354a50",
+            "300": "#405a5e",
+            "400": "#4a6a6d",
+            "500": "#547a7b",
+            "600": "#5f8a89",
+            "700": "#699a98",
+            "800": "#73aaa6",
+            "900": "#7ebab5"
+        },
+        "background": "#7ebab5",
+        "text": "#454864"
+    },
+    {
+        "name": "Rose Pine",
+        "colors": ["#1f1d27", "#454f5c", "#627a85", "#7fa4ae", "#9ccfd8"],
+        "tailwind_colors_name": "rose-pine",
+        "tailwind_colors": {
+            "50": "#1f1d27",
+            "100": "#3f4754",
+            "200": "#4a5864",
+            "300": "#566975",
+            "400": "#627a85",
+            "500": "#6d8b96",
+            "600": "#799ba6",
+            "700": "#84adb7",
+            "800": "#90bec7",
+            "900": "#9ccfd8"
+        },
+        "background": "#9ccfd8",
+        "text": "#c4a7e7"
+    },
+    {
+        "name": "Rose Pine Moon",
+        "colors": ["#2a273f", "#3f4b5b", "#5e7785", "#7da3ae", "#9ccfd8"],
+        "tailwind_colors_name": "rose-pine-moon",
+        "tailwind_colors": {
+            "50": "#2a273f",
+            "100": "#394253",
+            "200": "#455363",
+            "300": "#526574",
+            "400": "#5e7785",
+            "500": "#6a8895",
+            "600": "#779aa6",
+            "700": "#83abb6",
+            "800": "#8fbdc7",
+            "900": "#9ccfd8"
+        },
+        "background": "#9ccfd8",
+        "text": "#c4a7e7"
+    },
+    {
+        "name": "Rose Pine Dawn",
+        "colors": ["#fffaf3", "#c9d3cf", "#a3bebf", "#7ca9af", "#56949f"],
+        "tailwind_colors_name": "rose-pine-dawn",
+        "tailwind_colors": {
+            "50": "#fffaf3",
+            "100": "#d1d8d2",
+            "200": "#c1cfcb",
+            "300": "#b2c7c5",
+            "400": "#a3bebf",
+            "500": "#93b6b8",
+            "600": "#84adb2",
+            "700": "#74a5ab",
+            "800": "#659ca5",
+            "900": "#56949f"
+        },
+        "background": "#56949f",
+        "text": "#c4a7e7"
+    },
+    {
+        "name": "Copper",
+        "colors": ["#442f29", "#694337", "#825041", "#9b5d4b", "#b46a55"],
+        "tailwind_colors_name": "copper",
+        "tailwind_colors": {
+            "50": "#442f29",
+            "100": "#644035",
+            "200": "#6e4539",
+            "300": "#784a3d",
+            "400": "#825041",
+            "500": "#8c5545",
+            "600": "#965a49",
+            "700": "#a05f4d",
+            "800": "#aa6451",
+            "900": "#b46a55"
+        },
+        "background": "#b46a55",
+        "text": "#7ebab5"
+    },
+    {
+        "name": "Grand Prix",
+        "colors": ["#36475c", "#61725d", "#819150", "#a0b043", "#c0d036"],
+        "tailwind_colors_name": "grand-prix",
+        "tailwind_colors": {
+            "50": "#36475c",
+            "100": "#5b6c60",
+            "200": "#67785b",
+            "300": "#748555",
+            "400": "#819150",
+            "500": "#8d9e4b",
+            "600": "#9aaa45",
+            "700": "#a6b740",
+            "800": "#b3c33b",
+            "900": "#c0d036"
+        },
+        "background": "#c0d036",
+        "text": "#5c6c80"
+    },
+    {
+        "name": "Peaches",
+        "colors": ["#e0d7c1", "#e0b69b", "#dfa287", "#de8e73", "#dd7a5f"],
+        "tailwind_colors_name": "peaches",
+        "tailwind_colors": {
+            "50": "#e0d7c1",
+            "100": "#e1ba9f",
+            "200": "#e0b197",
+            "300": "#e0aa8f",
+            "400": "#dfa287",
+            "500": "#df9a7f",
+            "600": "#de9277",
+            "700": "#de8a6f",
+            "800": "#dd8267",
+            "900": "#dd7a5f"
+        },
+        "background": "#dd7a5f",
+        "text": "#e7b28e"
+    },
+    {
+        "name": "Bouquet",
+        "colors": ["#173f35", "#516259", "#84776f", "#b78b85", "#eaa09c"],
+        "tailwind_colors_name": "bouquet",
+        "tailwind_colors": {
+            "50": "#173f35",
+            "100": "#475e54",
+            "200": "#5b665d",
+            "300": "#706e66",
+            "400": "#84776f",
+            "500": "#987f78",
+            "600": "#ad8781",
+            "700": "#c18f8a",
+            "800": "#d59793",
+            "900": "#eaa09c"
+        },
+        "background": "#eaa09c",
+        "text": "#408e7b"
+    },
+    {
+        "name": "Midnight",
+        "colors": ["#0b0e13", "#273042", "#3a4761", "#4d5e80", "#60759f"],
+        "tailwind_colors_name": "midnight",
+        "tailwind_colors": {
+            "50": "#0b0e13",
+            "100": "#232c3c",
+            "200": "#2a3548",
+            "300": "#323e55",
+            "400": "#3a4761",
+            "500": "#41506d",
+            "600": "#49597a",
+            "700": "#506286",
+            "800": "#586b92",
+            "900": "#60759f"
+        },
+        "background": "#60759f",
+        "text": "#394760"
+    },
+    {
+        "name": "Blueberry Light",
+        "colors": ["#dae0f5", "#a4aec5", "#8895ab", "#6c7c91", "#506477"],
+        "tailwind_colors_name": "blueberry-light",
+        "tailwind_colors": {
+            "50": "#dae0f5",
+            "100": "#aab3ca",
+            "200": "#9fa9bf",
+            "300": "#939fb5",
+            "400": "#8895ab",
+            "500": "#7d8ba0",
+            "600": "#718196",
+            "700": "#66778b",
+            "800": "#5b6d81",
+            "900": "#506477"
+        },
+        "background": "#506477",
+        "text": "#92a4be"
+    },
+    {
+        "name": "Blueberry Dark",
+        "colors": ["#212b42", "#3f5066", "#647d99", "#88aacc", "#add7ff"],
+        "tailwind_colors_name": "blueberry-dark",
+        "tailwind_colors": {
+            "50": "#212b42",
+            "100": "#38475c",
+            "200": "#465970",
+            "300": "#556b85",
+            "400": "#647d99",
+            "500": "#728fad",
+            "600": "#81a1c2",
+            "700": "#8fb3d6",
+            "800": "#9ec5ea",
+            "900": "#add7ff"
+        },
+        "background": "#add7ff",
+        "text": "#5c7da5"
+    },
+    {
+        "name": "Fledgling",
+        "colors": ["#3b363f", "#653e4a", "#974e5d", "#c95e70", "#fc6e83"],
+        "tailwind_colors_name": "fledgling",
+        "tailwind_colors": {
+            "50": "#3b363f",
+            "100": "#5b3a47",
+            "200": "#6f414e",
+            "300": "#834756",
+            "400": "#974e5d",
+            "500": "#ab5465",
+            "600": "#bf5a6c",
+            "700": "#d36174",
+            "800": "#e7677b",
+            "900": "#fc6e83"
+        },
+        "background": "#fc6e83",
+        "text": "#8e5568"
+    },
+    {
+        "name": "Ez Mode",
+        "colors": ["#0068c6", "#3e5cb6", "#7d5ec0", "#bb60ca", "#fa62d5"],
+        "tailwind_colors_name": "ez-mode",
+        "tailwind_colors": {
+            "50": "#0068c6",
+            "100": "#325cb4",
+            "200": "#4b5db8",
+            "300": "#645dbc",
+            "400": "#7d5ec0",
+            "500": "#965fc4",
+            "600": "#af5fc8",
+            "700": "#c860cc",
+            "800": "#e161d0",
+            "900": "#fa62d5"
+        },
+        "background": "#fa62d5",
+        "text": "#138bf7"
+    },
+    {
+        "name": "Vscode",
+        "colors": ["#1e1e1e", "#123145", "#0c4972", "#06619f", "#007acc"],
+        "tailwind_colors_name": "vscode",
+        "tailwind_colors": {
+            "50": "#1e1e1e",
+            "100": "#142c3c",
+            "200": "#11364e",
+            "300": "#0f3f60",
+            "400": "#0c4972",
+            "500": "#0a5384",
+            "600": "#075c96",
+            "700": "#0466a8",
+            "800": "#0270ba",
+            "900": "#007acc"
+        },
+        "background": "#007acc",
+        "text": "#4d4d4d"
+    },
+    {
+        "name": "Material",
+        "colors": ["#263238", "#425f63", "#578383", "#6ba7a3", "#80cbc4"],
+        "tailwind_colors_name": "material",
+        "tailwind_colors": {
+            "50": "#263238",
+            "100": "#3e585c",
+            "200": "#466669",
+            "300": "#4e7576",
+            "400": "#578383",
+            "500": "#5f9190",
+            "600": "#67a09d",
+            "700": "#6faeaa",
+            "800": "#77bcb7",
+            "900": "#80cbc4"
+        },
+        "background": "#80cbc4",
+        "text": "#4c6772"
+    },
+    {
+        "name": "Godspeed",
+        "colors": ["#eae4cf", "#cdd1ca", "#bccacb", "#abc2cc", "#9abbcd"],
+        "tailwind_colors_name": "godspeed",
+        "tailwind_colors": {
+            "50": "#eae4cf",
+            "100": "#d0d3c9",
+            "200": "#c9cfca",
+            "300": "#c2cdca",
+            "400": "#bccacb",
+            "500": "#b5c7cb",
+            "600": "#aec4cb",
+            "700": "#a7c1cc",
+            "800": "#a0becc",
+            "900": "#9abbcd"
+        },
+        "background": "#9abbcd",
+        "text": "#ada998"
+    },
+    {
+        "name": "Witch Girl",
+        "colors": ["#f3dbda", "#c2b4a9", "#9ea094", "#7a8c7f", "#56786a"],
+        "tailwind_colors_name": "witch-girl",
+        "tailwind_colors": {
+            "50": "#f3dbda",
+            "100": "#cab8ad",
+            "200": "#bbb0a4",
+            "300": "#ada89c",
+            "400": "#9ea094",
+            "500": "#90988b",
+            "600": "#819083",
+            "700": "#72887a",
+            "800": "#648072",
+            "900": "#56786a"
+        },
+        "background": "#56786a",
+        "text": "#ddb4a7"
+    },
+    {
+        "name": "Terror Below",
+        "colors": ["#0b1e1a", "#1c3c34", "#356153", "#4d8672", "#66ac92"],
+        "tailwind_colors_name": "terror-below",
+        "tailwind_colors": {
+            "50": "#0b1e1a",
+            "100": "#17342e",
+            "200": "#21433a",
+            "300": "#2b5247",
+            "400": "#356153",
+            "500": "#3e7060",
+            "600": "#487f6c",
+            "700": "#528e79",
+            "800": "#5c9d85",
+            "900": "#66ac92"
+        },
+        "background": "#66ac92",
+        "text": "#015c53"
+    },
+    {
+        "name": "Sewing Tin",
+        "colors": ["#241963", "#5c507c", "#8e7a7e", "#c0a480", "#f2ce83"],
+        "tailwind_colors_name": "sewing-tin",
+        "tailwind_colors": {
+            "50": "#241963",
+            "100": "#52487b",
+            "200": "#66597c",
+            "300": "#7a697d",
+            "400": "#8e7a7e",
+            "500": "#a28b7f",
+            "600": "#b59b80",
+            "700": "#caac81",
+            "800": "#debd82",
+            "900": "#f2ce83"
+        },
+        "background": "#f2ce83",
+        "text": "#446ad5"
+    },
+    {
+        "name": "Soaring Skies",
+        "colors": ["#fff9f2", "#c1d7db", "#9dd1e2", "#79cbe9", "#55c6f0"],
+        "tailwind_colors_name": "soaring-skies",
+        "tailwind_colors": {
+            "50": "#fff9f2",
+            "100": "#c8d8d9",
+            "200": "#b9d6dc",
+            "300": "#abd3df",
+            "400": "#9dd1e2",
+            "500": "#8ecfe4",
+            "600": "#80cce7",
+            "700": "#71caea",
+            "800": "#63c8ed",
+            "900": "#55c6f0"
+        },
+        "background": "#55c6f0",
+        "text": "#1e107a"
+    },
+    {
+        "name": "Sewing Tin Light",
+        "colors": ["#ffffff", "#a1a2c4", "#7a77aa", "#534b90", "#2d2076"],
+        "tailwind_colors_name": "sewing-tin-light",
+        "tailwind_colors": {
+            "50": "#ffffff",
+            "100": "#a9abca",
+            "200": "#9999bf",
+            "300": "#8a88b5",
+            "400": "#7a77aa",
+            "500": "#6b65a0",
+            "600": "#5b5495",
+            "700": "#4c428b",
+            "800": "#3c3180",
+            "900": "#2d2076"
+        },
+        "background": "#2d2076",
+        "text": "#385eca"
+    },
+    {
+        "name": "Chaos Theory",
+        "colors": ["#141221", "#553359", "#8d4a83", "#c560ad", "#fd77d7"],
+        "tailwind_colors_name": "chaos-theory",
+        "tailwind_colors": {
+            "50": "#141221",
+            "100": "#4a2f50",
+            "200": "#603761",
+            "300": "#774172",
+            "400": "#8d4a83",
+            "500": "#a35393",
+            "600": "#ba5ca4",
+            "700": "#d065b5",
+            "800": "#e66ec6",
+            "900": "#fd77d7"
+        },
+        "background": "#fd77d7",
+        "text": "#676e8a"
+    },
+    {
+        "name": "Hanok",
+        "colors": ["#d8d2c3", "#ae9e8d", "#8f7d6c", "#705b4b", "#513a2a"],
+        "tailwind_colors_name": "hanok",
+        "tailwind_colors": {
+            "50": "#d8d2c3",
+            "100": "#b4a594",
+            "200": "#a79787",
+            "300": "#9b8a79",
+            "400": "#8f7d6c",
+            "500": "#826f5f",
+            "600": "#766251",
+            "700": "#695444",
+            "800": "#5d4737",
+            "900": "#513a2a"
+        },
+        "background": "#513a2a",
+        "text": "#8b6f5c"
+    },
+    {
+        "name": "Comfy",
+        "colors": ["#4a5b6e", "#6f717e", "#9d9096", "#caaeae", "#f8cdc6"],
+        "tailwind_colors_name": "comfy",
+        "tailwind_colors": {
+            "50": "#4a5b6e",
+            "100": "#666b79",
+            "200": "#787782",
+            "300": "#8a838c",
+            "400": "#9d9096",
+            "500": "#af9c9f",
+            "600": "#c1a8a9",
+            "700": "#d3b4b2",
+            "800": "#e5c0bc",
+            "900": "#f8cdc6"
+        },
+        "background": "#f8cdc6",
+        "text": "#9ec1cc"
+    },
+    {
+        "name": "Tiramisu",
+        "colors": ["#cfc6b9", "#ccb299", "#c8a98b", "#c4a07d", "#c0976f"],
+        "tailwind_colors_name": "tiramisu",
+        "tailwind_colors": {
+            "50": "#cfc6b9",
+            "100": "#ccb49b",
+            "200": "#cbb096",
+            "300": "#c9ad90",
+            "400": "#c8a98b",
+            "500": "#c6a585",
+            "600": "#c4a27f",
+            "700": "#c39e7a",
+            "800": "#c19a74",
+            "900": "#c0976f"
+        },
+        "background": "#c0976f",
+        "text": "#c0976f"
+    },
+    {
+        "name": "Diner",
+        "colors": ["#537997", "#6a7f7f", "#888f73", "#a59f67", "#c3af5b"],
+        "tailwind_colors_name": "diner",
+        "tailwind_colors": {
+            "50": "#537997",
+            "100": "#647b81",
+            "200": "#70827c",
+            "300": "#7c8877",
+            "400": "#888f73",
+            "500": "#93956e",
+            "600": "#9f9b69",
+            "700": "#aba264",
+            "800": "#b7a85f",
+            "900": "#c3af5b"
+        },
+        "background": "#c3af5b",
+        "text": "#445c7f"
+    },
+    {
+        "name": "Modern Ink",
+        "colors": ["#ffffff", "#f0beb4", "#f5917c", "#fa6344", "#ff360d"],
+        "tailwind_colors_name": "modern-ink",
+        "tailwind_colors": {
+            "50": "#ffffff",
+            "100": "#efc7bf",
+            "200": "#f1b5a9",
+            "300": "#f3a392",
+            "400": "#f5917c",
+            "500": "#f77e66",
+            "600": "#f96c4f",
+            "700": "#fb5a39",
+            "800": "#fd4823",
+            "900": "#ff360d"
+        },
+        "background": "#ff360d",
+        "text": "#b7b7b7"
+    },
+    {
+        "name": "Dev",
+        "colors": ["#1b2028", "#183d4e", "#1c617b", "#1f85a8", "#23a9d5"],
+        "tailwind_colors_name": "dev",
+        "tailwind_colors": {
+            "50": "#1b2028",
+            "100": "#173645",
+            "200": "#194457",
+            "300": "#1a5369",
+            "400": "#1c617b",
+            "500": "#1d6f8d",
+            "600": "#1e7e9f",
+            "700": "#208cb1",
+            "800": "#219ac3",
+            "900": "#23a9d5"
+        },
+        "background": "#23a9d5",
+        "text": "#4b5975"
+    },
+    {
+        "name": "Moonlight",
+        "colors": ["#191f28", "#403b33", "#6d5c45", "#997d56", "#c69f68"],
+        "tailwind_colors_name": "moonlight",
+        "tailwind_colors": {
+            "50": "#191f28",
+            "100": "#373430",
+            "200": "#494137",
+            "300": "#5b4f3e",
+            "400": "#6d5c45",
+            "500": "#7e694c",
+            "600": "#907753",
+            "700": "#a2845a",
+            "800": "#b49161",
+            "900": "#c69f68"
+        },
+        "background": "#c69f68",
+        "text": "#4b5975"
+    },
+    {
+        "name": "Pink Lemonade",
+        "colors": ["#f6d992", "#f6c192", "#f6b692", "#f6ab92", "#f6a192"],
+        "tailwind_colors_name": "pink-lemonade",
+        "tailwind_colors": {
+            "50": "#f6d992",
+            "100": "#f6c392",
+            "200": "#f6bf92",
+            "300": "#f6ba92",
+            "400": "#f6b692",
+            "500": "#f6b292",
+            "600": "#f6ad92",
+            "700": "#f6a992",
+            "800": "#f6a592",
+            "900": "#f6a192"
+        },
+        "background": "#f6a192",
+        "text": "#f6b092"
+    },
+    {
+        "name": "Creamsicle",
+        "colors": ["#ff9869", "#fda57d", "#fdc2a6", "#fcdfcf", "#fcfcf8"],
+        "tailwind_colors_name": "creamsicle",
+        "tailwind_colors": {
+            "50": "#ff9869",
+            "100": "#fda074",
+            "200": "#fdab85",
+            "300": "#fdb795",
+            "400": "#fdc2a6",
+            "500": "#fcceb6",
+            "600": "#fcd9c6",
+            "700": "#fce5d7",
+            "800": "#fcf0e7",
+            "900": "#fcfcf8"
+        },
+        "background": "#fcfcf8",
+        "text": "#ff661f"
+    },
+    {
+        "name": "Beach",
+        "colors": ["#ffeead", "#ded898", "#c6d5a1", "#aed1aa", "#96ceb4"],
+        "tailwind_colors_name": "beach",
+        "tailwind_colors": {
+            "50": "#ffeead",
+            "100": "#e3d996",
+            "200": "#d9d79a",
+            "300": "#d0d69d",
+            "400": "#c6d5a1",
+            "500": "#bcd3a5",
+            "600": "#b3d2a8",
+            "700": "#a9d0ac",
+            "800": "#9fcfb0",
+            "900": "#96ceb4"
+        },
+        "background": "#96ceb4",
+        "text": "#ffcc5c"
+    },
+    {
+        "name": "Desert Oasis",
+        "colors": ["#fff2d5", "#e6cd8d", "#dfbd5e", "#d8ad2f", "#d19d01"],
+        "tailwind_colors_name": "desert-oasis",
+        "tailwind_colors": {
+            "50": "#fff2d5",
+            "100": "#e7d196",
+            "200": "#e4ca83",
+            "300": "#e1c471",
+            "400": "#dfbd5e",
+            "500": "#dcb74b",
+            "600": "#d9b039",
+            "700": "#d6aa26",
+            "800": "#d3a313",
+            "900": "#d19d01"
+        },
+        "background": "#d19d01",
+        "text": "#0061fe"
+    },
+    {
+        "name": "Frozen Llama",
+        "colors": ["#9bf2ea", "#7abecf", "#7695c1", "#716cb3", "#6d44a6"],
+        "tailwind_colors_name": "frozen-llama",
+        "tailwind_colors": {
+            "50": "#9bf2ea",
+            "100": "#7bc6d2",
+            "200": "#79b6cc",
+            "300": "#77a5c7",
+            "400": "#7695c1",
+            "500": "#7485bc",
+            "600": "#7274b6",
+            "700": "#7064b1",
+            "800": "#6e54ab",
+            "900": "#6d44a6"
+        },
+        "background": "#6d44a6",
+        "text": "#b690fd"
+    },
+    {
+        "name": "Ryujinscales",
+        "colors": ["#081426", "#3f282a", "#7a4238", "#b55c46", "#f17754"],
+        "tailwind_colors_name": "ryujinscales",
+        "tailwind_colors": {
+            "50": "#081426",
+            "100": "#332328",
+            "200": "#4b2d2d",
+            "300": "#623833",
+            "400": "#7a4238",
+            "500": "#924c3e",
+            "600": "#a95743",
+            "700": "#c16249",
+            "800": "#d96c4e",
+            "900": "#f17754"
+        },
+        "background": "#f17754",
+        "text": "#ffbc90"
+    },
+    {
+        "name": "Trackday",
+        "colors": ["#464d66", "#654652", "#8e4a4b", "#b74d44", "#e0513e"],
+        "tailwind_colors_name": "trackday",
+        "tailwind_colors": {
+            "50": "#464d66",
+            "100": "#5d4553",
+            "200": "#6d4750",
+            "300": "#7e484e",
+            "400": "#8e4a4b",
+            "500": "#9e4b48",
+            "600": "#af4c46",
+            "700": "#bf4e43",
+            "800": "#cf4f40",
+            "900": "#e0513e"
+        },
+        "background": "#e0513e",
+        "text": "#5c7eb9"
+    },
+    {
+        "name": "Fruit Chew",
+        "colors": ["#d6d3d6", "#ae96af", "#936e94", "#774679", "#5c1e5f"],
+        "tailwind_colors_name": "fruit-chew",
+        "tailwind_colors": {
+            "50": "#d6d3d6",
+            "100": "#b49eb4",
+            "200": "#a88ea9",
+            "300": "#9e7e9f",
+            "400": "#936e94",
+            "500": "#885e89",
+            "600": "#7d4e7f",
+            "700": "#723e74",
+            "800": "#672e69",
+            "900": "#5c1e5f"
+        },
+        "background": "#5c1e5f",
+        "text": "#b49cb5"
+    },
+    {
+        "name": "Evil Eye",
+        "colors": ["#0084c2", "#4697c9", "#81b5d4", "#bcd3df", "#f7f2ea"],
+        "tailwind_colors_name": "evil-eye",
+        "tailwind_colors": {
+            "50": "#0084c2",
+            "100": "#3b91c6",
+            "200": "#529dcb",
+            "300": "#6aa9cf",
+            "400": "#81b5d4",
+            "500": "#99c1d8",
+            "600": "#b0cddc",
+            "700": "#c8d9e1",
+            "800": "#dfe5e5",
+            "900": "#f7f2ea"
+        },
+        "background": "#f7f2ea",
+        "text": "#01589f"
+    },
+    {
+        "name": "Trance",
+        "colors": ["#00021b", "#4b1d56", "#7e1a61", "#b1166b", "#e51376"],
+        "tailwind_colors_name": "trance",
+        "tailwind_colors": {
+            "50": "#00021b",
+            "100": "#411e54",
+            "200": "#551c58",
+            "300": "#6a1b5c",
+            "400": "#7e1a61",
+            "500": "#931865",
+            "600": "#a71769",
+            "700": "#bc156d",
+            "800": "#d01471",
+            "900": "#e51376"
+        },
+        "background": "#e51376",
+        "text": "#3c4c79"
+    },
+    {
+        "name": "Fire",
+        "colors": ["#0f0000", "#440c0c", "#690e0e", "#8e1010", "#b31313"],
+        "tailwind_colors_name": "fire",
+        "tailwind_colors": {
+            "50": "#0f0000",
+            "100": "#3d0b0b",
+            "200": "#4c0c0c",
+            "300": "#5a0d0d",
+            "400": "#690e0e",
+            "500": "#780f0f",
+            "600": "#861010",
+            "700": "#951111",
+            "800": "#a41212",
+            "900": "#b31313"
+        },
+        "background": "#b31313",
+        "text": "#683434"
+    },
+    {
+        "name": "Aurora",
+        "colors": ["#011926", "#00432e", "#007a49", "#00b164", "#00e980"],
+        "tailwind_colors_name": "aurora",
+        "tailwind_colors": {
+            "50": "#011926",
+            "100": "#003828",
+            "200": "#004e33",
+            "300": "#00643e",
+            "400": "#007a49",
+            "500": "#009054",
+            "600": "#00a65f",
+            "700": "#00bc6a",
+            "800": "#00d275",
+            "900": "#00e980"
+        },
+        "background": "#00e980",
+        "text": "#245c69"
+    },
+    {
+        "name": "Leather",
+        "colors": ["#a86948", "#b3805e", "#cca17d", "#e5c29c", "#ffe4bc"],
+        "tailwind_colors_name": "leather",
+        "tailwind_colors": {
+            "50": "#a86948",
+            "100": "#ae7958",
+            "200": "#b88664",
+            "300": "#c29471",
+            "400": "#cca17d",
+            "500": "#d6ae8a",
+            "600": "#e0bc96",
+            "700": "#eac9a3",
+            "800": "#f4d6af",
+            "900": "#ffe4bc"
+        },
+        "background": "#ffe4bc",
+        "text": "#81482b"
+    },
+    {
+        "name": "Fleuriste",
+        "colors": ["#c6b294", "#97907b", "#7a7e6d", "#5d6c5f", "#405a52"],
+        "tailwind_colors_name": "fleuriste",
+        "tailwind_colors": {
+            "50": "#c6b294",
+            "100": "#9c947e",
+            "200": "#918d78",
+            "300": "#858573",
+            "400": "#7a7e6d",
+            "500": "#6e7768",
+            "600": "#626f62",
+            "700": "#57685d",
+            "800": "#4b6157",
+            "900": "#405a52"
+        },
+        "background": "#405a52",
+        "text": "#64374d"
+    },
+    {
+        "name": "Dmg",
+        "colors": ["#dadbdc", "#ba96b5", "#b66c98", "#b2427b", "#ae185e"],
+        "tailwind_colors_name": "dmg",
+        "tailwind_colors": {
+            "50": "#dadbdc",
+            "100": "#ba9fba",
+            "200": "#b98eaf",
+            "300": "#b77da3",
+            "400": "#b66c98",
+            "500": "#b45b8c",
+            "600": "#b24a80",
+            "700": "#b13975",
+            "800": "#af2869",
+            "900": "#ae185e"
+        },
+        "background": "#ae185e",
+        "text": "#3846b1"
+    },
+    {
+        "name": "Catppuccin",
+        "colors": ["#1e1e2e", "#443b59", "#715f8e", "#9e82c2", "#cba6f7"],
+        "tailwind_colors_name": "catppuccin",
+        "tailwind_colors": {
+            "50": "#1e1e2e",
+            "100": "#3b344f",
+            "200": "#4d4264",
+            "300": "#5f5079",
+            "400": "#715f8e",
+            "500": "#836da3",
+            "600": "#957bb7",
+            "700": "#a789cd",
+            "800": "#b997e2",
+            "900": "#cba6f7"
+        },
+        "background": "#cba6f7",
+        "text": "#7f849c"
+    },
+    {
+        "name": "Snes",
+        "colors": ["#bfbec2", "#9d93b6", "#8576ab", "#6d599f", "#553d94"],
+        "tailwind_colors_name": "snes",
+        "tailwind_colors": {
+            "50": "#bfbec2",
+            "100": "#a199b8",
+            "200": "#988db4",
+            "300": "#8e82af",
+            "400": "#8576ab",
+            "500": "#7b6ba6",
+            "600": "#715fa1",
+            "700": "#68549d",
+            "800": "#5e4898",
+            "900": "#553d94"
+        },
+        "background": "#553d94",
+        "text": "#9f8ad4"
+    },
+    {
+        "name": "Passion Fruit",
+        "colors": ["#7c2142", "#9f5573", "#bb6f89", "#d7899e", "#f4a3b4"],
+        "tailwind_colors_name": "passion-fruit",
+        "tailwind_colors": {
+            "50": "#7c2142",
+            "100": "#99506f",
+            "200": "#a45a77",
+            "300": "#b06580",
+            "400": "#bb6f89",
+            "500": "#c67991",
+            "600": "#d2849a",
+            "700": "#dd8ea2",
+            "800": "#e898ab",
+            "900": "#f4a3b4"
+        },
+        "background": "#f4a3b4",
+        "text": "#9994b8"
+    },
+    {
+        "name": "Blue Dolphin",
+        "colors": ["#003950", "#406a87", "#808bae", "#bfacd4", "#ffcefb"],
+        "tailwind_colors_name": "blue-dolphin",
+        "tailwind_colors": {
+            "50": "#003950",
+            "100": "#33637f",
+            "200": "#4d708f",
+            "300": "#667e9e",
+            "400": "#808bae",
+            "500": "#9998bd",
+            "600": "#b2a6cc",
+            "700": "#ccb3dc",
+            "800": "#e5c0eb",
+            "900": "#ffcefb"
+        },
+        "background": "#ffcefb",
+        "text": "#00e4ff"
+    },
+    {
+        "name": "Mexican",
+        "colors": ["#f8ad34", "#e7935f", "#d56d6d", "#c3477b", "#b12189"],
+        "tailwind_colors_name": "mexican",
+        "tailwind_colors": {
+            "50": "#f8ad34",
+            "100": "#ea9a5c",
+            "200": "#e38b61",
+            "300": "#dc7c67",
+            "400": "#d56d6d",
+            "500": "#cd5d72",
+            "600": "#c64e78",
+            "700": "#bf3f7d",
+            "800": "#b83083",
+            "900": "#b12189"
+        },
+        "background": "#b12189",
+        "text": "#333"
+    },
+    {
+        "name": "Husqy",
+        "colors": ["#000000", "#472256", "#71458e", "#9b67c6", "#c58aff"],
+        "tailwind_colors_name": "husqy",
+        "tailwind_colors": {
+            "50": "#000000",
+            "100": "#3f1b4b",
+            "200": "#502961",
+            "300": "#603778",
+            "400": "#71458e",
+            "500": "#8252a5",
+            "600": "#9260bb",
+            "700": "#a36ed2",
+            "800": "#b47ce8",
+            "900": "#c58aff"
+        },
+        "background": "#c58aff",
+        "text": "#972fff"
+    },
+    {
+        "name": "Peach Blossom",
+        "colors": ["#292929", "#455652", "#617769", "#7d9780", "#99b898"],
+        "tailwind_colors_name": "peach-blossom",
+        "tailwind_colors": {
+            "50": "#292929",
+            "100": "#40504d",
+            "200": "#4b5d56",
+            "300": "#566a60",
+            "400": "#617769",
+            "500": "#6c8472",
+            "600": "#77917c",
+            "700": "#829e85",
+            "800": "#8dab8e",
+            "900": "#99b898"
+        },
+        "background": "#99b898",
+        "text": "#616161"
+    },
+    {
+        "name": "Dino",
+        "colors": ["#ffffff", "#a7f1be", "#85e8a5", "#62df8b", "#40d672"],
+        "tailwind_colors_name": "dino",
+        "tailwind_colors": {
+            "50": "#ffffff",
+            "100": "#aef2c3",
+            "200": "#a0efb9",
+            "300": "#92ebaf",
+            "400": "#85e8a5",
+            "500": "#77e49a",
+            "600": "#69e090",
+            "700": "#5bdd86",
+            "800": "#4dd97c",
+            "900": "#40d672"
+        },
+        "background": "#40d672",
+        "text": "#d5d5d5"
+    },
+    {
+        "name": "Tron Orange",
+        "colors": ["#0d1c1c", "#b1a66c", "#c6bc48", "#dbd224", "#f0e800"],
+        "tailwind_colors_name": "tron-orange",
+        "tailwind_colors": {
+            "50": "#0d1c1c",
+            "100": "#aca274",
+            "200": "#b5ab65",
+            "300": "#bdb357",
+            "400": "#c6bc48",
+            "500": "#cec53a",
+            "600": "#d6cd2b",
+            "700": "#dfd61c",
+            "800": "#e7df0e",
+            "900": "#f0e800"
+        },
+        "background": "#f0e800",
+        "text": "#ff6600"
+    },
+    {
+        "name": "Hedge",
+        "colors": ["#415e31", "#446233", "#51743c", "#5d8645", "#6a994e"],
+        "tailwind_colors_name": "hedge",
+        "tailwind_colors": {
+            "50": "#415e31",
+            "100": "#425e31",
+            "200": "#476534",
+            "300": "#4c6d38",
+            "400": "#51743c",
+            "500": "#567b3f",
+            "600": "#5b8343",
+            "700": "#608a46",
+            "800": "#65914a",
+            "900": "#6a994e"
+        },
+        "background": "#6a994e",
+        "text": "#ede5b4"
+    },
+    {
+        "name": "Modern Dolch Light",
+        "colors": ["#dbdbdb", "#d1e2de", "#bbdcd5", "#a5d6cc", "#8fd1c3"],
+        "tailwind_colors_name": "modern-dolch-light",
+        "tailwind_colors": {
+            "50": "#dbdbdb",
+            "100": "#d6e3e0",
+            "200": "#cde1dc",
+            "300": "#c4ded9",
+            "400": "#bbdcd5",
+            "500": "#b2dad1",
+            "600": "#a9d7ce",
+            "700": "#a0d5ca",
+            "800": "#97d3c6",
+            "900": "#8fd1c3"
+        },
+        "background": "#8fd1c3",
+        "text": "#a3a2a2"
+    },
+    {
+        "name": "Iv Spade",
+        "colors": ["#0c0c0c", "#3b3328", "#64543e", "#8d7554", "#b7976a"],
+        "tailwind_colors_name": "iv-spade",
+        "tailwind_colors": {
+            "50": "#0c0c0c",
+            "100": "#332c23",
+            "200": "#43392c",
+            "300": "#544735",
+            "400": "#64543e",
+            "500": "#756146",
+            "600": "#856f4f",
+            "700": "#967c58",
+            "800": "#a68961",
+            "900": "#b7976a"
+        },
+        "background": "#b7976a",
+        "text": "#404040"
+    },
+    {
+        "name": "Iv Clover",
+        "colors": ["#a0a0a0", "#a49e9e", "#8a7e7f", "#705e5f", "#573e40"],
+        "tailwind_colors_name": "iv-clover",
+        "tailwind_colors": {
+            "50": "#a0a0a0",
+            "100": "#a9a4a4",
+            "200": "#9f9798",
+            "300": "#948a8b",
+            "400": "#8a7e7f",
+            "500": "#807172",
+            "600": "#756465",
+            "700": "#6b5759",
+            "800": "#614a4c",
+            "900": "#573e40"
+        },
+        "background": "#573e40",
+        "text": "#353535"
+    },
+    {
+        "name": "Cheesecake",
+        "colors": ["#fdf0d5", "#d9b3a1", "#c08584", "#a75766", "#8e2949"],
+        "tailwind_colors_name": "cheesecake",
+        "tailwind_colors": {
+            "50": "#fdf0d5",
+            "100": "#debda7",
+            "200": "#d4aa9b",
+            "300": "#ca988f",
+            "400": "#c08584",
+            "500": "#b67378",
+            "600": "#ac606c",
+            "700": "#a24e60",
+            "800": "#983b54",
+            "900": "#8e2949"
+        },
+        "background": "#8e2949",
+        "text": "#d91c81"
+    },
+    {
+        "name": "Earthsong",
+        "colors": ["#292521", "#293926", "#365735", "#437543", "#509452"],
+        "tailwind_colors_name": "earthsong",
+        "tailwind_colors": {
+            "50": "#292521",
+            "100": "#273323",
+            "200": "#2c3f29",
+            "300": "#314b2f",
+            "400": "#365735",
+            "500": "#3b633a",
+            "600": "#406f40",
+            "700": "#457b46",
+            "800": "#4a874c",
+            "900": "#509452"
+        },
+        "background": "#509452",
+        "text": "#f5ae2d"
+    },
+    {
+        "name": "Purpleish",
+        "colors": ["#1e1e32", "#302651", "#49357a", "#6143a3", "#7a52cc"],
+        "tailwind_colors_name": "purpleish",
+        "tailwind_colors": {
+            "50": "#1e1e32",
+            "100": "#2b2349",
+            "200": "#352959",
+            "300": "#3f2f6a",
+            "400": "#49357a",
+            "500": "#523a8a",
+            "600": "#5c409b",
+            "700": "#6646ab",
+            "800": "#704cbb",
+            "900": "#7a52cc"
+        },
+        "background": "#7a52cc",
+        "text": "#5c5c99"
+    },
+    {
+        "name": "Nord Light",
+        "colors": ["#eceff4", "#c5d5dd", "#b3cdd2", "#a1c4c6", "#8fbcbb"],
+        "tailwind_colors_name": "nord-light",
+        "tailwind_colors": {
+            "50": "#eceff4",
+            "100": "#c9d7df",
+            "200": "#c2d3db",
+            "300": "#bad0d6",
+            "400": "#b3cdd2",
+            "500": "#acc9cd",
+            "600": "#a4c6c8",
+            "700": "#9dc2c4",
+            "800": "#96bfbf",
+            "900": "#8fbcbb"
+        },
+        "background": "#8fbcbb",
+        "text": "#6a7791"
+    },
+    {
+        "name": "Slambook",
+        "colors": ["#fffdde", "#95a5b2", "#646e80", "#33374e", "#03001c"],
+        "tailwind_colors_name": "slambook",
+        "tailwind_colors": {
+            "50": "#fffdde",
+            "100": "#9fb0bc",
+            "200": "#8b9aa8",
+            "300": "#788493",
+            "400": "#646e80",
+            "500": "#51586c",
+            "600": "#3d4258",
+            "700": "#292b43",
+            "800": "#16152f",
+            "900": "#03001c"
+        },
+        "background": "#03001c",
+        "text": "#1c82adc4"
+    },
+    {
+        "name": "Breeze",
+        "colors": ["#e8d5c4", "#d7c6cd", "#b9a6c1", "#9b86b5", "#7d67a9"],
+        "tailwind_colors_name": "breeze",
+        "tailwind_colors": {
+            "50": "#e8d5c4",
+            "100": "#ddccd0",
+            "200": "#d1bfcb",
+            "300": "#c5b3c6",
+            "400": "#b9a6c1",
+            "500": "#ad99bc",
+            "600": "#a18db7",
+            "700": "#9580b2",
+            "800": "#8973ad",
+            "900": "#7d67a9"
+        },
+        "background": "#7d67a9",
+        "text": "#3a98b9"
+    },
+    {
+        "name": "Cherry Blossom",
+        "colors": ["#323437", "#573a57", "#81457e", "#ab50a5", "#d65ccc"],
+        "tailwind_colors_name": "cherry-blossom",
+        "tailwind_colors": {
+            "50": "#323437",
+            "100": "#4e3850",
+            "200": "#5f3c5f",
+            "300": "#70416f",
+            "400": "#81457e",
+            "500": "#924a8e",
+            "600": "#a34e9d",
+            "700": "#b453ad",
+            "800": "#c557bc",
+            "900": "#d65ccc"
+        },
+        "background": "#d65ccc",
+        "text": "#787d82"
+    },
+    {
+        "name": "Everblush",
+        "colors": ["#141b1e", "#3d5341", "#577c55", "#71a569", "#8ccf7e"],
+        "tailwind_colors_name": "everblush",
+        "tailwind_colors": {
+            "50": "#141b1e",
+            "100": "#384b3d",
+            "200": "#425b45",
+            "300": "#4d6c4d",
+            "400": "#577c55",
+            "500": "#628d5d",
+            "600": "#6c9d65",
+            "700": "#77ae6d",
+            "800": "#81be75",
+            "900": "#8ccf7e"
+        },
+        "background": "#8ccf7e",
+        "text": "#838887"
+    },
+    {
+        "name": "Grape",
+        "colors": ["#2c003e", "#572321", "#8f4716", "#c76b0b", "#ff8f00"],
+        "tailwind_colors_name": "grape",
+        "tailwind_colors": {
+            "50": "#2c003e",
+            "100": "#4b1c24",
+            "200": "#622a1f",
+            "300": "#78391b",
+            "400": "#8f4716",
+            "500": "#a55512",
+            "600": "#bb640d",
+            "700": "#d27208",
+            "800": "#e88004",
+            "900": "#ff8f00"
+        },
+        "background": "#ff8f00",
+        "text": "#6e225e"
+    },
+    {
+        "name": "Rainbow Trail",
+        "colors": ["#f5f5f5", "#b5b5b5", "#8b8b8b", "#606060", "#363636"],
+        "tailwind_colors_name": "rainbow-trail",
+        "tailwind_colors": {
+            "50": "#f5f5f5",
+            "100": "#bebebe",
+            "200": "#acacac",
+            "300": "#9c9c9c",
+            "400": "#8b8b8b",
+            "500": "#7a7a7a",
+            "600": "#696969",
+            "700": "#585858",
+            "800": "#474747",
+            "900": "#363636"
+        },
+        "background": "#363636",
+        "text": "#4f4f4f"
+    },
+    {
+        "name": "Tangerine",
+        "colors": ["#ffede0", "#fdb390", "#fd9461", "#fd7432", "#fe5503"],
+        "tailwind_colors_name": "tangerine",
+        "tailwind_colors": {
+            "50": "#ffede0",
+            "100": "#fdb999",
+            "200": "#fdad86",
+            "300": "#fda073",
+            "400": "#fd9461",
+            "500": "#fd874e",
+            "600": "#fd7a3b",
+            "700": "#fd6e28",
+            "800": "#fd6115",
+            "900": "#fe5503"
+        },
+        "background": "#fe5503",
+        "text": "#ff9562"
+    },
+    {
+        "name": "Macroblank",
+        "colors": ["#b2d2c8", "#c4b2a4", "#c38775", "#c25c46", "#c13117"],
+        "tailwind_colors_name": "macroblank",
+        "tailwind_colors": {
+            "50": "#b2d2c8",
+            "100": "#c5baad",
+            "200": "#c4a99a",
+            "300": "#c49887",
+            "400": "#c38775",
+            "500": "#c37562",
+            "600": "#c2644f",
+            "700": "#c2533c",
+            "800": "#c14229",
+            "900": "#c13117"
+        },
+        "background": "#c13117",
+        "text": "#717977"
+    },
+    {
+        "name": "Anti Hero",
+        "colors": ["#00002e", "#442f61", "#82597a", "#c08393", "#ffadad"],
+        "tailwind_colors_name": "anti-hero",
+        "tailwind_colors": {
+            "50": "#00002e",
+            "100": "#37265c",
+            "200": "#503766",
+            "300": "#694870",
+            "400": "#82597a",
+            "500": "#9b6984",
+            "600": "#b47a8e",
+            "700": "#cd8b98",
+            "800": "#e69ca2",
+            "900": "#ffadad"
+        },
+        "background": "#ffadad",
+        "text": "#ff3d8b"
+    },
+    {
+        "name": "Incognito",
+        "colors": ["#0e0e0e", "#4f360f", "#8a570a", "#c47805", "#ff9900"],
+        "tailwind_colors_name": "incognito",
+        "tailwind_colors": {
+            "50": "#0e0e0e",
+            "100": "#432f10",
+            "200": "#5b3c0e",
+            "300": "#72490c",
+            "400": "#8a570a",
+            "500": "#a16408",
+            "600": "#b87106",
+            "700": "#d07e04",
+            "800": "#e78b02",
+            "900": "#ff9900"
+        },
+        "background": "#ff9900",
+        "text": "#555555"
+    },
+    {
+        "name": "Discord",
+        "colors": ["#313338", "#363b5f", "#42498d", "#4e57bb", "#5a65ea"],
+        "tailwind_colors_name": "discord",
+        "tailwind_colors": {
+            "50": "#313338",
+            "100": "#343856",
+            "200": "#393d68",
+            "300": "#3d437b",
+            "400": "#42498d",
+            "500": "#474ea0",
+            "600": "#4b54b2",
+            "700": "#5059c5",
+            "800": "#555fd7",
+            "900": "#5a65ea"
+        },
+        "background": "#5a65ea",
+        "text": "#565861"
+    },
+    {
+        "name": "Cy Red",
+        "colors": ["#6e2626", "#682424", "#923333", "#bb4141", "#e55050"],
+        "tailwind_colors_name": "cy-red",
+        "tailwind_colors": {
+            "50": "#6e2626",
+            "100": "#602121",
+            "200": "#702727",
+            "300": "#812d2d",
+            "400": "#923333",
+            "500": "#a23838",
+            "600": "#b33e3e",
+            "700": "#c34444",
+            "800": "#d44a4a",
+            "900": "#e55050"
+        },
+        "background": "#e55050",
+        "text": "#ff6060"
+    },
+    {
+        "name": "Floret",
+        "colors": ["#00272c", "#515b41", "#8b8650", "#c5b15e", "#ffdd6d"],
+        "tailwind_colors_name": "floret",
+        "tailwind_colors": {
+            "50": "#00272c",
+            "100": "#45523e",
+            "200": "#5c6344",
+            "300": "#73754a",
+            "400": "#8b8650",
+            "500": "#a29755",
+            "600": "#b9a95b",
+            "700": "#d0ba61",
+            "800": "#e7cb67",
+            "900": "#ffdd6d"
+        },
+        "background": "#ffdd6d",
+        "text": "#779097"
+    },
+    {
+        "name": "Lilac Mist",
+        "colors": ["#fffbfe", "#dfb5d4", "#d28ebb", "#c567a2", "#b94189"],
+        "tailwind_colors_name": "lilac-mist",
+        "tailwind_colors": {
+            "50": "#fffbfe",
+            "100": "#e1bdd9",
+            "200": "#dcadcf",
+            "300": "#d79ec5",
+            "400": "#d28ebb",
+            "500": "#cd7fb1",
+            "600": "#c86fa7",
+            "700": "#c3609d",
+            "800": "#be5093",
+            "900": "#b94189"
+        },
+        "background": "#b94189",
+        "text": "#e094c2"
+    },
+    {
+        "name": "Terrazzo",
+        "colors": ["#f1e5da", "#e2bca8", "#e1a68a", "#e08f6c", "#e0794e"],
+        "tailwind_colors_name": "terrazzo",
+        "tailwind_colors": {
+            "50": "#f1e5da",
+            "100": "#e2c1ae",
+            "200": "#e2b8a2",
+            "300": "#e1af96",
+            "400": "#e1a68a",
+            "500": "#e19d7e",
+            "600": "#e09472",
+            "700": "#e08b66",
+            "800": "#e0825a",
+            "900": "#e0794e"
+        },
+        "background": "#e0794e",
+        "text": "#688e8f"
+    }
+]
