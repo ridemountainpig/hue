@@ -2,7 +2,7 @@ import HueCard from "@/components/hue-card";
 import { HueData } from "@/types/hue-type";
 import fs from "fs";
 
-const hueData = JSON.parse(fs.readFileSync("./public/hue.json", "utf8"));
+const hueData = JSON.parse(fs.readFileSync("public/hue.json", "utf8"));
 
 export default function Home() {
     return (
