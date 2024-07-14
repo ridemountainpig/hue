@@ -1,4 +1,5 @@
 import fs from "fs";
+import path from "path";
 import { HueData } from "@/types/hue-type";
 import HueColorDock from "@/components/hue-color-dock";
 import TailwindCopy from "@/components/tailwind-copy";
@@ -10,9 +11,10 @@ export default function HuePage({
 }: {
     params: { "hue-name": string };
 }) {
-    const hueData: HueData[] = JSON.parse(
-        fs.readFileSync("public/hue.json", "utf8"),
-    );
+    const filePath = path.join(process.cwd(), "public/hue.json");
+    const fileContents = fs.readFileSync(filePath, "utf8");
+    const hueData: HueData[] = JSON.parse(fileContents);
+
     const hue: HueData | undefined = hueData.find(
         (hue) => hue.name === params["hue-name"].replaceAll("%20", " "),
     );

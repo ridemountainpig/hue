@@ -1,10 +1,13 @@
+import fs from "fs";
+import path from "path";
 import HueCard from "@/components/hue-card";
 import { HueData } from "@/types/hue-type";
-import fs from "fs";
-
-const hueData = JSON.parse(fs.readFileSync("public/hue.json", "utf8"));
 
 export default function Home() {
+    const filePath = path.join(process.cwd(), "public/hue.json");
+    const fileContents = fs.readFileSync(filePath, "utf8");
+    const hueData = JSON.parse(fileContents);
+
     return (
         <>
             <div className="flex justify-center">
