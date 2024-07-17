@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import HueCard from "@/components/hue-card";
+import HueTitle from "@/components/hue-titile";
 import { HueData } from "@/types/hue-type";
 
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
     return (
         <>
             <div className="flex justify-center">
-                <h1 className="hidden">Hue</h1>
+                <HueTitle h1Title="Hue" h2Title="" />
                 <span className="select-none py-20 font-pacifico text-4xl font-bold tracking-widest opacity-80">
                     <span className="px-2 text-peach">Painting</span>
                     <span className="px-2 text-soft-gray">Your</span>
