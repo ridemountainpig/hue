@@ -22,15 +22,15 @@ export default function HueGridColorCircle({ color }: HueGridColorCircleProps) {
     };
 
     return (
-        <div>
+        <div
+            className="cursor-pointer rounded-lg bg-white p-4 hover:bg-slate-100"
+            onClick={() => handleCopy()}
+        >
             <div
                 className="flex h-14 w-14 items-end rounded-full"
                 style={{ backgroundColor: color }}
             ></div>
-            <div
-                className="mt-2 cursor-pointer select-none font-mono text-xs font-bold tracking-wider"
-                onClick={() => handleCopy()}
-            >
+            <div className="mt-2 select-none font-mono text-xs font-bold tracking-wider">
                 {color}
             </div>
         </div>
