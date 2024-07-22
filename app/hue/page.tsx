@@ -1,10 +1,11 @@
 "use client";
 
+import { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import hueUtils from "@/utils/hue";
 import HueGridLayout from "@/components/hue-grid-layout";
 
-export default function HuePage() {
+function HueGeneratorPageContent() {
     const searchParams = useSearchParams();
 
     const hueColor = searchParams.get("hue-color");
@@ -28,5 +29,13 @@ export default function HuePage() {
             tailwind_colors_name={tailwind_colors_name}
             tailwind_colors={tailwind_colors}
         ></HueGridLayout>
+    );
+}
+
+export default function HuePage() {
+    return (
+        <Suspense fallback={<></>}>
+            <HueGeneratorPageContent />
+        </Suspense>
     );
 }
