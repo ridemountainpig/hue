@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { HexColorPicker } from "react-colorful";
 import { generate } from "random-words";
 import {
@@ -12,12 +12,44 @@ import {
     SquareArrowUpRight,
 } from "lucide-react";
 import toast from "react-hot-toast";
+import hueUtils from "@/utils/hue";
 
 export default function HueGenerator() {
     const [colorPickerOne, setColorPickerOne] = useState(false);
     const [colorPickerTwo, setColorPickerTwo] = useState(false);
     const [colorOne, setColorOne] = useState("#ffffff");
     const [colorTwo, setColorTwo] = useState("#ffffff");
+
+    const colorPickerBtnOneRef = useRef<HTMLDivElement>(null);
+    const colorPickerBtnTwoRef = useRef<HTMLDivElement>(null);
+    const colorPickerOneRef = useRef<HTMLDivElement>(null);
+    const colorPickerTwoRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+        function handleClickOutside(event: MouseEvent) {
+            if (
+                colorPickerOneRef.current &&
+                !colorPickerOneRef.current.contains(event.target as Node) &&
+                colorPickerBtnOneRef.current &&
+                !colorPickerBtnOneRef.current.contains(event.target as Node)
+            ) {
+                setColorPickerOne(false);
+            }
+            if (
+                colorPickerTwoRef.current &&
+                !colorPickerTwoRef.current.contains(event.target as Node) &&
+                colorPickerBtnTwoRef.current &&
+                !colorPickerBtnTwoRef.current.contains(event.target as Node)
+            ) {
+                setColorPickerTwo(false);
+            }
+        }
+
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, []);
 
     const handleColorOnePicker = () => {
         setColorPickerOne(!colorPickerOne);
@@ -96,17 +128,30 @@ export default function HueGenerator() {
         }
     };
 
+    const handleRandomButton = () => {
+        const hueName = generate({ minLength: 3 });
+        if (typeof hueName === "string") {
+            setHueName(hueName);
+        }
+        setColorOne(hueUtils.generateRandomHexColor());
+        setColorTwo(hueUtils.generateRandomHexColor());
+    };
+
     return (
         <div className="mt-40 h-fit w-full py-10">
             <div className="flex h-fit w-full justify-center gap-x-2 gap-y-4">
                 <div className="relative">
                     <div
+                        ref={colorPickerBtnOneRef}
                         className="h-[4.5rem] w-[4.5rem] cursor-pointer rounded-lg border shadow-xl"
                         style={{ backgroundColor: colorOne }}
                         onClick={handleColorOnePicker}
                     ></div>
                     {colorPickerOne && (
-                        <div className="absolute -left-52 -top-16">
+                        <div
+                            className="absolute -left-52 -top-16"
+                            ref={colorPickerOneRef}
+                        >
                             <HexColorPicker
                                 color={colorOne}
                                 onChange={setColorOne}
@@ -147,12 +192,16 @@ export default function HueGenerator() {
                 </div>
                 <div className="relative">
                     <div
+                        ref={colorPickerBtnTwoRef}
                         className="h-[4.5rem] w-[4.5rem] cursor-pointer rounded-lg border shadow-xl"
                         style={{ backgroundColor: colorTwo }}
                         onClick={handleColorTwoPicker}
                     ></div>
                     {colorPickerTwo && (
-                        <div className="absolute -right-52 -top-16">
+                        <div
+                            className="absolute -right-52 -top-16"
+                            ref={colorPickerTwoRef}
+                        >
                             <HexColorPicker
                                 color={colorTwo}
                                 onChange={setColorTwo}
@@ -171,7 +220,10 @@ export default function HueGenerator() {
                         Generate Hue
                     </span>
                 </button>
-                <button className="flex items-center gap-x-2 rounded-lg border bg-white p-2 px-4 py-2 transition-colors duration-300 hover:bg-slate-100">
+                <button
+                    className="flex items-center gap-x-2 rounded-lg border bg-white p-2 px-4 py-2 transition-colors duration-300 hover:bg-slate-100"
+                    onClick={handleRandomButton}
+                >
                     <Dices strokeWidth={2.5} size={20} />
                     <span className="font-mono text-base font-semibold tracking-wider">
                         Random Hue
