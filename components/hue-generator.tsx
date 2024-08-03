@@ -113,7 +113,7 @@ export default function HueGenerator() {
                     return;
                 }
             }
-            window.location.href = `/hue?hue-color=${colorOne.replace("#", "")}-${colorTwo.replace("#", "")}&hue-name=${hueName}`;
+            window.location.href = `/hue/${hueName}/${colorOne.replace("#", "").toLocaleLowerCase()}-${colorTwo.replace("#", "").toLocaleLowerCase()}`;
         } else {
             toast("Please enter a hue name!", {
                 icon: "❌",
