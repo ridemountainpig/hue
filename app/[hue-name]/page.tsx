@@ -9,23 +9,6 @@ export async function generateMetadata({
 }: {
     params: { "hue-name": string };
 }) {
-    const filePath = path.join(process.cwd(), "public/hue.json");
-    const fileContents = fs.readFileSync(filePath, "utf8");
-    const hueData: HueData[] = JSON.parse(fileContents);
-
-    const hue: HueData | undefined = hueData.find(
-        (hue) => hue.name === params["hue-name"].replaceAll("%20", " "),
-    );
-
-    if (!hue) {
-        return;
-    }
-
-    const ogColorString =
-        hue["colors"][0].replace("#", "") +
-        "-" +
-        hue["colors"][hue["colors"].length - 1].replace("#", "");
-
     return {
         title: params["hue-name"].replaceAll("%20", " ") + " | Hue",
         description: "Painting Your World In Vibrant Hues",
@@ -36,9 +19,7 @@ export async function generateMetadata({
             description: "Painting Your World In Vibrant Hues",
             images: [
                 {
-                    url:
-                        "https://hue-palette.com/api/hue-og?hueColor=" +
-                        ogColorString,
+                    url: "https://hue-palette.com/hue-icon.png",
                     width: 1200,
                     height: 630,
                     alt: "Hue icon",
@@ -50,9 +31,7 @@ export async function generateMetadata({
             title: params["hue-name"].replaceAll("%20", " ") + " | Hue",
             description: "Painting Your World In Vibrant Hues",
             creator: "@ridemountainpig",
-            images: [
-                "https://hue-palette.com/api/hue-og?hueColor=" + ogColorString,
-            ],
+            images: ["https://hue-palette.com/hue-icon.png"],
         },
     };
 }

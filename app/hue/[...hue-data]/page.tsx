@@ -21,9 +21,7 @@ export async function generateMetadata({
             description: "Painting Your World In Vibrant Hues",
             images: [
                 {
-                    url:
-                        "https://hue-palette.com/api/hue-og?hueColor=" +
-                        params["hue-data"][1],
+                    url: "https://hue-palette.com/hue-icon.png",
                     width: 1200,
                     height: 630,
                     alt: "Hue icon",
@@ -35,10 +33,7 @@ export async function generateMetadata({
             title: params["hue-data"][0].replaceAll("%20", " ") + " | Hue",
             description: "Painting Your World In Vibrant Hues",
             creator: "@ridemountainpig",
-            images: [
-                "https://hue-palette.com/api/hue-og?hueColor=" +
-                    params["hue-data"][1],
-            ],
+            images: ["https://hue-palette.com/hue-icon.png"],
         },
     };
 }
