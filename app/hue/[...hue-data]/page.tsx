@@ -13,7 +13,7 @@ export async function generateMetadata({
         openGraph: {
             type: "website",
             url:
-                "https://hue-palette.com/" +
+                "https://hue-palette.com/hue/" +
                 params["hue-data"][0] +
                 "/" +
                 params["hue-data"][1],
