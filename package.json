@@ -10,7 +10,9 @@
         "format": "prettier --write ."
     },
     "dependencies": {
+        "clsx": "^2.1.1",
         "dynamic-dock": "^1.0.0",
+        "framer-motion": "^11.3.24",
         "lucide-react": "^0.407.0",
         "next": "14.2.3",
         "random-words": "^2.0.1",
@@ -18,7 +20,8 @@
         "react-colorful": "^5.6.1",
         "react-dom": "^18",
         "react-hot-toast": "^2.4.1",
-        "rwdot": "^0.0.5"
+        "rwdot": "^0.0.5",
+        "tailwind-merge": "^2.4.0"
     },
     "devDependencies": {
         "@types/node": "^20",

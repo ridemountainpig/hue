@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Pacifico } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
+import Footer from "@/components/footer";
 import { Toaster } from "react-hot-toast";
 import { Rwdot } from "rwdot";
 
@@ -55,6 +56,7 @@ export default function RootLayout({
             <body className={`${pacifico.variable} bg-decoration bg-white`}>
                 <Header></Header>
                 <main>{children}</main>
+                <Footer></Footer>
                 <Toaster position="bottom-center" reverseOrder={false} />
                 <Rwdot
                     position="bottom-right"
