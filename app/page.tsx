@@ -13,7 +13,7 @@ export default function Home() {
         <>
             <div className="flex justify-center">
                 <HueTitle h1Title="Hue" h2Title="" />
-                <span className="flex select-none flex-wrap justify-center py-10 font-pacifico text-3xl font-bold tracking-widest opacity-80 md:text-4xl lg:py-20">
+                <span className="flex w-[95%] select-none flex-wrap justify-center py-10 font-pacifico text-3xl font-bold tracking-widest opacity-80 md:text-4xl lg:py-20">
                     <div className="py-2">
                         <span className="px-2 text-peach">Painting</span>
                         <span className="px-2 text-soft-gray">Your</span>

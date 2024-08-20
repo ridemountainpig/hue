@@ -6,7 +6,7 @@ import { iconGitHub } from "@/components/icons";
 export default function Header() {
     return (
         <header className="flex w-full justify-center">
-            <div className="flex w-full items-center justify-between px-3 py-14 lg:w-3/4">
+            <div className="flex w-full items-center justify-between px-2 py-8 lg:w-3/4 lg:py-14">
                 <Link href="/">
                     <span className="flex cursor-pointer select-none items-center">
                         <Image
@@ -19,7 +19,14 @@ export default function Header() {
                         <Image
                             width={55}
                             height={55}
-                            className="lg:hidden"
+                            className="hidden md:block lg:hidden"
+                            alt="LOGO"
+                            src="/hue-icon.png"
+                        />
+                        <Image
+                            width={45}
+                            height={45}
+                            className="md:hidden"
                             alt="LOGO"
                             src="/hue-icon.png"
                         />
@@ -32,7 +39,7 @@ export default function Header() {
                     </span>
                 </Link>
 
-                <div className="text-md flex h-fit items-center gap-x-1 font-pacifico font-semibold text-slate-600 lg:gap-x-2 lg:text-xl">
+                <div className="flex h-fit items-center gap-x-1 font-pacifico text-xs font-semibold text-slate-600 sm:text-lg lg:gap-x-2 lg:text-xl">
                     <Link
                         passHref
                         className="group mr-2 rounded-lg p-1"
@@ -41,7 +48,16 @@ export default function Header() {
                     >
                         <button className="flex items-center gap-x-2 transition-colors">
                             <span>Hues</span>
-                            <ArrowUpRight size={18} strokeWidth={4} />
+                            <ArrowUpRight
+                                size={18}
+                                strokeWidth={4}
+                                className="hidden sm:block"
+                            />
+                            <ArrowUpRight
+                                size={12}
+                                strokeWidth={4}
+                                className="sm:hidden"
+                            />
                         </button>
                     </Link>
                     <Link
@@ -52,7 +68,16 @@ export default function Header() {
                     >
                         <button className="flex items-center gap-x-2 transition-colors">
                             <span>Hue Generator</span>
-                            <ArrowUpRight size={18} strokeWidth={4} />
+                            <ArrowUpRight
+                                size={18}
+                                strokeWidth={4}
+                                className="hidden sm:block"
+                            />
+                            <ArrowUpRight
+                                size={12}
+                                strokeWidth={4}
+                                className="sm:hidden"
+                            />
                         </button>
                     </Link>
                     <Link
@@ -61,7 +86,7 @@ export default function Header() {
                         rel="noreferrer"
                         target="_blank"
                     >
-                        <button className="flex h-10 w-10 items-center transition-colors duration-300 lg:h-fit lg:w-fit">
+                        <button className="flex h-8 w-8 items-center transition-colors duration-300 md:h-10 md:w-10 lg:h-fit lg:w-fit">
                             {iconGitHub}
                         </button>
                     </Link>

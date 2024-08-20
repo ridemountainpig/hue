@@ -3,6 +3,7 @@ import HueColorDock from "@/components/hue-color-dock";
 import TailwindCopy from "@/components/tailwind-copy";
 import HueGridColorSquare from "@/components/hue-grid-color-square";
 import HueGridColorCircle from "@/components/hue-grid-color-circle";
+import HueLinkCopy from "@/components/hue-link-copy";
 
 interface HueGridLayoutProps {
     hueName: string;
@@ -45,7 +46,8 @@ export default function HueGridLayout({
                         <div className="col-span-2">
                             <div className="flex h-[25rem] items-start rounded-xl border bg-white py-4 shadow-xl">
                                 <div className="w-full">
-                                    <div className="flex w-full justify-end px-4">
+                                    <div className="flex w-full justify-end gap-x-2 px-4">
+                                        <HueLinkCopy />
                                         <TailwindCopy
                                             tailwind_colors_name={
                                                 tailwind_colors_name

@@ -205,7 +205,7 @@ export default function HueGenerator() {
                     <div className="relative flex h-full items-center">
                         <input
                             type="text"
-                            className="text:lg h-[3.5rem] w-[14rem] rounded-lg border text-center font-mono font-semibold text-black shadow-xl placeholder:text-black sm:h-[4.5rem] sm:w-[20rem] lg:w-[28rem] lg:text-xl"
+                            className="h-[3.5rem] w-[14rem] rounded-lg border text-center font-mono font-semibold text-black shadow-xl placeholder:text-black sm:h-[4.5rem] sm:w-[20rem] lg:w-[28rem] lg:text-xl"
                             value={hueName}
                             maxLength={14}
                             placeholder="Hue Name"
@@ -215,7 +215,21 @@ export default function HueGenerator() {
                             className="absolute right-4 rounded-lg border bg-white p-2 duration-300 hover:bg-slate-100"
                             onClick={handleRandomName}
                         >
-                            <Pencil strokeWidth={2.5} size={20} />
+                            <Pencil
+                                strokeWidth={2.5}
+                                size={20}
+                                className="hidden md:block"
+                            />
+                            <Pencil
+                                strokeWidth={2.5}
+                                size={16}
+                                className="hidden sm:block md:hidden"
+                            />
+                            <Pencil
+                                strokeWidth={2.5}
+                                size={12}
+                                className="sm:hidden"
+                            />
                         </button>
                     </div>
                 </div>

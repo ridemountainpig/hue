@@ -30,7 +30,7 @@ export default function HueCard({
 
     return (
         <div
-            className="col-span-1 mt-10 h-64 w-full overflow-hidden rounded-xl border shadow-lg"
+            className="col-span-1 mt-5 h-64 w-full overflow-hidden rounded-xl border shadow-lg"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
         >

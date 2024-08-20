@@ -12,7 +12,7 @@ export default function HueColorSquare({ color, copy }: HueColorSquareProps) {
 
     const handleCopy = () => {
         navigator.clipboard.writeText(color);
-        toast("Copied to clipboard!", {
+        toast(`Copied color #${colorText} to clipboard!`, {
             icon: "✔️",
             style: {
                 borderRadius: "10px",
@@ -38,9 +38,11 @@ export default function HueColorSquare({ color, copy }: HueColorSquareProps) {
                     onClick={handleCopy}
                 >
                     <div className="h-full w-full"></div>
-                    <div className="flex w-full justify-center">
-                        <div className="-mt-1 flex w-full items-center justify-center rounded-md border bg-slate-200 py-0.5 text-xs font-semibold text-slate-800">
-                            <span>{colorText}</span>
+                    <div className="hidden xl:block">
+                        <div className="flex w-full justify-center">
+                            <div className="-mt-1 flex w-full items-center justify-center rounded-md border bg-slate-200 py-0.5 text-xs font-semibold text-slate-800">
+                                <span>{colorText}</span>
+                            </div>
                         </div>
                     </div>
                 </div>
