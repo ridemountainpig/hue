@@ -38,7 +38,7 @@ export default function HueGridColorSquare({ color }: HueGridColorSquareProps) {
     };
 
     return (
-        <div className="col-span-1">
+        <div className="col-span-1 hidden lg:block">
             <div
                 className="flex h-[11rem] items-end rounded-xl border shadow-xl"
                 style={{ backgroundColor: color }}

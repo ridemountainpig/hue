@@ -13,15 +13,22 @@ import {
 } from "lucide-react";
 import toast from "react-hot-toast";
 import hueUtils from "@/utils/hue";
+import { color } from "framer-motion";
 
 export default function HueGenerator() {
     const [colorPickerOne, setColorPickerOne] = useState(false);
     const [colorPickerTwo, setColorPickerTwo] = useState(false);
+    const [showColorPickerModalOne, setShowColorPickerModalOne] =
+        useState(false);
+    const [showColorPickerModalTwo, setShowColorPickerModalTwo] =
+        useState(false);
     const [colorOne, setColorOne] = useState("#ffffff");
     const [colorTwo, setColorTwo] = useState("#ffffff");
 
     const colorPickerBtnOneRef = useRef<HTMLDivElement>(null);
     const colorPickerBtnTwoRef = useRef<HTMLDivElement>(null);
+    const colorPickerModalOneRef = useRef<HTMLDivElement>(null);
+    const colorPickerModalTwoRef = useRef<HTMLDivElement>(null);
     const colorPickerOneRef = useRef<HTMLDivElement>(null);
     const colorPickerTwoRef = useRef<HTMLDivElement>(null);
 
@@ -43,6 +50,18 @@ export default function HueGenerator() {
             ) {
                 setColorPickerTwo(false);
             }
+            if (
+                colorPickerModalOneRef.current &&
+                !colorPickerModalOneRef.current.contains(event.target as Node)
+            ) {
+                setShowColorPickerModalOne(false);
+            }
+            if (
+                colorPickerModalTwoRef.current &&
+                !colorPickerModalTwoRef.current.contains(event.target as Node)
+            ) {
+                setShowColorPickerModalTwo(false);
+            }
         }
 
         document.addEventListener("mousedown", handleClickOutside);
@@ -52,13 +71,21 @@ export default function HueGenerator() {
     }, []);
 
     const handleColorOnePicker = () => {
-        setColorPickerOne(!colorPickerOne);
-        setColorPickerTwo(false);
+        if (window.innerWidth < 768) {
+            setShowColorPickerModalOne(true);
+        } else {
+            setColorPickerOne(!colorPickerOne);
+            setColorPickerTwo(false);
+        }
     };
 
     const handleColorTwoPicker = () => {
-        setColorPickerTwo(!colorPickerTwo);
-        setColorPickerOne(false);
+        if (window.innerWidth < 768) {
+            setShowColorPickerModalTwo(true);
+        } else {
+            setColorPickerTwo(!colorPickerTwo);
+            setColorPickerOne(false);
+        }
     };
 
     const [hueName, setHueName] = useState("");
@@ -143,7 +170,7 @@ export default function HueGenerator() {
                 <div className="relative">
                     <div
                         ref={colorPickerBtnOneRef}
-                        className="h-[4.5rem] w-[4.5rem] cursor-pointer rounded-lg border shadow-xl"
+                        className="h-[3.5rem] w-[3.5rem] cursor-pointer rounded-lg border shadow-xl sm:h-[4.5rem] sm:w-[4.5rem]"
                         style={{ backgroundColor: colorOne }}
                         onClick={handleColorOnePicker}
                     ></div>
@@ -159,11 +186,26 @@ export default function HueGenerator() {
                         </div>
                     )}
                 </div>
+
+                {showColorPickerModalOne && (
+                    <div className="fixed left-0 right-0 top-0 z-50 flex h-screen w-full items-center justify-center overflow-y-auto overflow-x-hidden bg-black/30">
+                        <div
+                            className="h-fit w-fit rounded-lg bg-white p-2"
+                            ref={colorPickerModalOneRef}
+                        >
+                            <HexColorPicker
+                                color={colorOne}
+                                onChange={setColorOne}
+                            />
+                        </div>
+                    </div>
+                )}
+
                 <div className="h-fit">
                     <div className="relative flex h-full items-center">
                         <input
                             type="text"
-                            className="h-[4.5rem] w-[28rem] rounded-lg border text-center font-mono text-xl font-semibold text-black shadow-xl placeholder:text-black"
+                            className="text:lg h-[3.5rem] w-[14rem] rounded-lg border text-center font-mono font-semibold text-black shadow-xl placeholder:text-black sm:h-[4.5rem] sm:w-[20rem] lg:w-[28rem] lg:text-xl"
                             value={hueName}
                             maxLength={14}
                             placeholder="Hue Name"
@@ -176,24 +218,26 @@ export default function HueGenerator() {
                             <Pencil strokeWidth={2.5} size={20} />
                         </button>
                     </div>
-                    <div className="mt-6 flex h-fit w-full items-center justify-center gap-x-2 text-center">
-                        <SquareArrowUpLeft strokeWidth={2} size={20} />
-                        <span className="font-mono text-sm font-semibold">
-                            select color and enter Hue name
-                        </span>
-                        <Info
-                            strokeWidth={2}
-                            size={16}
-                            className="cursor-pointer"
-                            onClick={handleHueNameInfo}
-                        />
-                        <SquareArrowUpRight strokeWidth={2} size={20} />
-                    </div>
                 </div>
+
+                {showColorPickerModalTwo && (
+                    <div className="fixed left-0 right-0 top-0 z-50 flex h-screen w-full items-center justify-center overflow-y-auto overflow-x-hidden bg-black/30">
+                        <div
+                            className="h-fit w-fit rounded-lg bg-white p-2"
+                            ref={colorPickerModalTwoRef}
+                        >
+                            <HexColorPicker
+                                color={colorTwo}
+                                onChange={setColorTwo}
+                            />
+                        </div>
+                    </div>
+                )}
+
                 <div className="relative">
                     <div
                         ref={colorPickerBtnTwoRef}
-                        className="h-[4.5rem] w-[4.5rem] cursor-pointer rounded-lg border shadow-xl"
+                        className="h-[3.5rem] w-[3.5rem] cursor-pointer rounded-lg border shadow-xl sm:h-[4.5rem] sm:w-[4.5rem]"
                         style={{ backgroundColor: colorTwo }}
                         onClick={handleColorTwoPicker}
                     ></div>
@@ -210,13 +254,28 @@ export default function HueGenerator() {
                     )}
                 </div>
             </div>
+            <div className="flex h-fit w-full justify-center">
+                <div className="mt-6 flex h-fit w-full items-center justify-center gap-x-2 text-center">
+                    <SquareArrowUpLeft strokeWidth={2} size={20} />
+                    <span className="font-mono text-xs font-semibold lg:text-sm">
+                        select color and enter Hue name
+                    </span>
+                    <Info
+                        strokeWidth={2}
+                        size={16}
+                        className="cursor-pointer"
+                        onClick={handleHueNameInfo}
+                    />
+                    <SquareArrowUpRight strokeWidth={2} size={20} />
+                </div>
+            </div>
             <div className="mt-5 flex w-full justify-center gap-x-2">
                 <button
                     className="flex items-center gap-x-2 rounded-lg border bg-white p-2 px-4 py-2 transition-colors duration-300 hover:bg-slate-100"
                     onClick={handleGenerateButton}
                 >
                     <PaintBucket strokeWidth={2.5} size={20} />
-                    <span className="font-mono text-base font-semibold tracking-wider">
+                    <span className="font-mono text-sm font-semibold tracking-wider lg:text-base">
                         Generate Hue
                     </span>
                 </button>
@@ -225,7 +284,7 @@ export default function HueGenerator() {
                     onClick={handleRandomButton}
                 >
                     <Dices strokeWidth={2.5} size={20} />
-                    <span className="font-mono text-base font-semibold tracking-wider">
+                    <span className="font-mono text-sm font-semibold tracking-wider lg:text-base">
                         Random Hue
                     </span>
                 </button>

@@ -28,11 +28,19 @@ export default function Footer() {
                                 alt="Hue icon"
                                 width={130}
                                 height={130}
-                                className="duration-300 hover:rotate-[27deg]"
+                                className="hidden duration-300 hover:rotate-[27deg] lg:block"
+                            />
+                            <Image
+                                src={"/hue-icon.png"}
+                                priority={true}
+                                alt="Hue icon"
+                                width={100}
+                                height={100}
+                                className="lg:hidden"
                             />
                         </div>
                         <div className="mt-4 flex w-full justify-center text-center">
-                            <span className="font-pacifico text-lg font-extrabold tracking-wider text-slate-600">
+                            <span className="text-md font-pacifico font-extrabold tracking-wider text-slate-600 lg:text-lg">
                                 Designed in Taiwan. Built for Creatives.
                             </span>
                         </div>

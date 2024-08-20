@@ -1,21 +1,30 @@
 import Image from "next/image";
 import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
 import { iconGitHub } from "@/components/icons";
 
 export default function Header() {
     return (
         <header className="flex w-full justify-center">
-            <div className="flex w-3/4 items-center justify-between py-14">
+            <div className="flex w-full items-center justify-between px-3 py-14 lg:w-3/4">
                 <Link href="/">
                     <span className="flex cursor-pointer select-none items-center">
                         <Image
                             width={75}
                             height={75}
+                            className="hidden lg:block"
+                            alt="LOGO"
+                            src="/hue-icon.png"
+                        />
+                        <Image
+                            width={55}
+                            height={55}
+                            className="lg:hidden"
                             alt="LOGO"
                             src="/hue-icon.png"
                         />
                         <span
-                            className="ml-3 hidden font-pacifico text-5xl font-extrabold tracking-widest text-slate-600 md:inline"
+                            className="ml-3 hidden font-pacifico text-4xl font-extrabold tracking-widest text-slate-600 md:inline xl:text-5xl"
                             translate="no"
                         >
                             Hue
@@ -23,29 +32,27 @@ export default function Header() {
                     </span>
                 </Link>
 
-                <div className="flex h-fit items-center gap-x-2">
+                <div className="text-md flex h-fit items-center gap-x-1 font-pacifico font-semibold text-slate-600 lg:gap-x-2 lg:text-xl">
                     <Link
                         passHref
-                        className="group mr-2 rounded-lg p-2 duration-300 hover:bg-slate-100/60"
+                        className="group mr-2 rounded-lg p-1"
                         href="/"
                         rel="noreferrer"
                     >
-                        <button className="flex items-center transition-colors">
-                            <span className="font-pacifico text-xl font-semibold text-slate-600">
-                                Hues
-                            </span>
+                        <button className="flex items-center gap-x-2 transition-colors">
+                            <span>Hues</span>
+                            <ArrowUpRight size={18} strokeWidth={4} />
                         </button>
                     </Link>
                     <Link
                         passHref
-                        className="group mr-2 rounded-lg p-2 duration-300 hover:bg-slate-100/60"
+                        className="group mr-2 rounded-lg p-1"
                         href="/hue-generator"
                         rel="noreferrer"
                     >
-                        <button className="flex items-center transition-colors">
-                            <span className="font-pacifico text-xl font-semibold text-slate-600">
-                                Hue Generator
-                            </span>
+                        <button className="flex items-center gap-x-2 transition-colors">
+                            <span>Hue Generator</span>
+                            <ArrowUpRight size={18} strokeWidth={4} />
                         </button>
                     </Link>
                     <Link
@@ -54,7 +61,7 @@ export default function Header() {
                         rel="noreferrer"
                         target="_blank"
                     >
-                        <button className="flex items-center transition-colors duration-300">
+                        <button className="flex h-10 w-10 items-center transition-colors duration-300 lg:h-fit lg:w-fit">
                             {iconGitHub}
                         </button>
                     </Link>

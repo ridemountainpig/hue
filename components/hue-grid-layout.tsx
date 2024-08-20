@@ -20,12 +20,14 @@ export default function HueGridLayout({
     return (
         <>
             <HueTitle h1Title="Hue" h2Title={hueName}></HueTitle>
-            <div className="mt-24 flex h-20 w-full items-center justify-center pb-20">
-                <HueColorDock colors={colors} hovered={true} copy={false} />
+            <div className="hidden md:block">
+                <div className="mt-24 flex h-20 w-full items-center justify-center pb-20">
+                    <HueColorDock colors={colors} hovered={true} copy={false} />
+                </div>
             </div>
-            <div className="mt-10 flex items-center justify-center bg-white pb-20">
+            <div className="mt-20 flex items-center justify-center bg-white px-5 pb-20 md:mt-10">
                 <div className="w-[50rem]">
-                    <div className="grid grid-cols-4 gap-x-4 gap-y-4">
+                    <div className="grid grid-cols-2 gap-x-4 gap-y-4 lg:grid-cols-4">
                         <HueGridColorSquare color={colors[0]} />
                         <div className="col-span-2">
                             <div
@@ -55,7 +57,7 @@ export default function HueGridLayout({
                                             }
                                         />
                                     </div>
-                                    <div className="m-4 h-[20rem] rounded-xl bg-slate-100 bg-opacity-70 p-4 font-mono text-base font-semibold tracking-wider">
+                                    <div className="m-4 h-[20rem] rounded-xl bg-slate-100 bg-opacity-70 p-4 font-mono text-sm font-semibold tracking-wider sm:text-base">
                                         {`${tailwind_colors_name}:`}
                                         <pre className="inline">
                                             <code>
