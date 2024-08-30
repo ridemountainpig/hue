@@ -2,7 +2,9 @@ import HueTitle from "@/components/hue-titile";
 import HueColorDock from "@/components/hue-color-dock";
 import TailwindCopy from "@/components/tailwind-copy";
 import HueGridColorSquare from "@/components/hue-grid-color-square";
+import HueGridColorText from "@/components/hue-grid-color-text";
 import HueGridColorCircle from "@/components/hue-grid-color-circle";
+import HueGridTailwindCode from "@/components/hue-grid-tailwind-code";
 import HueLinkCopy from "@/components/hue-link-copy";
 
 interface HueGridLayoutProps {
@@ -30,18 +32,11 @@ export default function HueGridLayout({
                 <div className="w-[50rem]">
                     <div className="grid grid-cols-2 gap-x-4 gap-y-4 lg:grid-cols-4">
                         <HueGridColorSquare color={colors[0]} />
-                        <div className="col-span-2">
-                            <div
-                                className="flex h-[11rem] w-full items-center justify-center rounded-xl border shadow-xl"
-                                style={{
-                                    backgroundImage: `linear-gradient(to right, ${colors[0]}, ${colors[9]})`,
-                                }}
-                            >
-                                <span className="select-none break-words px-4 text-center font-pacifico text-5xl font-bold tracking-widest text-white">
-                                    {hueName}
-                                </span>
-                            </div>
-                        </div>
+                        <HueGridColorText
+                            colorOne={colors[0]}
+                            colorTwo={colors[9]}
+                            hueName={hueName}
+                        />
                         <HueGridColorSquare color={colors[9]} />
                         <div className="col-span-2">
                             <div className="flex h-[25rem] items-start rounded-xl border bg-white py-4 shadow-xl">
@@ -59,33 +54,51 @@ export default function HueGridLayout({
                                             }
                                         />
                                     </div>
-                                    <div className="m-4 h-[20rem] rounded-xl bg-slate-100 bg-opacity-70 p-4 font-mono text-sm font-semibold tracking-wider sm:text-base">
-                                        {`${tailwind_colors_name}:`}
-                                        <pre className="inline">
-                                            <code>
-                                                {JSON.stringify(
-                                                    tailwind_colors,
-                                                    null,
-                                                    4,
-                                                )}
-                                            </code>
-                                        </pre>
-                                    </div>
+                                    <HueGridTailwindCode
+                                        tailwindColorsName={
+                                            tailwind_colors_name
+                                        }
+                                        tailwindColors={tailwind_colors}
+                                    ></HueGridTailwindCode>
                                 </div>
                             </div>
                         </div>
                         <div className="col-span-2">
                             <div className="flex h-[12rem] w-full items-center justify-center rounded-xl border bg-white shadow-xl">
-                                <HueGridColorCircle color={colors[1]} />
-                                <HueGridColorCircle color={colors[2]} />
-                                <HueGridColorCircle color={colors[3]} />
-                                <HueGridColorCircle color={colors[4]} />
+                                <HueGridColorCircle
+                                    color={colors[1]}
+                                    index={1}
+                                />
+                                <HueGridColorCircle
+                                    color={colors[2]}
+                                    index={2}
+                                />
+                                <HueGridColorCircle
+                                    color={colors[3]}
+                                    index={3}
+                                />
+                                <HueGridColorCircle
+                                    color={colors[4]}
+                                    index={4}
+                                />
                             </div>
                             <div className="mt-4 flex h-[12rem] w-full items-center justify-center rounded-xl border bg-white shadow-xl">
-                                <HueGridColorCircle color={colors[5]} />
-                                <HueGridColorCircle color={colors[6]} />
-                                <HueGridColorCircle color={colors[7]} />
-                                <HueGridColorCircle color={colors[8]} />
+                                <HueGridColorCircle
+                                    color={colors[5]}
+                                    index={5}
+                                />
+                                <HueGridColorCircle
+                                    color={colors[6]}
+                                    index={6}
+                                />
+                                <HueGridColorCircle
+                                    color={colors[7]}
+                                    index={7}
+                                />
+                                <HueGridColorCircle
+                                    color={colors[8]}
+                                    index={8}
+                                />
                             </div>
                         </div>
                     </div>

@@ -15,7 +15,7 @@ export default function Footer() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{
                         delay: 0.1,
-                        duration: 0.8,
+                        duration: 0.6,
                         ease: "easeInOut",
                     }}
                     className="relative flex w-full flex-col items-center justify-center gap-4 px-4"

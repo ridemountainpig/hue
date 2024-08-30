@@ -25,7 +25,7 @@ export default function HueGridColorSquare({ color }: HueGridColorSquareProps) {
 
     const handleCopy = () => {
         navigator.clipboard.writeText(color);
-        toast("Copied to clipboard!", {
+        toast(`Copied color ${color} to clipboard!`, {
             icon: "✔️",
             style: {
                 borderRadius: "10px",

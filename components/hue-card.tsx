@@ -3,6 +3,7 @@
 import { useState } from "react";
 import HueColorDock from "@/components/hue-color-dock";
 import { SquareArrowOutUpRight } from "lucide-react";
+import { motion } from "framer-motion";
 
 interface HueCardProps {
     name: string;
@@ -29,7 +30,14 @@ export default function HueCard({
     };
 
     return (
-        <div
+        <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{
+                duration: 0.5,
+                delay: 0.05,
+            }}
             className="col-span-1 mt-5 h-64 w-full overflow-hidden rounded-xl border shadow-lg"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
@@ -58,6 +66,6 @@ export default function HueCard({
                     </a>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 }

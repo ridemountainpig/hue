@@ -46,7 +46,7 @@ export default function HuePage({
     const hueName = params["hue-data"][0];
     const hueColor = params["hue-data"][1];
 
-    if (!hueName || !hueColor) {
+    if (!hueName || !hueColor || hueName.length > 14) {
         return <HueError></HueError>;
     }
 

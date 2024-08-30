@@ -16,7 +16,7 @@ export default function HueColorDock({
         <>
             {hovered ? (
                 <>
-                    <div className="hidden xl:block">
+                    <div className="hidden select-none xl:block">
                         <DynamicDock gapX={20} imageWidth={44}>
                             {colors.map((color, index) => (
                                 <HueColorSquare

@@ -82,7 +82,7 @@ export default function Header() {
                     </Link>
                     <Link
                         passHref
-                        href="https://github.com/ridemountainpig/"
+                        href="https://github.com/ridemountainpig/hue"
                         rel="noreferrer"
                         target="_blank"
                     >

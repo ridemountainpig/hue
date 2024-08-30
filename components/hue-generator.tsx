@@ -13,7 +13,6 @@ import {
 } from "lucide-react";
 import toast from "react-hot-toast";
 import hueUtils from "@/utils/hue";
-import { color } from "framer-motion";
 
 export default function HueGenerator() {
     const [colorPickerOne, setColorPickerOne] = useState(false);
@@ -165,7 +164,7 @@ export default function HueGenerator() {
     };
 
     return (
-        <div className="mt-40 h-fit w-full py-10">
+        <div className="mt-16 h-fit w-full lg:mt-40">
             <div className="flex h-fit w-full justify-center gap-x-2 gap-y-4">
                 <div className="relative">
                     <div

@@ -3,7 +3,7 @@ import { House } from "lucide-react";
 
 export default function HueError() {
     return (
-        <div className="py-20">
+        <div className="h-[50vh] py-20">
             <div className="flex w-full justify-center">
                 <h2 className="mt-16 w-[95%] select-none text-center font-pacifico text-3xl font-bold tracking-widest text-slate-600 md:text-4xl">
                     Couldn&apos;t find the hue you&apos;re looking for

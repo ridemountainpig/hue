@@ -33,7 +33,7 @@ export default function TailwindCopy({
                 handleTailwindColorCopy(tailwind_colors_name, tailwind_colors)
             }
         >
-            <span className="font-mono text-xs font-semibold">tailwind</span>
+            <span className="font-mono text-xs font-semibold">Tailwind</span>
             {copied ? (
                 <Check strokeWidth={2.5} size={14} />
             ) : (
