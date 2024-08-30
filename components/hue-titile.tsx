@@ -5,7 +5,7 @@ interface HueTitleProps {
 
 export default function HueTitle({ h1Title, h2Title }: HueTitleProps) {
     return (
-        <>
+        <div className="pt-10">
             <h1 className="hidden">{h1Title}</h1>
             {h2Title != "" && (
                 <div className="flex w-full justify-center">
@@ -14,6 +14,6 @@ export default function HueTitle({ h1Title, h2Title }: HueTitleProps) {
                     </h2>
                 </div>
             )}
-        </>
+        </div>
     );
 }

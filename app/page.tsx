@@ -27,7 +27,7 @@ export default function Home() {
                 </span>
             </div>
             <div className="flex justify-center px-3 lg:px-10">
-                <div className="my-12 grid w-full grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+                <div className="grid w-full grid-cols-1 gap-1 md:grid-cols-2 md:gap-4 xl:grid-cols-3 2xl:grid-cols-4">
                     {hueData.map((hue: HueData, index: number) => (
                         <HueCard
                             key={index}

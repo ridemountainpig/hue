@@ -41,7 +41,7 @@ export default function HueGridLayout({
                         <div className="col-span-2">
                             <div className="flex h-[25rem] items-start rounded-xl border bg-white py-4 shadow-xl">
                                 <div className="w-full">
-                                    <div className="flex w-full justify-end gap-x-2 px-4">
+                                    <div className="flex w-full justify-center gap-x-2 px-4 lg:justify-end">
                                         <HueLinkCopy />
                                         <TailwindCopy
                                             tailwind_colors_name={
