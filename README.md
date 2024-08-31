@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![CleanShot 2024-08-31 at 15 58 09@2x](https://github.com/user-attachments/assets/d4a9d508-e80e-4c51-a745-31389bfd40ee)
+
+# Hue Palette
+
+Hue Palette is a tool designed to help developers and designers effortlessly create custom hue palettes for their projects. With a user-friendly interface and powerful features, Hue Palette makes it easy to generate, preview, and use hue colors in your design and development workflows.
+
+## Features
+- **Pre-built Hue Samples**: Explore a wide range of pre-built hue samples to find the perfect color scheme for your project.
+- **Custom Hue Generator**: Easily generate custom hues tailored to your specific needs with the intuitive hue generator tool.
+- **Tailwind CSS Integration**: Instantly generate Tailwind CSS configuration code for the hues you create, allowing for seamless integration into your projects.
 
 ## Getting Started
+### Visit the Application
+To get started, visit [Hue Palette](https://www.hue-palette.com/) and explore the available hue samples or start generating your custom hues.
 
-First, run the development server:
+### Creating a Hue Palette
+1. **Explore Samples**: Browse through the pre-built hue samples to see if any fit your project's needs.
+2. **Generate Custom Hues**: Use the [Hue Generator](https://www.hue-palette.com/hue-generator) to create your own palette by selecting a base hue and adjusting the parameters to suit your design requirements.
+3. **Preview**: See a live preview of your hue palette as you make adjustments.
+4. **Export**: Once you're satisfied with your palette, export the Tailwind CSS configuration code provided for easy implementation in your project.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Using with Tailwind CSS
+After generating your hue palette, you can quickly integrate it into your Tailwind CSS setup:
+
+1. Copy the generated Tailwind config code.
+2. Paste the code into your `tailwind.config.js` file.
+3. Start using your custom hues in your CSS classes.
+
+### Example:
+``` javascript
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        // Your custom hue palette here
+      },
+    },
+  },
+};
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
--   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
