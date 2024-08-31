@@ -64,7 +64,7 @@ export default function RootLayout({
                     show={process.env.RWDOT_ENV === "development"}
                 />
             </body>
-            <GoogleAnalytics gaId="G-K0ZMWKWGF9" />
+            <GoogleAnalytics gaId="G-J6GMFK5VNN" />
         </html>
     );
 }
