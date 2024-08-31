@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Pacifico } from "next/font/google";
+import { GoogleAnalytics } from '@next/third-parties/google'
 import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
@@ -63,6 +64,7 @@ export default function RootLayout({
                     show={process.env.RWDOT_ENV === "development"}
                 />
             </body>
+            <GoogleAnalytics gaId="G-K0ZMWKWGF9" />
         </html>
     );
 }
