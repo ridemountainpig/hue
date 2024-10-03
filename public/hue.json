@@ -1,7 +1,13 @@
 [
     {
         "name": "Dark Note",
-        "colors": ["#1f1f1f", "#4b3f2d", "#836a47", "#ba9561", "#f2c17b"],
+        "colors": [
+            "#1f1f1f",
+            "#4b3f2d",
+            "#836a47",
+            "#ba9561",
+            "#f2c17b"
+        ],
         "tailwind_colors_name": "dark-note",
         "tailwind_colors": {
             "50": "#1f1f1f",
@@ -20,7 +26,13 @@
     },
     {
         "name": "Viridescent",
-        "colors": ["#2c3333", "#3f534a", "#5c7e6d", "#78a98f", "#95d5b2"],
+        "colors": [
+            "#2c3333",
+            "#3f534a",
+            "#5c7e6d",
+            "#78a98f",
+            "#95d5b2"
+        ],
         "tailwind_colors_name": "viridescent",
         "tailwind_colors": {
             "50": "#2c3333",
@@ -39,7 +51,13 @@
     },
     {
         "name": "Dark",
-        "colors": ["#111", "#4e4e4e", "#838383", "#b8b8b8", "#eee"],
+        "colors": [
+            "#111",
+            "#4e4e4e",
+            "#838383",
+            "#b8b8b8",
+            "#eee"
+        ],
         "tailwind_colors_name": "dark",
         "tailwind_colors": {
             "50": "#111",
@@ -58,7 +76,13 @@
     },
     {
         "name": "Muted",
-        "colors": ["#525252", "#68636f", "#877e96", "#a699bc", "#c5b4e3"],
+        "colors": [
+            "#525252",
+            "#68636f",
+            "#877e96",
+            "#a699bc",
+            "#c5b4e3"
+        ],
         "tailwind_colors_name": "muted",
         "tailwind_colors": {
             "50": "#525252",
@@ -77,7 +101,13 @@
     },
     {
         "name": "Dark Magic Girl",
-        "colors": ["#091f2c", "#423e4d", "#7e6477", "#b98aa1", "#f5b1cc"],
+        "colors": [
+            "#091f2c",
+            "#423e4d",
+            "#7e6477",
+            "#b98aa1",
+            "#f5b1cc"
+        ],
         "tailwind_colors_name": "dark-magic-girl",
         "tailwind_colors": {
             "50": "#091f2c",
@@ -96,7 +126,13 @@
     },
     {
         "name": "8008",
-        "colors": ["#333a45", "#5f3a4d", "#91405e", "#c2466e", "#f44c7f"],
+        "colors": [
+            "#333a45",
+            "#5f3a4d",
+            "#91405e",
+            "#c2466e",
+            "#f44c7f"
+        ],
         "tailwind_colors_name": "8008",
         "tailwind_colors": {
             "50": "#333a45",
@@ -115,7 +151,13 @@
     },
     {
         "name": "Carbon",
-        "colors": ["#313131", "#5d3b23", "#904c1c", "#c35d14", "#f66e0d"],
+        "colors": [
+            "#313131",
+            "#5d3b23",
+            "#904c1c",
+            "#c35d14",
+            "#f66e0d"
+        ],
         "tailwind_colors_name": "carbon",
         "tailwind_colors": {
             "50": "#313131",
@@ -134,7 +176,13 @@
     },
     {
         "name": "Our Theme",
-        "colors": ["#ce1226", "#b6401d", "#cd701b", "#e4a018", "#fcd116"],
+        "colors": [
+            "#ce1226",
+            "#b6401d",
+            "#cd701b",
+            "#e4a018",
+            "#fcd116"
+        ],
         "tailwind_colors_name": "our-theme",
         "tailwind_colors": {
             "50": "#ce1226",
@@ -153,7 +201,13 @@
     },
     {
         "name": "Dots",
-        "colors": ["#121520", "#545660", "#8d8e95", "#c6c6ca", "#fff"],
+        "colors": [
+            "#121520",
+            "#545660",
+            "#8d8e95",
+            "#c6c6ca",
+            "#fff"
+        ],
         "tailwind_colors_name": "dots",
         "tailwind_colors": {
             "50": "#121520",
@@ -172,7 +226,13 @@
     },
     {
         "name": "Nautilus",
-        "colors": ["#132237", "#454127", "#7c6826", "#b38f24", "#ebb723"],
+        "colors": [
+            "#132237",
+            "#454127",
+            "#7c6826",
+            "#b38f24",
+            "#ebb723"
+        ],
         "tailwind_colors_name": "nautilus",
         "tailwind_colors": {
             "50": "#132237",
@@ -191,7 +251,13 @@
     },
     {
         "name": "Serika",
-        "colors": ["#e1e1e3", "#d5cca7", "#d9c576", "#ddbe45", "#e2b714"],
+        "colors": [
+            "#e1e1e3",
+            "#d5cca7",
+            "#d9c576",
+            "#ddbe45",
+            "#e2b714"
+        ],
         "tailwind_colors_name": "serika",
         "tailwind_colors": {
             "50": "#e1e1e3",
@@ -210,7 +276,13 @@
     },
     {
         "name": "Serika Dark",
-        "colors": ["#323437", "#595029", "#877222", "#b4941b", "#e2b714"],
+        "colors": [
+            "#323437",
+            "#595029",
+            "#877222",
+            "#b4941b",
+            "#e2b714"
+        ],
         "tailwind_colors_name": "serika-dark",
         "tailwind_colors": {
             "50": "#323437",
@@ -229,7 +301,13 @@
     },
     {
         "name": "Bushido",
-        "colors": ["#242933", "#502c37", "#843741", "#b8414b", "#ec4c56"],
+        "colors": [
+            "#242933",
+            "#502c37",
+            "#843741",
+            "#b8414b",
+            "#ec4c56"
+        ],
         "tailwind_colors_name": "bushido",
         "tailwind_colors": {
             "50": "#242933",
@@ -248,7 +326,13 @@
     },
     {
         "name": "Red Samurai",
-        "colors": ["#84202c", "#893d38", "#9e5d4a", "#b27d5c", "#c79e6e"],
+        "colors": [
+            "#84202c",
+            "#893d38",
+            "#9e5d4a",
+            "#b27d5c",
+            "#c79e6e"
+        ],
         "tailwind_colors_name": "red-samurai",
         "tailwind_colors": {
             "50": "#84202c",
@@ -267,7 +351,13 @@
     },
     {
         "name": "Rgb",
-        "colors": ["#111", "#4f4f4f", "#848484", "#b9b9b9", "#eee"],
+        "colors": [
+            "#111",
+            "#4f4f4f",
+            "#848484",
+            "#b9b9b9",
+            "#eee"
+        ],
         "tailwind_colors_name": "rgb",
         "tailwind_colors": {
             "50": "#111",
@@ -286,7 +376,13 @@
     },
     {
         "name": "Oblivion",
-        "colors": ["#313231", "#545451", "#6f6d68", "#8a867f", "#a5a096"],
+        "colors": [
+            "#313231",
+            "#545451",
+            "#6f6d68",
+            "#8a867f",
+            "#a5a096"
+        ],
         "tailwind_colors_name": "oblivion",
         "tailwind_colors": {
             "50": "#313231",
@@ -305,7 +401,13 @@
     },
     {
         "name": "Magic Girl",
-        "colors": ["#ffffff", "#f2e1e8", "#f3d1df", "#f4c1d5", "#f5b1cc"],
+        "colors": [
+            "#ffffff",
+            "#f2e1e8",
+            "#f3d1df",
+            "#f4c1d5",
+            "#f5b1cc"
+        ],
         "tailwind_colors_name": "magic-girl",
         "tailwind_colors": {
             "50": "#ffffff",
@@ -324,7 +426,13 @@
     },
     {
         "name": "Metropolis",
-        "colors": ["#0f1f2c", "#1d4247", "#306d6c", "#439891", "#56c3b7"],
+        "colors": [
+            "#0f1f2c",
+            "#1d4247",
+            "#306d6c",
+            "#439891",
+            "#56c3b7"
+        ],
         "tailwind_colors_name": "metropolis",
         "tailwind_colors": {
             "50": "#0f1f2c",
@@ -343,7 +451,13 @@
     },
     {
         "name": "Mountain",
-        "colors": ["#0f0f0f", "#4d4d4d", "#808080", "#b3b3b3", "#e7e7e7"],
+        "colors": [
+            "#0f0f0f",
+            "#4d4d4d",
+            "#808080",
+            "#b3b3b3",
+            "#e7e7e7"
+        ],
         "tailwind_colors_name": "mountain",
         "tailwind_colors": {
             "50": "#0f0f0f",
@@ -362,7 +476,13 @@
     },
     {
         "name": "Laser",
-        "colors": ["#221b44", "#163858", "#0f5a75", "#077c92", "#009eaf"],
+        "colors": [
+            "#221b44",
+            "#163858",
+            "#0f5a75",
+            "#077c92",
+            "#009eaf"
+        ],
         "tailwind_colors_name": "laser",
         "tailwind_colors": {
             "50": "#221b44",
@@ -381,7 +501,13 @@
     },
     {
         "name": "Retro",
-        "colors": ["#dad3c1", "#9d998c", "#726f65", "#47453e", "#1d1b17"],
+        "colors": [
+            "#dad3c1",
+            "#9d998c",
+            "#726f65",
+            "#47453e",
+            "#1d1b17"
+        ],
         "tailwind_colors_name": "retro",
         "tailwind_colors": {
             "50": "#dad3c1",
@@ -400,7 +526,13 @@
     },
     {
         "name": "Dracula",
-        "colors": ["#282a36", "#473e5f", "#6e5a92", "#9576c5", "#bd93f9"],
+        "colors": [
+            "#282a36",
+            "#473e5f",
+            "#6e5a92",
+            "#9576c5",
+            "#bd93f9"
+        ],
         "tailwind_colors_name": "dracula",
         "tailwind_colors": {
             "50": "#282a36",
@@ -419,7 +551,13 @@
     },
     {
         "name": "Nord",
-        "colors": ["#242933", "#445764", "#5b7a88", "#719dac", "#88c0d0"],
+        "colors": [
+            "#242933",
+            "#445764",
+            "#5b7a88",
+            "#719dac",
+            "#88c0d0"
+        ],
         "tailwind_colors_name": "nord",
         "tailwind_colors": {
             "50": "#242933",
@@ -438,7 +576,13 @@
     },
     {
         "name": "Mr Sleeves",
-        "colors": ["#d1d7da", "#c5c2c3", "#ccbab6", "#d3b1a8", "#daa99b"],
+        "colors": [
+            "#d1d7da",
+            "#c5c2c3",
+            "#ccbab6",
+            "#d3b1a8",
+            "#daa99b"
+        ],
         "tailwind_colors_name": "mr-sleeves",
         "tailwind_colors": {
             "50": "#d1d7da",
@@ -457,7 +601,13 @@
     },
     {
         "name": "Olivia",
-        "colors": ["#1c1b1d", "#544541", "#826860", "#b08b7e", "#deaf9d"],
+        "colors": [
+            "#1c1b1d",
+            "#544541",
+            "#826860",
+            "#b08b7e",
+            "#deaf9d"
+        ],
         "tailwind_colors_name": "olivia",
         "tailwind_colors": {
             "50": "#1c1b1d",
@@ -476,7 +626,13 @@
     },
     {
         "name": "Bliss",
-        "colors": ["#262727", "#635a57", "#92827d", "#c1aaa3", "#f0d3c9"],
+        "colors": [
+            "#262727",
+            "#635a57",
+            "#92827d",
+            "#c1aaa3",
+            "#f0d3c9"
+        ],
         "tailwind_colors_name": "bliss",
         "tailwind_colors": {
             "50": "#262727",
@@ -495,7 +651,13 @@
     },
     {
         "name": "Mizu",
-        "colors": ["#afcbdd", "#b6cfdc", "#cddee5", "#e4eced", "#fcfbf6"],
+        "colors": [
+            "#afcbdd",
+            "#b6cfdc",
+            "#cddee5",
+            "#e4eced",
+            "#fcfbf6"
+        ],
         "tailwind_colors_name": "mizu",
         "tailwind_colors": {
             "50": "#afcbdd",
@@ -514,7 +676,13 @@
     },
     {
         "name": "Metaverse",
-        "colors": ["#232323", "#4b2022", "#7a2328", "#a9262e", "#d82934"],
+        "colors": [
+            "#232323",
+            "#4b2022",
+            "#7a2328",
+            "#a9262e",
+            "#d82934"
+        ],
         "tailwind_colors_name": "metaverse",
         "tailwind_colors": {
             "50": "#232323",
@@ -533,7 +701,13 @@
     },
     {
         "name": "Shadow",
-        "colors": ["#000", "#4c4c4c", "#828282", "#b8b8b8", "#eee"],
+        "colors": [
+            "#000",
+            "#4c4c4c",
+            "#828282",
+            "#b8b8b8",
+            "#eee"
+        ],
         "tailwind_colors_name": "shadow",
         "tailwind_colors": {
             "50": "#000",
@@ -552,7 +726,13 @@
     },
     {
         "name": "Mint",
-        "colors": ["#05385b", "#1c5c5f", "#318671", "#46b083", "#5cdb95"],
+        "colors": [
+            "#05385b",
+            "#1c5c5f",
+            "#318671",
+            "#46b083",
+            "#5cdb95"
+        ],
         "tailwind_colors_name": "mint",
         "tailwind_colors": {
             "50": "#05385b",
@@ -571,7 +751,13 @@
     },
     {
         "name": "Miami",
-        "colors": ["#f35588", "#a56e90", "#7094a8", "#3ab9bf", "#05dfd7"],
+        "colors": [
+            "#f35588",
+            "#a56e90",
+            "#7094a8",
+            "#3ab9bf",
+            "#05dfd7"
+        ],
         "tailwind_colors_name": "miami",
         "tailwind_colors": {
             "50": "#f35588",
@@ -590,7 +776,13 @@
     },
     {
         "name": "Miami Nights",
-        "colors": ["#18181a", "#442332", "#793755", "#ae4b78", "#e4609b"],
+        "colors": [
+            "#18181a",
+            "#442332",
+            "#793755",
+            "#ae4b78",
+            "#e4609b"
+        ],
         "tailwind_colors_name": "miami-nights",
         "tailwind_colors": {
             "50": "#18181a",
@@ -609,7 +801,13 @@
     },
     {
         "name": "Modern Dolch",
-        "colors": ["#2d2e30", "#3a5352", "#51817d", "#67afa8", "#7eddd3"],
+        "colors": [
+            "#2d2e30",
+            "#3a5352",
+            "#51817d",
+            "#67afa8",
+            "#7eddd3"
+        ],
         "tailwind_colors_name": "modern-dolch",
         "tailwind_colors": {
             "50": "#2d2e30",
@@ -628,7 +826,13 @@
     },
     {
         "name": "Botanical",
-        "colors": ["#7b9c98", "#90a8a6", "#aec0c0", "#ccd8d9", "#eaf1f3"],
+        "colors": [
+            "#7b9c98",
+            "#90a8a6",
+            "#aec0c0",
+            "#ccd8d9",
+            "#eaf1f3"
+        ],
         "tailwind_colors_name": "botanical",
         "tailwind_colors": {
             "50": "#7b9c98",
@@ -647,7 +851,13 @@
     },
     {
         "name": "9009",
-        "colors": ["#eeebe2", "#a09d93", "#6d6c65", "#3a3a37", "#080909"],
+        "colors": [
+            "#eeebe2",
+            "#a09d93",
+            "#6d6c65",
+            "#3a3a37",
+            "#080909"
+        ],
         "tailwind_colors_name": "9009",
         "tailwind_colors": {
             "50": "#eeebe2",
@@ -666,7 +876,13 @@
     },
     {
         "name": "Bingsu",
-        "colors": ["#b8a7aa", "#a18a92", "#977c86", "#8d6e7a", "#83616e"],
+        "colors": [
+            "#b8a7aa",
+            "#a18a92",
+            "#977c86",
+            "#8d6e7a",
+            "#83616e"
+        ],
         "tailwind_colors_name": "bingsu",
         "tailwind_colors": {
             "50": "#b8a7aa",
@@ -685,7 +901,13 @@
     },
     {
         "name": "Terminal",
-        "colors": ["#191a1b", "#2d3916", "#465d16", "#5f8116", "#79a617"],
+        "colors": [
+            "#191a1b",
+            "#2d3916",
+            "#465d16",
+            "#5f8116",
+            "#79a617"
+        ],
         "tailwind_colors_name": "terminal",
         "tailwind_colors": {
             "50": "#191a1b",
@@ -704,7 +926,13 @@
     },
     {
         "name": "Lavender",
-        "colors": ["#ada6c2", "#b1adc5", "#c2bfd1", "#d3d1dd", "#e4e3e9"],
+        "colors": [
+            "#ada6c2",
+            "#b1adc5",
+            "#c2bfd1",
+            "#d3d1dd",
+            "#e4e3e9"
+        ],
         "tailwind_colors_name": "lavender",
         "tailwind_colors": {
             "50": "#ada6c2",
@@ -723,7 +951,13 @@
     },
     {
         "name": "Taro",
-        "colors": ["#b3baff", "#7f81ad", "#5b5b7c", "#37354b", "#130f1a"],
+        "colors": [
+            "#b3baff",
+            "#7f81ad",
+            "#5b5b7c",
+            "#37354b",
+            "#130f1a"
+        ],
         "tailwind_colors_name": "taro",
         "tailwind_colors": {
             "50": "#b3baff",
@@ -742,7 +976,13 @@
     },
     {
         "name": "Striker",
-        "colors": ["#124883", "#41678f", "#738ea8", "#a5b5c1", "#d7dcda"],
+        "colors": [
+            "#124883",
+            "#41678f",
+            "#738ea8",
+            "#a5b5c1",
+            "#d7dcda"
+        ],
         "tailwind_colors_name": "striker",
         "tailwind_colors": {
             "50": "#124883",
@@ -761,7 +1001,13 @@
     },
     {
         "name": "Gruvbox Dark",
-        "colors": ["#282828", "#4e3f21", "#7c5d21", "#a97b21", "#d79921"],
+        "colors": [
+            "#282828",
+            "#4e3f21",
+            "#7c5d21",
+            "#a97b21",
+            "#d79921"
+        ],
         "tailwind_colors_name": "gruvbox-dark",
         "tailwind_colors": {
             "50": "#282828",
@@ -780,7 +1026,13 @@
     },
     {
         "name": "Gruvbox Light",
-        "colors": ["#fbf1c7", "#bdc19d", "#a1b58c", "#84a97b", "#689d6a"],
+        "colors": [
+            "#fbf1c7",
+            "#bdc19d",
+            "#a1b58c",
+            "#84a97b",
+            "#689d6a"
+        ],
         "tailwind_colors_name": "gruvbox-light",
         "tailwind_colors": {
             "50": "#fbf1c7",
@@ -799,7 +1051,13 @@
     },
     {
         "name": "Monokai",
-        "colors": ["#272822", "#40501f", "#628124", "#84b129", "#a6e22e"],
+        "colors": [
+            "#272822",
+            "#40501f",
+            "#628124",
+            "#84b129",
+            "#a6e22e"
+        ],
         "tailwind_colors_name": "monokai",
         "tailwind_colors": {
             "50": "#272822",
@@ -818,7 +1076,13 @@
     },
     {
         "name": "Sonokai",
-        "colors": ["#2c2e34", "#414f3b", "#607a4d", "#7fa55f", "#9ed072"],
+        "colors": [
+            "#2c2e34",
+            "#414f3b",
+            "#607a4d",
+            "#7fa55f",
+            "#9ed072"
+        ],
         "tailwind_colors_name": "sonokai",
         "tailwind_colors": {
             "50": "#2c2e34",
@@ -837,7 +1101,13 @@
     },
     {
         "name": "Camping",
-        "colors": ["#faf1e4", "#c5c8ad", "#a4b490", "#82a073", "#618c56"],
+        "colors": [
+            "#faf1e4",
+            "#c5c8ad",
+            "#a4b490",
+            "#82a073",
+            "#618c56"
+        ],
         "tailwind_colors_name": "camping",
         "tailwind_colors": {
             "50": "#faf1e4",
@@ -856,7 +1126,13 @@
     },
     {
         "name": "Voc",
-        "colors": ["#190618", "#593b49", "#866b6a", "#b39a8b", "#e0caac"],
+        "colors": [
+            "#190618",
+            "#593b49",
+            "#866b6a",
+            "#b39a8b",
+            "#e0caac"
+        ],
         "tailwind_colors_name": "voc",
         "tailwind_colors": {
             "50": "#190618",
@@ -875,7 +1151,13 @@
     },
     {
         "name": "Vaporwave",
-        "colors": ["#a4a7ea", "#aa8ed9", "#bd81d9", "#d074d9", "#e368da"],
+        "colors": [
+            "#a4a7ea",
+            "#aa8ed9",
+            "#bd81d9",
+            "#d074d9",
+            "#e368da"
+        ],
         "tailwind_colors_name": "vaporwave",
         "tailwind_colors": {
             "50": "#a4a7ea",
@@ -894,7 +1176,13 @@
     },
     {
         "name": "Pulse",
-        "colors": ["#181818", "#133b3c", "#146567", "#158e92", "#17b8bd"],
+        "colors": [
+            "#181818",
+            "#133b3c",
+            "#146567",
+            "#158e92",
+            "#17b8bd"
+        ],
         "tailwind_colors_name": "pulse",
         "tailwind_colors": {
             "50": "#181818",
@@ -913,7 +1201,13 @@
     },
     {
         "name": "Matrix",
-        "colors": ["#000000", "#075700", "#0c8f00", "#10c700", "#15ff00"],
+        "colors": [
+            "#000000",
+            "#075700",
+            "#0c8f00",
+            "#10c700",
+            "#15ff00"
+        ],
         "tailwind_colors_name": "matrix",
         "tailwind_colors": {
             "50": "#000000",
@@ -932,7 +1226,13 @@
     },
     {
         "name": "Olive",
-        "colors": ["#e9e5cc", "#c3c0a8", "#b3b195", "#a2a282", "#92946f"],
+        "colors": [
+            "#e9e5cc",
+            "#c3c0a8",
+            "#b3b195",
+            "#a2a282",
+            "#92946f"
+        ],
         "tailwind_colors_name": "olive",
         "tailwind_colors": {
             "50": "#e9e5cc",
@@ -951,7 +1251,13 @@
     },
     {
         "name": "Strawberry",
-        "colors": ["#f37f83", "#f29197", "#f5b5b7", "#f8d8d7", "#fcfcf8"],
+        "colors": [
+            "#f37f83",
+            "#f29197",
+            "#f5b5b7",
+            "#f8d8d7",
+            "#fcfcf8"
+        ],
         "tailwind_colors_name": "strawberry",
         "tailwind_colors": {
             "50": "#f37f83",
@@ -970,7 +1276,13 @@
     },
     {
         "name": "Night Runner",
-        "colors": ["#212121", "#535314", "#8c8c0f", "#c5c509", "#feff04"],
+        "colors": [
+            "#212121",
+            "#535314",
+            "#8c8c0f",
+            "#c5c509",
+            "#feff04"
+        ],
         "tailwind_colors_name": "night-runner",
         "tailwind_colors": {
             "50": "#212121",
@@ -989,7 +1301,13 @@
     },
     {
         "name": "Cyberspace",
-        "colors": ["#181c18", "#0e442d", "#097247", "#04a061", "#00ce7c"],
+        "colors": [
+            "#181c18",
+            "#0e442d",
+            "#097247",
+            "#04a061",
+            "#00ce7c"
+        ],
         "tailwind_colors_name": "cyberspace",
         "tailwind_colors": {
             "50": "#181c18",
@@ -1008,7 +1326,13 @@
     },
     {
         "name": "Joker",
-        "colors": ["#1a0e25", "#353d1e", "#56731e", "#77a81e", "#99de1e"],
+        "colors": [
+            "#1a0e25",
+            "#353d1e",
+            "#56731e",
+            "#77a81e",
+            "#99de1e"
+        ],
         "tailwind_colors_name": "joker",
         "tailwind_colors": {
             "50": "#1a0e25",
@@ -1027,7 +1351,13 @@
     },
     {
         "name": "Dualshot",
-        "colors": ["#737373", "#535353", "#424343", "#313232", "#212222"],
+        "colors": [
+            "#737373",
+            "#535353",
+            "#424343",
+            "#313232",
+            "#212222"
+        ],
         "tailwind_colors_name": "dualshot",
         "tailwind_colors": {
             "50": "#737373",
@@ -1046,7 +1376,13 @@
     },
     {
         "name": "Solarized Dark",
-        "colors": ["#002b36", "#213f20", "#425d15", "#637b0a", "#859900"],
+        "colors": [
+            "#002b36",
+            "#213f20",
+            "#425d15",
+            "#637b0a",
+            "#859900"
+        ],
         "tailwind_colors_name": "solarized-dark",
         "tailwind_colors": {
             "50": "#002b36",
@@ -1065,7 +1401,13 @@
     },
     {
         "name": "Solarized Light",
-        "colors": ["#fdf6e3", "#cac88e", "#b3b85f", "#9ca82f", "#859900"],
+        "colors": [
+            "#fdf6e3",
+            "#cac88e",
+            "#b3b85f",
+            "#9ca82f",
+            "#859900"
+        ],
         "tailwind_colors_name": "solarized-light",
         "tailwind_colors": {
             "50": "#fdf6e3",
@@ -1084,7 +1426,13 @@
     },
     {
         "name": "Terra",
-        "colors": ["#0c100e", "#2d4728", "#4c7138", "#6a9b48", "#89c559"],
+        "colors": [
+            "#0c100e",
+            "#2d4728",
+            "#4c7138",
+            "#6a9b48",
+            "#89c559"
+        ],
         "tailwind_colors_name": "terra",
         "tailwind_colors": {
             "50": "#0c100e",
@@ -1103,7 +1451,13 @@
     },
     {
         "name": "Red Dragon",
-        "colors": ["#1a0b0c", "#4a1211", "#861f1c", "#c22c27", "#ff3a32"],
+        "colors": [
+            "#1a0b0c",
+            "#4a1211",
+            "#861f1c",
+            "#c22c27",
+            "#ff3a32"
+        ],
         "tailwind_colors_name": "red-dragon",
         "tailwind_colors": {
             "50": "#1a0b0c",
@@ -1122,7 +1476,13 @@
     },
     {
         "name": "Hammerhead",
-        "colors": ["#030613", "#1b464c", "#2c7370", "#3da094", "#4fcdb9"],
+        "colors": [
+            "#030613",
+            "#1b464c",
+            "#2c7370",
+            "#3da094",
+            "#4fcdb9"
+        ],
         "tailwind_colors_name": "hammerhead",
         "tailwind_colors": {
             "50": "#030613",
@@ -1141,7 +1501,13 @@
     },
     {
         "name": "Future Funk",
-        "colors": ["#2e1a47", "#5b4d67", "#8f8493", "#c3bbbe", "#f7f2ea"],
+        "colors": [
+            "#2e1a47",
+            "#5b4d67",
+            "#8f8493",
+            "#c3bbbe",
+            "#f7f2ea"
+        ],
         "tailwind_colors_name": "future-funk",
         "tailwind_colors": {
             "50": "#2e1a47",
@@ -1160,7 +1526,13 @@
     },
     {
         "name": "Milkshake",
-        "colors": ["#ffffff", "#aebec7", "#7f8d9b", "#505c6f", "#212b43"],
+        "colors": [
+            "#ffffff",
+            "#aebec7",
+            "#7f8d9b",
+            "#505c6f",
+            "#212b43"
+        ],
         "tailwind_colors_name": "milkshake",
         "tailwind_colors": {
             "50": "#ffffff",
@@ -1179,7 +1551,13 @@
     },
     {
         "name": "Aether",
-        "colors": ["#101820", "#5a4f63", "#8b7d90", "#bcabbd", "#eedaea"],
+        "colors": [
+            "#101820",
+            "#5a4f63",
+            "#8b7d90",
+            "#bcabbd",
+            "#eedaea"
+        ],
         "tailwind_colors_name": "aether",
         "tailwind_colors": {
             "50": "#101820",
@@ -1198,7 +1576,13 @@
     },
     {
         "name": "Froyo",
-        "colors": ["#e1dacb", "#bdb9b0", "#a7a59f", "#91918e", "#7b7d7d"],
+        "colors": [
+            "#e1dacb",
+            "#bdb9b0",
+            "#a7a59f",
+            "#91918e",
+            "#7b7d7d"
+        ],
         "tailwind_colors_name": "froyo",
         "tailwind_colors": {
             "50": "#e1dacb",
@@ -1217,7 +1601,13 @@
     },
     {
         "name": "Retrocast",
-        "colors": ["#07737a", "#3e9aa0", "#57b0b5", "#6fc5ca", "#88dbdf"],
+        "colors": [
+            "#07737a",
+            "#3e9aa0",
+            "#57b0b5",
+            "#6fc5ca",
+            "#88dbdf"
+        ],
         "tailwind_colors_name": "retrocast",
         "tailwind_colors": {
             "50": "#07737a",
@@ -1236,7 +1626,13 @@
     },
     {
         "name": "Luna",
-        "colors": ["#221c35", "#60375a", "#924c6f", "#c46084", "#f67599"],
+        "colors": [
+            "#221c35",
+            "#60375a",
+            "#924c6f",
+            "#c46084",
+            "#f67599"
+        ],
         "tailwind_colors_name": "luna",
         "tailwind_colors": {
             "50": "#221c35",
@@ -1255,7 +1651,13 @@
     },
     {
         "name": "Graen",
-        "colors": ["#303c36", "#51594d", "#6d6d5f", "#898170", "#a59682"],
+        "colors": [
+            "#303c36",
+            "#51594d",
+            "#6d6d5f",
+            "#898170",
+            "#a59682"
+        ],
         "tailwind_colors_name": "graen",
         "tailwind_colors": {
             "50": "#303c36",
@@ -1274,7 +1676,13 @@
     },
     {
         "name": "Bento",
-        "colors": ["#2d394d", "#5c4254", "#925568", "#c8677c", "#ff7a90"],
+        "colors": [
+            "#2d394d",
+            "#5c4254",
+            "#925568",
+            "#c8677c",
+            "#ff7a90"
+        ],
         "tailwind_colors_name": "bento",
         "tailwind_colors": {
             "50": "#2d394d",
@@ -1293,7 +1701,13 @@
     },
     {
         "name": "Watermelon",
-        "colors": ["#1f4437", "#50534b", "#7d5a57", "#a96163", "#d6686f"],
+        "colors": [
+            "#1f4437",
+            "#50534b",
+            "#7d5a57",
+            "#a96163",
+            "#d6686f"
+        ],
         "tailwind_colors_name": "watermelon",
         "tailwind_colors": {
             "50": "#1f4437",
@@ -1312,7 +1726,13 @@
     },
     {
         "name": "Menthol",
-        "colors": ["#00c18c", "#51c29d", "#8bd6be", "#c5eade", "#ffffff"],
+        "colors": [
+            "#00c18c",
+            "#51c29d",
+            "#8bd6be",
+            "#c5eade",
+            "#ffffff"
+        ],
         "tailwind_colors_name": "menthol",
         "tailwind_colors": {
             "50": "#00c18c",
@@ -1331,7 +1751,13 @@
     },
     {
         "name": "Ishtar",
-        "colors": ["#202020", "#412320", "#5c1f19", "#761b12", "#91170c"],
+        "colors": [
+            "#202020",
+            "#412320",
+            "#5c1f19",
+            "#761b12",
+            "#91170c"
+        ],
         "tailwind_colors_name": "ishtar",
         "tailwind_colors": {
             "50": "#202020",
@@ -1350,7 +1776,13 @@
     },
     {
         "name": "Mashu",
-        "colors": ["#2b2b2c", "#3a3547", "#4e4663", "#62577e", "#76689a"],
+        "colors": [
+            "#2b2b2c",
+            "#3a3547",
+            "#4e4663",
+            "#62577e",
+            "#76689a"
+        ],
         "tailwind_colors_name": "mashu",
         "tailwind_colors": {
             "50": "#2b2b2c",
@@ -1369,7 +1801,13 @@
     },
     {
         "name": "Deku",
-        "colors": ["#058b8c", "#386b6a", "#625957", "#8c4743", "#b63530"],
+        "colors": [
+            "#058b8c",
+            "#386b6a",
+            "#625957",
+            "#8c4743",
+            "#b63530"
+        ],
         "tailwind_colors_name": "deku",
         "tailwind_colors": {
             "50": "#058b8c",
@@ -1388,7 +1826,13 @@
     },
     {
         "name": "Honey",
-        "colors": ["#f2aa00", "#e8b311", "#f0c923", "#f7df34", "#fff546"],
+        "colors": [
+            "#f2aa00",
+            "#e8b311",
+            "#f0c923",
+            "#f7df34",
+            "#fff546"
+        ],
         "tailwind_colors_name": "honey",
         "tailwind_colors": {
             "50": "#f2aa00",
@@ -1407,7 +1851,13 @@
     },
     {
         "name": "Shoko",
-        "colors": ["#ced7e0", "#a9c8da", "#9cc7db", "#8ec5dc", "#81c4dd"],
+        "colors": [
+            "#ced7e0",
+            "#a9c8da",
+            "#9cc7db",
+            "#8ec5dc",
+            "#81c4dd"
+        ],
         "tailwind_colors_name": "shoko",
         "tailwind_colors": {
             "50": "#ced7e0",
@@ -1426,7 +1876,13 @@
     },
     {
         "name": "Norse",
-        "colors": ["#242425", "#2e3e41", "#2d4950", "#2c545e", "#2b5f6d"],
+        "colors": [
+            "#242425",
+            "#2e3e41",
+            "#2d4950",
+            "#2c545e",
+            "#2b5f6d"
+        ],
         "tailwind_colors_name": "norse",
         "tailwind_colors": {
             "50": "#242425",
@@ -1445,7 +1901,13 @@
     },
     {
         "name": "Matcha Moccha",
-        "colors": ["#523525", "#51502e", "#60763f", "#6f9b4f", "#7ec160"],
+        "colors": [
+            "#523525",
+            "#51502e",
+            "#60763f",
+            "#6f9b4f",
+            "#7ec160"
+        ],
         "tailwind_colors_name": "matcha-moccha",
         "tailwind_colors": {
             "50": "#523525",
@@ -1464,7 +1926,13 @@
     },
     {
         "name": "Cafe",
-        "colors": ["#ceb18d", "#917d63", "#675947", "#3d352b", "#14120f"],
+        "colors": [
+            "#ceb18d",
+            "#917d63",
+            "#675947",
+            "#3d352b",
+            "#14120f"
+        ],
         "tailwind_colors_name": "cafe",
         "tailwind_colors": {
             "50": "#ceb18d",
@@ -1483,7 +1951,13 @@
     },
     {
         "name": "Alpine",
-        "colors": ["#6c687f", "#9996a8", "#bbb9c5", "#dddce2", "#ffffff"],
+        "colors": [
+            "#6c687f",
+            "#9996a8",
+            "#bbb9c5",
+            "#dddce2",
+            "#ffffff"
+        ],
         "tailwind_colors_name": "alpine",
         "tailwind_colors": {
             "50": "#6c687f",
@@ -1502,7 +1976,13 @@
     },
     {
         "name": "Superuser",
-        "colors": ["#262a33", "#285a4c", "#31916d", "#3ac88e", "#43ffaf"],
+        "colors": [
+            "#262a33",
+            "#285a4c",
+            "#31916d",
+            "#3ac88e",
+            "#43ffaf"
+        ],
         "tailwind_colors_name": "superuser",
         "tailwind_colors": {
             "50": "#262a33",
@@ -1521,7 +2001,13 @@
     },
     {
         "name": "Ms Cupcakes",
-        "colors": ["#ffffff", "#c9eff8", "#a5e6f6", "#81ddf4", "#5ed5f3"],
+        "colors": [
+            "#ffffff",
+            "#c9eff8",
+            "#a5e6f6",
+            "#81ddf4",
+            "#5ed5f3"
+        ],
         "tailwind_colors_name": "ms-cupcakes",
         "tailwind_colors": {
             "50": "#ffffff",
@@ -1540,7 +2026,13 @@
     },
     {
         "name": "Dollar",
-        "colors": ["#e4e4d4", "#b3beaa", "#9bac95", "#839a80", "#6b886b"],
+        "colors": [
+            "#e4e4d4",
+            "#b3beaa",
+            "#9bac95",
+            "#839a80",
+            "#6b886b"
+        ],
         "tailwind_colors_name": "dollar",
         "tailwind_colors": {
             "50": "#e4e4d4",
@@ -1559,7 +2051,13 @@
     },
     {
         "name": "Lime",
-        "colors": ["#7c878e", "#7b8e73", "#839f64", "#8bb055", "#93c247"],
+        "colors": [
+            "#7c878e",
+            "#7b8e73",
+            "#839f64",
+            "#8bb055",
+            "#93c247"
+        ],
         "tailwind_colors_name": "lime",
         "tailwind_colors": {
             "50": "#7c878e",
@@ -1578,7 +2076,13 @@
     },
     {
         "name": "Sweden",
-        "colors": ["#0058a3", "#416e6b", "#808d48", "#bfac25", "#ffcc02"],
+        "colors": [
+            "#0058a3",
+            "#416e6b",
+            "#808d48",
+            "#bfac25",
+            "#ffcc02"
+        ],
         "tailwind_colors_name": "sweden",
         "tailwind_colors": {
             "50": "#0058a3",
@@ -1597,7 +2101,13 @@
     },
     {
         "name": "Wavez",
-        "colors": ["#1c292f", "#2f5d38", "#438839", "#57b33a", "#6bde3b"],
+        "colors": [
+            "#1c292f",
+            "#2f5d38",
+            "#438839",
+            "#57b33a",
+            "#6bde3b"
+        ],
         "tailwind_colors_name": "wavez",
         "tailwind_colors": {
             "50": "#1c292f",
@@ -1616,7 +2126,13 @@
     },
     {
         "name": "Nebula",
-        "colors": ["#212135", "#422140", "#6b2a58", "#943370", "#be3c88"],
+        "colors": [
+            "#212135",
+            "#422140",
+            "#6b2a58",
+            "#943370",
+            "#be3c88"
+        ],
         "tailwind_colors_name": "nebula",
         "tailwind_colors": {
             "50": "#212135",
@@ -1635,7 +2151,13 @@
     },
     {
         "name": "Lil Dragon",
-        "colors": ["#ebe1ef", "#c6acdf", "#b291dc", "#9e76d9", "#8a5bd6"],
+        "colors": [
+            "#ebe1ef",
+            "#c6acdf",
+            "#b291dc",
+            "#9e76d9",
+            "#8a5bd6"
+        ],
         "tailwind_colors_name": "lil-dragon",
         "tailwind_colors": {
             "50": "#ebe1ef",
@@ -1654,7 +2176,13 @@
     },
     {
         "name": "Pastel",
-        "colors": ["#e0b2bd", "#dcb4ad", "#e6c9b0", "#f0deb3", "#fbf4b6"],
+        "colors": [
+            "#e0b2bd",
+            "#dcb4ad",
+            "#e6c9b0",
+            "#f0deb3",
+            "#fbf4b6"
+        ],
         "tailwind_colors_name": "pastel",
         "tailwind_colors": {
             "50": "#e0b2bd",
@@ -1673,7 +2201,13 @@
     },
     {
         "name": "Alduin",
-        "colors": ["#1c1c1c", "#525046", "#817d69", "#b0aa8c", "#dfd7af"],
+        "colors": [
+            "#1c1c1c",
+            "#525046",
+            "#817d69",
+            "#b0aa8c",
+            "#dfd7af"
+        ],
         "tailwind_colors_name": "alduin",
         "tailwind_colors": {
             "50": "#1c1c1c",
@@ -1692,7 +2226,13 @@
     },
     {
         "name": "Paper",
-        "colors": ["#eeeeee", "#b6b6b6", "#909090", "#6a6a6a", "#444444"],
+        "colors": [
+            "#eeeeee",
+            "#b6b6b6",
+            "#909090",
+            "#6a6a6a",
+            "#444444"
+        ],
         "tailwind_colors_name": "paper",
         "tailwind_colors": {
             "50": "#eeeeee",
@@ -1711,7 +2251,13 @@
     },
     {
         "name": "Fundamentals",
-        "colors": ["#727474", "#6c776e", "#728675", "#78957b", "#7fa482"],
+        "colors": [
+            "#727474",
+            "#6c776e",
+            "#728675",
+            "#78957b",
+            "#7fa482"
+        ],
         "tailwind_colors_name": "fundamentals",
         "tailwind_colors": {
             "50": "#727474",
@@ -1730,7 +2276,13 @@
     },
     {
         "name": "Drowning",
-        "colors": ["#191826", "#293350", "#344772", "#3f5b93", "#4a6fb5"],
+        "colors": [
+            "#191826",
+            "#293350",
+            "#344772",
+            "#3f5b93",
+            "#4a6fb5"
+        ],
         "tailwind_colors_name": "drowning",
         "tailwind_colors": {
             "50": "#191826",
@@ -1749,7 +2301,13 @@
     },
     {
         "name": "Iceberg Dark",
-        "colors": ["#161821", "#3b4356", "#53627b", "#6b81a0", "#84a0c6"],
+        "colors": [
+            "#161821",
+            "#3b4356",
+            "#53627b",
+            "#6b81a0",
+            "#84a0c6"
+        ],
         "tailwind_colors_name": "iceberg-dark",
         "tailwind_colors": {
             "50": "#161821",
@@ -1768,7 +2326,13 @@
     },
     {
         "name": "Iceberg Light",
-        "colors": ["#e8e9ec", "#a4afcb", "#7c90bc", "#5471ad", "#2d539e"],
+        "colors": [
+            "#e8e9ec",
+            "#a4afcb",
+            "#7c90bc",
+            "#5471ad",
+            "#2d539e"
+        ],
         "tailwind_colors_name": "iceberg-light",
         "tailwind_colors": {
             "50": "#e8e9ec",
@@ -1787,7 +2351,13 @@
     },
     {
         "name": "Onedark",
-        "colors": ["#2f343f", "#344c62", "#436d91", "#528ec0", "#61afef"],
+        "colors": [
+            "#2f343f",
+            "#344c62",
+            "#436d91",
+            "#528ec0",
+            "#61afef"
+        ],
         "tailwind_colors_name": "onedark",
         "tailwind_colors": {
             "50": "#2f343f",
@@ -1806,7 +2376,13 @@
     },
     {
         "name": "Darling",
-        "colors": ["#fec8cd", "#f5cbcd", "#f8dcde", "#fbedee", "#ffffff"],
+        "colors": [
+            "#fec8cd",
+            "#f5cbcd",
+            "#f8dcde",
+            "#fbedee",
+            "#ffffff"
+        ],
         "tailwind_colors_name": "darling",
         "tailwind_colors": {
             "50": "#fec8cd",
@@ -1825,7 +2401,13 @@
     },
     {
         "name": "Repose Dark",
-        "colors": ["#2f3338", "#61615c", "#88877c", "#afac9c", "#d6d2bc"],
+        "colors": [
+            "#2f3338",
+            "#61615c",
+            "#88877c",
+            "#afac9c",
+            "#d6d2bc"
+        ],
         "tailwind_colors_name": "repose-dark",
         "tailwind_colors": {
             "50": "#2f3338",
@@ -1844,7 +2426,13 @@
     },
     {
         "name": "Repose Light",
-        "colors": ["#efead0", "#bcb8aa", "#9d9b91", "#7e7d77", "#5f605e"],
+        "colors": [
+            "#efead0",
+            "#bcb8aa",
+            "#9d9b91",
+            "#7e7d77",
+            "#5f605e"
+        ],
         "tailwind_colors_name": "repose-light",
         "tailwind_colors": {
             "50": "#efead0",
@@ -1863,7 +2451,13 @@
     },
     {
         "name": "Horizon",
-        "colors": ["#1c1e26", "#423c39", "#6d6054", "#98846f", "#c4a88a"],
+        "colors": [
+            "#1c1e26",
+            "#423c39",
+            "#6d6054",
+            "#98846f",
+            "#c4a88a"
+        ],
         "tailwind_colors_name": "horizon",
         "tailwind_colors": {
             "50": "#1c1e26",
@@ -1882,7 +2476,13 @@
     },
     {
         "name": "Rudy",
-        "colors": ["#1a2b3e", "#3b3d3b", "#625846", "#887351", "#af8f5c"],
+        "colors": [
+            "#1a2b3e",
+            "#3b3d3b",
+            "#625846",
+            "#887351",
+            "#af8f5c"
+        ],
         "tailwind_colors_name": "rudy",
         "tailwind_colors": {
             "50": "#1a2b3e",
@@ -1901,7 +2501,13 @@
     },
     {
         "name": "Stealth",
-        "colors": ["#010203", "#1b1d1e", "#25282a", "#2e3336", "#383e42"],
+        "colors": [
+            "#010203",
+            "#1b1d1e",
+            "#25282a",
+            "#2e3336",
+            "#383e42"
+        ],
         "tailwind_colors_name": "stealth",
         "tailwind_colors": {
             "50": "#010203",
@@ -1920,7 +2526,13 @@
     },
     {
         "name": "80s After Dark",
-        "colors": ["#1b1d36", "#503b55", "#895f7e", "#c282a7", "#fca6d1"],
+        "colors": [
+            "#1b1d36",
+            "#503b55",
+            "#895f7e",
+            "#c282a7",
+            "#fca6d1"
+        ],
         "tailwind_colors_name": "80s-after-dark",
         "tailwind_colors": {
             "50": "#1b1d36",
@@ -1939,7 +2551,13 @@
     },
     {
         "name": "Arch",
-        "colors": ["#0c0d11", "#304249", "#4a6a6d", "#649291", "#7ebab5"],
+        "colors": [
+            "#0c0d11",
+            "#304249",
+            "#4a6a6d",
+            "#649291",
+            "#7ebab5"
+        ],
         "tailwind_colors_name": "arch",
         "tailwind_colors": {
             "50": "#0c0d11",
@@ -1958,7 +2576,13 @@
     },
     {
         "name": "Rose Pine",
-        "colors": ["#1f1d27", "#454f5c", "#627a85", "#7fa4ae", "#9ccfd8"],
+        "colors": [
+            "#1f1d27",
+            "#454f5c",
+            "#627a85",
+            "#7fa4ae",
+            "#9ccfd8"
+        ],
         "tailwind_colors_name": "rose-pine",
         "tailwind_colors": {
             "50": "#1f1d27",
@@ -1977,7 +2601,13 @@
     },
     {
         "name": "Rose Pine Moon",
-        "colors": ["#2a273f", "#3f4b5b", "#5e7785", "#7da3ae", "#9ccfd8"],
+        "colors": [
+            "#2a273f",
+            "#3f4b5b",
+            "#5e7785",
+            "#7da3ae",
+            "#9ccfd8"
+        ],
         "tailwind_colors_name": "rose-pine-moon",
         "tailwind_colors": {
             "50": "#2a273f",
@@ -1996,7 +2626,13 @@
     },
     {
         "name": "Rose Pine Dawn",
-        "colors": ["#fffaf3", "#c9d3cf", "#a3bebf", "#7ca9af", "#56949f"],
+        "colors": [
+            "#fffaf3",
+            "#c9d3cf",
+            "#a3bebf",
+            "#7ca9af",
+            "#56949f"
+        ],
         "tailwind_colors_name": "rose-pine-dawn",
         "tailwind_colors": {
             "50": "#fffaf3",
@@ -2015,7 +2651,13 @@
     },
     {
         "name": "Copper",
-        "colors": ["#442f29", "#694337", "#825041", "#9b5d4b", "#b46a55"],
+        "colors": [
+            "#442f29",
+            "#694337",
+            "#825041",
+            "#9b5d4b",
+            "#b46a55"
+        ],
         "tailwind_colors_name": "copper",
         "tailwind_colors": {
             "50": "#442f29",
@@ -2034,7 +2676,13 @@
     },
     {
         "name": "Grand Prix",
-        "colors": ["#36475c", "#61725d", "#819150", "#a0b043", "#c0d036"],
+        "colors": [
+            "#36475c",
+            "#61725d",
+            "#819150",
+            "#a0b043",
+            "#c0d036"
+        ],
         "tailwind_colors_name": "grand-prix",
         "tailwind_colors": {
             "50": "#36475c",
@@ -2053,7 +2701,13 @@
     },
     {
         "name": "Peaches",
-        "colors": ["#e0d7c1", "#e0b69b", "#dfa287", "#de8e73", "#dd7a5f"],
+        "colors": [
+            "#e0d7c1",
+            "#e0b69b",
+            "#dfa287",
+            "#de8e73",
+            "#dd7a5f"
+        ],
         "tailwind_colors_name": "peaches",
         "tailwind_colors": {
             "50": "#e0d7c1",
@@ -2072,7 +2726,13 @@
     },
     {
         "name": "Bouquet",
-        "colors": ["#173f35", "#516259", "#84776f", "#b78b85", "#eaa09c"],
+        "colors": [
+            "#173f35",
+            "#516259",
+            "#84776f",
+            "#b78b85",
+            "#eaa09c"
+        ],
         "tailwind_colors_name": "bouquet",
         "tailwind_colors": {
             "50": "#173f35",
@@ -2091,7 +2751,13 @@
     },
     {
         "name": "Midnight",
-        "colors": ["#0b0e13", "#273042", "#3a4761", "#4d5e80", "#60759f"],
+        "colors": [
+            "#0b0e13",
+            "#273042",
+            "#3a4761",
+            "#4d5e80",
+            "#60759f"
+        ],
         "tailwind_colors_name": "midnight",
         "tailwind_colors": {
             "50": "#0b0e13",
@@ -2110,7 +2776,13 @@
     },
     {
         "name": "Blueberry Light",
-        "colors": ["#dae0f5", "#a4aec5", "#8895ab", "#6c7c91", "#506477"],
+        "colors": [
+            "#dae0f5",
+            "#a4aec5",
+            "#8895ab",
+            "#6c7c91",
+            "#506477"
+        ],
         "tailwind_colors_name": "blueberry-light",
         "tailwind_colors": {
             "50": "#dae0f5",
@@ -2129,7 +2801,13 @@
     },
     {
         "name": "Blueberry Dark",
-        "colors": ["#212b42", "#3f5066", "#647d99", "#88aacc", "#add7ff"],
+        "colors": [
+            "#212b42",
+            "#3f5066",
+            "#647d99",
+            "#88aacc",
+            "#add7ff"
+        ],
         "tailwind_colors_name": "blueberry-dark",
         "tailwind_colors": {
             "50": "#212b42",
@@ -2148,7 +2826,13 @@
     },
     {
         "name": "Fledgling",
-        "colors": ["#3b363f", "#653e4a", "#974e5d", "#c95e70", "#fc6e83"],
+        "colors": [
+            "#3b363f",
+            "#653e4a",
+            "#974e5d",
+            "#c95e70",
+            "#fc6e83"
+        ],
         "tailwind_colors_name": "fledgling",
         "tailwind_colors": {
             "50": "#3b363f",
@@ -2167,7 +2851,13 @@
     },
     {
         "name": "Ez Mode",
-        "colors": ["#0068c6", "#3e5cb6", "#7d5ec0", "#bb60ca", "#fa62d5"],
+        "colors": [
+            "#0068c6",
+            "#3e5cb6",
+            "#7d5ec0",
+            "#bb60ca",
+            "#fa62d5"
+        ],
         "tailwind_colors_name": "ez-mode",
         "tailwind_colors": {
             "50": "#0068c6",
@@ -2186,7 +2876,13 @@
     },
     {
         "name": "Vscode",
-        "colors": ["#1e1e1e", "#123145", "#0c4972", "#06619f", "#007acc"],
+        "colors": [
+            "#1e1e1e",
+            "#123145",
+            "#0c4972",
+            "#06619f",
+            "#007acc"
+        ],
         "tailwind_colors_name": "vscode",
         "tailwind_colors": {
             "50": "#1e1e1e",
@@ -2205,7 +2901,13 @@
     },
     {
         "name": "Material",
-        "colors": ["#263238", "#425f63", "#578383", "#6ba7a3", "#80cbc4"],
+        "colors": [
+            "#263238",
+            "#425f63",
+            "#578383",
+            "#6ba7a3",
+            "#80cbc4"
+        ],
         "tailwind_colors_name": "material",
         "tailwind_colors": {
             "50": "#263238",
@@ -2224,7 +2926,13 @@
     },
     {
         "name": "Godspeed",
-        "colors": ["#eae4cf", "#cdd1ca", "#bccacb", "#abc2cc", "#9abbcd"],
+        "colors": [
+            "#eae4cf",
+            "#cdd1ca",
+            "#bccacb",
+            "#abc2cc",
+            "#9abbcd"
+        ],
         "tailwind_colors_name": "godspeed",
         "tailwind_colors": {
             "50": "#eae4cf",
@@ -2243,7 +2951,13 @@
     },
     {
         "name": "Witch Girl",
-        "colors": ["#f3dbda", "#c2b4a9", "#9ea094", "#7a8c7f", "#56786a"],
+        "colors": [
+            "#f3dbda",
+            "#c2b4a9",
+            "#9ea094",
+            "#7a8c7f",
+            "#56786a"
+        ],
         "tailwind_colors_name": "witch-girl",
         "tailwind_colors": {
             "50": "#f3dbda",
@@ -2262,7 +2976,13 @@
     },
     {
         "name": "Terror Below",
-        "colors": ["#0b1e1a", "#1c3c34", "#356153", "#4d8672", "#66ac92"],
+        "colors": [
+            "#0b1e1a",
+            "#1c3c34",
+            "#356153",
+            "#4d8672",
+            "#66ac92"
+        ],
         "tailwind_colors_name": "terror-below",
         "tailwind_colors": {
             "50": "#0b1e1a",
@@ -2281,7 +3001,13 @@
     },
     {
         "name": "Sewing Tin",
-        "colors": ["#241963", "#5c507c", "#8e7a7e", "#c0a480", "#f2ce83"],
+        "colors": [
+            "#241963",
+            "#5c507c",
+            "#8e7a7e",
+            "#c0a480",
+            "#f2ce83"
+        ],
         "tailwind_colors_name": "sewing-tin",
         "tailwind_colors": {
             "50": "#241963",
@@ -2300,7 +3026,13 @@
     },
     {
         "name": "Soaring Skies",
-        "colors": ["#fff9f2", "#c1d7db", "#9dd1e2", "#79cbe9", "#55c6f0"],
+        "colors": [
+            "#fff9f2",
+            "#c1d7db",
+            "#9dd1e2",
+            "#79cbe9",
+            "#55c6f0"
+        ],
         "tailwind_colors_name": "soaring-skies",
         "tailwind_colors": {
             "50": "#fff9f2",
@@ -2319,7 +3051,13 @@
     },
     {
         "name": "Sewing Tin Light",
-        "colors": ["#ffffff", "#a1a2c4", "#7a77aa", "#534b90", "#2d2076"],
+        "colors": [
+            "#ffffff",
+            "#a1a2c4",
+            "#7a77aa",
+            "#534b90",
+            "#2d2076"
+        ],
         "tailwind_colors_name": "sewing-tin-light",
         "tailwind_colors": {
             "50": "#ffffff",
@@ -2338,7 +3076,13 @@
     },
     {
         "name": "Chaos Theory",
-        "colors": ["#141221", "#553359", "#8d4a83", "#c560ad", "#fd77d7"],
+        "colors": [
+            "#141221",
+            "#553359",
+            "#8d4a83",
+            "#c560ad",
+            "#fd77d7"
+        ],
         "tailwind_colors_name": "chaos-theory",
         "tailwind_colors": {
             "50": "#141221",
@@ -2357,7 +3101,13 @@
     },
     {
         "name": "Hanok",
-        "colors": ["#d8d2c3", "#ae9e8d", "#8f7d6c", "#705b4b", "#513a2a"],
+        "colors": [
+            "#d8d2c3",
+            "#ae9e8d",
+            "#8f7d6c",
+            "#705b4b",
+            "#513a2a"
+        ],
         "tailwind_colors_name": "hanok",
         "tailwind_colors": {
             "50": "#d8d2c3",
@@ -2376,7 +3126,13 @@
     },
     {
         "name": "Comfy",
-        "colors": ["#4a5b6e", "#6f717e", "#9d9096", "#caaeae", "#f8cdc6"],
+        "colors": [
+            "#4a5b6e",
+            "#6f717e",
+            "#9d9096",
+            "#caaeae",
+            "#f8cdc6"
+        ],
         "tailwind_colors_name": "comfy",
         "tailwind_colors": {
             "50": "#4a5b6e",
@@ -2395,7 +3151,13 @@
     },
     {
         "name": "Tiramisu",
-        "colors": ["#cfc6b9", "#ccb299", "#c8a98b", "#c4a07d", "#c0976f"],
+        "colors": [
+            "#cfc6b9",
+            "#ccb299",
+            "#c8a98b",
+            "#c4a07d",
+            "#c0976f"
+        ],
         "tailwind_colors_name": "tiramisu",
         "tailwind_colors": {
             "50": "#cfc6b9",
@@ -2414,7 +3176,13 @@
     },
     {
         "name": "Diner",
-        "colors": ["#537997", "#6a7f7f", "#888f73", "#a59f67", "#c3af5b"],
+        "colors": [
+            "#537997",
+            "#6a7f7f",
+            "#888f73",
+            "#a59f67",
+            "#c3af5b"
+        ],
         "tailwind_colors_name": "diner",
         "tailwind_colors": {
             "50": "#537997",
@@ -2433,7 +3201,13 @@
     },
     {
         "name": "Modern Ink",
-        "colors": ["#ffffff", "#f0beb4", "#f5917c", "#fa6344", "#ff360d"],
+        "colors": [
+            "#ffffff",
+            "#f0beb4",
+            "#f5917c",
+            "#fa6344",
+            "#ff360d"
+        ],
         "tailwind_colors_name": "modern-ink",
         "tailwind_colors": {
             "50": "#ffffff",
@@ -2452,7 +3226,13 @@
     },
     {
         "name": "Dev",
-        "colors": ["#1b2028", "#183d4e", "#1c617b", "#1f85a8", "#23a9d5"],
+        "colors": [
+            "#1b2028",
+            "#183d4e",
+            "#1c617b",
+            "#1f85a8",
+            "#23a9d5"
+        ],
         "tailwind_colors_name": "dev",
         "tailwind_colors": {
             "50": "#1b2028",
@@ -2471,7 +3251,13 @@
     },
     {
         "name": "Moonlight",
-        "colors": ["#191f28", "#403b33", "#6d5c45", "#997d56", "#c69f68"],
+        "colors": [
+            "#191f28",
+            "#403b33",
+            "#6d5c45",
+            "#997d56",
+            "#c69f68"
+        ],
         "tailwind_colors_name": "moonlight",
         "tailwind_colors": {
             "50": "#191f28",
@@ -2490,7 +3276,13 @@
     },
     {
         "name": "Pink Lemonade",
-        "colors": ["#f6d992", "#f6c192", "#f6b692", "#f6ab92", "#f6a192"],
+        "colors": [
+            "#f6d992",
+            "#f6c192",
+            "#f6b692",
+            "#f6ab92",
+            "#f6a192"
+        ],
         "tailwind_colors_name": "pink-lemonade",
         "tailwind_colors": {
             "50": "#f6d992",
@@ -2509,7 +3301,13 @@
     },
     {
         "name": "Creamsicle",
-        "colors": ["#ff9869", "#fda57d", "#fdc2a6", "#fcdfcf", "#fcfcf8"],
+        "colors": [
+            "#ff9869",
+            "#fda57d",
+            "#fdc2a6",
+            "#fcdfcf",
+            "#fcfcf8"
+        ],
         "tailwind_colors_name": "creamsicle",
         "tailwind_colors": {
             "50": "#ff9869",
@@ -2528,7 +3326,13 @@
     },
     {
         "name": "Beach",
-        "colors": ["#ffeead", "#ded898", "#c6d5a1", "#aed1aa", "#96ceb4"],
+        "colors": [
+            "#ffeead",
+            "#ded898",
+            "#c6d5a1",
+            "#aed1aa",
+            "#96ceb4"
+        ],
         "tailwind_colors_name": "beach",
         "tailwind_colors": {
             "50": "#ffeead",
@@ -2547,7 +3351,13 @@
     },
     {
         "name": "Desert Oasis",
-        "colors": ["#fff2d5", "#e6cd8d", "#dfbd5e", "#d8ad2f", "#d19d01"],
+        "colors": [
+            "#fff2d5",
+            "#e6cd8d",
+            "#dfbd5e",
+            "#d8ad2f",
+            "#d19d01"
+        ],
         "tailwind_colors_name": "desert-oasis",
         "tailwind_colors": {
             "50": "#fff2d5",
@@ -2566,7 +3376,13 @@
     },
     {
         "name": "Frozen Llama",
-        "colors": ["#9bf2ea", "#7abecf", "#7695c1", "#716cb3", "#6d44a6"],
+        "colors": [
+            "#9bf2ea",
+            "#7abecf",
+            "#7695c1",
+            "#716cb3",
+            "#6d44a6"
+        ],
         "tailwind_colors_name": "frozen-llama",
         "tailwind_colors": {
             "50": "#9bf2ea",
@@ -2585,7 +3401,13 @@
     },
     {
         "name": "Ryujinscales",
-        "colors": ["#081426", "#3f282a", "#7a4238", "#b55c46", "#f17754"],
+        "colors": [
+            "#081426",
+            "#3f282a",
+            "#7a4238",
+            "#b55c46",
+            "#f17754"
+        ],
         "tailwind_colors_name": "ryujinscales",
         "tailwind_colors": {
             "50": "#081426",
@@ -2604,7 +3426,13 @@
     },
     {
         "name": "Trackday",
-        "colors": ["#464d66", "#654652", "#8e4a4b", "#b74d44", "#e0513e"],
+        "colors": [
+            "#464d66",
+            "#654652",
+            "#8e4a4b",
+            "#b74d44",
+            "#e0513e"
+        ],
         "tailwind_colors_name": "trackday",
         "tailwind_colors": {
             "50": "#464d66",
@@ -2623,7 +3451,13 @@
     },
     {
         "name": "Fruit Chew",
-        "colors": ["#d6d3d6", "#ae96af", "#936e94", "#774679", "#5c1e5f"],
+        "colors": [
+            "#d6d3d6",
+            "#ae96af",
+            "#936e94",
+            "#774679",
+            "#5c1e5f"
+        ],
         "tailwind_colors_name": "fruit-chew",
         "tailwind_colors": {
             "50": "#d6d3d6",
@@ -2642,7 +3476,13 @@
     },
     {
         "name": "Evil Eye",
-        "colors": ["#0084c2", "#4697c9", "#81b5d4", "#bcd3df", "#f7f2ea"],
+        "colors": [
+            "#0084c2",
+            "#4697c9",
+            "#81b5d4",
+            "#bcd3df",
+            "#f7f2ea"
+        ],
         "tailwind_colors_name": "evil-eye",
         "tailwind_colors": {
             "50": "#0084c2",
@@ -2661,7 +3501,13 @@
     },
     {
         "name": "Trance",
-        "colors": ["#00021b", "#4b1d56", "#7e1a61", "#b1166b", "#e51376"],
+        "colors": [
+            "#00021b",
+            "#4b1d56",
+            "#7e1a61",
+            "#b1166b",
+            "#e51376"
+        ],
         "tailwind_colors_name": "trance",
         "tailwind_colors": {
             "50": "#00021b",
@@ -2680,7 +3526,13 @@
     },
     {
         "name": "Fire",
-        "colors": ["#0f0000", "#440c0c", "#690e0e", "#8e1010", "#b31313"],
+        "colors": [
+            "#0f0000",
+            "#440c0c",
+            "#690e0e",
+            "#8e1010",
+            "#b31313"
+        ],
         "tailwind_colors_name": "fire",
         "tailwind_colors": {
             "50": "#0f0000",
@@ -2699,7 +3551,13 @@
     },
     {
         "name": "Aurora",
-        "colors": ["#011926", "#00432e", "#007a49", "#00b164", "#00e980"],
+        "colors": [
+            "#011926",
+            "#00432e",
+            "#007a49",
+            "#00b164",
+            "#00e980"
+        ],
         "tailwind_colors_name": "aurora",
         "tailwind_colors": {
             "50": "#011926",
@@ -2718,7 +3576,13 @@
     },
     {
         "name": "Leather",
-        "colors": ["#a86948", "#b3805e", "#cca17d", "#e5c29c", "#ffe4bc"],
+        "colors": [
+            "#a86948",
+            "#b3805e",
+            "#cca17d",
+            "#e5c29c",
+            "#ffe4bc"
+        ],
         "tailwind_colors_name": "leather",
         "tailwind_colors": {
             "50": "#a86948",
@@ -2737,7 +3601,13 @@
     },
     {
         "name": "Fleuriste",
-        "colors": ["#c6b294", "#97907b", "#7a7e6d", "#5d6c5f", "#405a52"],
+        "colors": [
+            "#c6b294",
+            "#97907b",
+            "#7a7e6d",
+            "#5d6c5f",
+            "#405a52"
+        ],
         "tailwind_colors_name": "fleuriste",
         "tailwind_colors": {
             "50": "#c6b294",
@@ -2756,7 +3626,13 @@
     },
     {
         "name": "Dmg",
-        "colors": ["#dadbdc", "#ba96b5", "#b66c98", "#b2427b", "#ae185e"],
+        "colors": [
+            "#dadbdc",
+            "#ba96b5",
+            "#b66c98",
+            "#b2427b",
+            "#ae185e"
+        ],
         "tailwind_colors_name": "dmg",
         "tailwind_colors": {
             "50": "#dadbdc",
@@ -2775,7 +3651,13 @@
     },
     {
         "name": "Catppuccin",
-        "colors": ["#1e1e2e", "#443b59", "#715f8e", "#9e82c2", "#cba6f7"],
+        "colors": [
+            "#1e1e2e",
+            "#443b59",
+            "#715f8e",
+            "#9e82c2",
+            "#cba6f7"
+        ],
         "tailwind_colors_name": "catppuccin",
         "tailwind_colors": {
             "50": "#1e1e2e",
@@ -2794,7 +3676,13 @@
     },
     {
         "name": "Snes",
-        "colors": ["#bfbec2", "#9d93b6", "#8576ab", "#6d599f", "#553d94"],
+        "colors": [
+            "#bfbec2",
+            "#9d93b6",
+            "#8576ab",
+            "#6d599f",
+            "#553d94"
+        ],
         "tailwind_colors_name": "snes",
         "tailwind_colors": {
             "50": "#bfbec2",
@@ -2813,7 +3701,13 @@
     },
     {
         "name": "Passion Fruit",
-        "colors": ["#7c2142", "#9f5573", "#bb6f89", "#d7899e", "#f4a3b4"],
+        "colors": [
+            "#7c2142",
+            "#9f5573",
+            "#bb6f89",
+            "#d7899e",
+            "#f4a3b4"
+        ],
         "tailwind_colors_name": "passion-fruit",
         "tailwind_colors": {
             "50": "#7c2142",
@@ -2832,7 +3726,13 @@
     },
     {
         "name": "Blue Dolphin",
-        "colors": ["#003950", "#406a87", "#808bae", "#bfacd4", "#ffcefb"],
+        "colors": [
+            "#003950",
+            "#406a87",
+            "#808bae",
+            "#bfacd4",
+            "#ffcefb"
+        ],
         "tailwind_colors_name": "blue-dolphin",
         "tailwind_colors": {
             "50": "#003950",
@@ -2851,7 +3751,13 @@
     },
     {
         "name": "Mexican",
-        "colors": ["#f8ad34", "#e7935f", "#d56d6d", "#c3477b", "#b12189"],
+        "colors": [
+            "#f8ad34",
+            "#e7935f",
+            "#d56d6d",
+            "#c3477b",
+            "#b12189"
+        ],
         "tailwind_colors_name": "mexican",
         "tailwind_colors": {
             "50": "#f8ad34",
@@ -2870,7 +3776,13 @@
     },
     {
         "name": "Husqy",
-        "colors": ["#000000", "#472256", "#71458e", "#9b67c6", "#c58aff"],
+        "colors": [
+            "#000000",
+            "#472256",
+            "#71458e",
+            "#9b67c6",
+            "#c58aff"
+        ],
         "tailwind_colors_name": "husqy",
         "tailwind_colors": {
             "50": "#000000",
@@ -2889,7 +3801,13 @@
     },
     {
         "name": "Peach Blossom",
-        "colors": ["#292929", "#455652", "#617769", "#7d9780", "#99b898"],
+        "colors": [
+            "#292929",
+            "#455652",
+            "#617769",
+            "#7d9780",
+            "#99b898"
+        ],
         "tailwind_colors_name": "peach-blossom",
         "tailwind_colors": {
             "50": "#292929",
@@ -2908,7 +3826,13 @@
     },
     {
         "name": "Dino",
-        "colors": ["#ffffff", "#a7f1be", "#85e8a5", "#62df8b", "#40d672"],
+        "colors": [
+            "#ffffff",
+            "#a7f1be",
+            "#85e8a5",
+            "#62df8b",
+            "#40d672"
+        ],
         "tailwind_colors_name": "dino",
         "tailwind_colors": {
             "50": "#ffffff",
@@ -2927,7 +3851,13 @@
     },
     {
         "name": "Tron Orange",
-        "colors": ["#0d1c1c", "#b1a66c", "#c6bc48", "#dbd224", "#f0e800"],
+        "colors": [
+            "#0d1c1c",
+            "#b1a66c",
+            "#c6bc48",
+            "#dbd224",
+            "#f0e800"
+        ],
         "tailwind_colors_name": "tron-orange",
         "tailwind_colors": {
             "50": "#0d1c1c",
@@ -2946,7 +3876,13 @@
     },
     {
         "name": "Hedge",
-        "colors": ["#415e31", "#446233", "#51743c", "#5d8645", "#6a994e"],
+        "colors": [
+            "#415e31",
+            "#446233",
+            "#51743c",
+            "#5d8645",
+            "#6a994e"
+        ],
         "tailwind_colors_name": "hedge",
         "tailwind_colors": {
             "50": "#415e31",
@@ -2965,7 +3901,13 @@
     },
     {
         "name": "Modern Dolch Light",
-        "colors": ["#dbdbdb", "#d1e2de", "#bbdcd5", "#a5d6cc", "#8fd1c3"],
+        "colors": [
+            "#dbdbdb",
+            "#d1e2de",
+            "#bbdcd5",
+            "#a5d6cc",
+            "#8fd1c3"
+        ],
         "tailwind_colors_name": "modern-dolch-light",
         "tailwind_colors": {
             "50": "#dbdbdb",
@@ -2984,7 +3926,13 @@
     },
     {
         "name": "Iv Spade",
-        "colors": ["#0c0c0c", "#3b3328", "#64543e", "#8d7554", "#b7976a"],
+        "colors": [
+            "#0c0c0c",
+            "#3b3328",
+            "#64543e",
+            "#8d7554",
+            "#b7976a"
+        ],
         "tailwind_colors_name": "iv-spade",
         "tailwind_colors": {
             "50": "#0c0c0c",
@@ -3003,7 +3951,13 @@
     },
     {
         "name": "Iv Clover",
-        "colors": ["#a0a0a0", "#a49e9e", "#8a7e7f", "#705e5f", "#573e40"],
+        "colors": [
+            "#a0a0a0",
+            "#a49e9e",
+            "#8a7e7f",
+            "#705e5f",
+            "#573e40"
+        ],
         "tailwind_colors_name": "iv-clover",
         "tailwind_colors": {
             "50": "#a0a0a0",
@@ -3022,7 +3976,13 @@
     },
     {
         "name": "Cheesecake",
-        "colors": ["#fdf0d5", "#d9b3a1", "#c08584", "#a75766", "#8e2949"],
+        "colors": [
+            "#fdf0d5",
+            "#d9b3a1",
+            "#c08584",
+            "#a75766",
+            "#8e2949"
+        ],
         "tailwind_colors_name": "cheesecake",
         "tailwind_colors": {
             "50": "#fdf0d5",
@@ -3041,7 +4001,13 @@
     },
     {
         "name": "Earthsong",
-        "colors": ["#292521", "#293926", "#365735", "#437543", "#509452"],
+        "colors": [
+            "#292521",
+            "#293926",
+            "#365735",
+            "#437543",
+            "#509452"
+        ],
         "tailwind_colors_name": "earthsong",
         "tailwind_colors": {
             "50": "#292521",
@@ -3060,7 +4026,13 @@
     },
     {
         "name": "Purpleish",
-        "colors": ["#1e1e32", "#302651", "#49357a", "#6143a3", "#7a52cc"],
+        "colors": [
+            "#1e1e32",
+            "#302651",
+            "#49357a",
+            "#6143a3",
+            "#7a52cc"
+        ],
         "tailwind_colors_name": "purpleish",
         "tailwind_colors": {
             "50": "#1e1e32",
@@ -3079,7 +4051,13 @@
     },
     {
         "name": "Nord Light",
-        "colors": ["#eceff4", "#c5d5dd", "#b3cdd2", "#a1c4c6", "#8fbcbb"],
+        "colors": [
+            "#eceff4",
+            "#c5d5dd",
+            "#b3cdd2",
+            "#a1c4c6",
+            "#8fbcbb"
+        ],
         "tailwind_colors_name": "nord-light",
         "tailwind_colors": {
             "50": "#eceff4",
@@ -3098,7 +4076,13 @@
     },
     {
         "name": "Slambook",
-        "colors": ["#fffdde", "#95a5b2", "#646e80", "#33374e", "#03001c"],
+        "colors": [
+            "#fffdde",
+            "#95a5b2",
+            "#646e80",
+            "#33374e",
+            "#03001c"
+        ],
         "tailwind_colors_name": "slambook",
         "tailwind_colors": {
             "50": "#fffdde",
@@ -3117,7 +4101,13 @@
     },
     {
         "name": "Breeze",
-        "colors": ["#e8d5c4", "#d7c6cd", "#b9a6c1", "#9b86b5", "#7d67a9"],
+        "colors": [
+            "#e8d5c4",
+            "#d7c6cd",
+            "#b9a6c1",
+            "#9b86b5",
+            "#7d67a9"
+        ],
         "tailwind_colors_name": "breeze",
         "tailwind_colors": {
             "50": "#e8d5c4",
@@ -3136,7 +4126,13 @@
     },
     {
         "name": "Cherry Blossom",
-        "colors": ["#323437", "#573a57", "#81457e", "#ab50a5", "#d65ccc"],
+        "colors": [
+            "#323437",
+            "#573a57",
+            "#81457e",
+            "#ab50a5",
+            "#d65ccc"
+        ],
         "tailwind_colors_name": "cherry-blossom",
         "tailwind_colors": {
             "50": "#323437",
@@ -3155,7 +4151,13 @@
     },
     {
         "name": "Everblush",
-        "colors": ["#141b1e", "#3d5341", "#577c55", "#71a569", "#8ccf7e"],
+        "colors": [
+            "#141b1e",
+            "#3d5341",
+            "#577c55",
+            "#71a569",
+            "#8ccf7e"
+        ],
         "tailwind_colors_name": "everblush",
         "tailwind_colors": {
             "50": "#141b1e",
@@ -3174,7 +4176,13 @@
     },
     {
         "name": "Grape",
-        "colors": ["#2c003e", "#572321", "#8f4716", "#c76b0b", "#ff8f00"],
+        "colors": [
+            "#2c003e",
+            "#572321",
+            "#8f4716",
+            "#c76b0b",
+            "#ff8f00"
+        ],
         "tailwind_colors_name": "grape",
         "tailwind_colors": {
             "50": "#2c003e",
@@ -3193,7 +4201,13 @@
     },
     {
         "name": "Rainbow Trail",
-        "colors": ["#f5f5f5", "#b5b5b5", "#8b8b8b", "#606060", "#363636"],
+        "colors": [
+            "#f5f5f5",
+            "#b5b5b5",
+            "#8b8b8b",
+            "#606060",
+            "#363636"
+        ],
         "tailwind_colors_name": "rainbow-trail",
         "tailwind_colors": {
             "50": "#f5f5f5",
@@ -3212,7 +4226,13 @@
     },
     {
         "name": "Tangerine",
-        "colors": ["#ffede0", "#fdb390", "#fd9461", "#fd7432", "#fe5503"],
+        "colors": [
+            "#ffede0",
+            "#fdb390",
+            "#fd9461",
+            "#fd7432",
+            "#fe5503"
+        ],
         "tailwind_colors_name": "tangerine",
         "tailwind_colors": {
             "50": "#ffede0",
@@ -3231,7 +4251,13 @@
     },
     {
         "name": "Macroblank",
-        "colors": ["#b2d2c8", "#c4b2a4", "#c38775", "#c25c46", "#c13117"],
+        "colors": [
+            "#b2d2c8",
+            "#c4b2a4",
+            "#c38775",
+            "#c25c46",
+            "#c13117"
+        ],
         "tailwind_colors_name": "macroblank",
         "tailwind_colors": {
             "50": "#b2d2c8",
@@ -3250,7 +4276,13 @@
     },
     {
         "name": "Anti Hero",
-        "colors": ["#00002e", "#442f61", "#82597a", "#c08393", "#ffadad"],
+        "colors": [
+            "#00002e",
+            "#442f61",
+            "#82597a",
+            "#c08393",
+            "#ffadad"
+        ],
         "tailwind_colors_name": "anti-hero",
         "tailwind_colors": {
             "50": "#00002e",
@@ -3269,7 +4301,13 @@
     },
     {
         "name": "Incognito",
-        "colors": ["#0e0e0e", "#4f360f", "#8a570a", "#c47805", "#ff9900"],
+        "colors": [
+            "#0e0e0e",
+            "#4f360f",
+            "#8a570a",
+            "#c47805",
+            "#ff9900"
+        ],
         "tailwind_colors_name": "incognito",
         "tailwind_colors": {
             "50": "#0e0e0e",
@@ -3288,7 +4326,13 @@
     },
     {
         "name": "Discord",
-        "colors": ["#313338", "#363b5f", "#42498d", "#4e57bb", "#5a65ea"],
+        "colors": [
+            "#313338",
+            "#363b5f",
+            "#42498d",
+            "#4e57bb",
+            "#5a65ea"
+        ],
         "tailwind_colors_name": "discord",
         "tailwind_colors": {
             "50": "#313338",
@@ -3307,7 +4351,13 @@
     },
     {
         "name": "Cy Red",
-        "colors": ["#6e2626", "#682424", "#923333", "#bb4141", "#e55050"],
+        "colors": [
+            "#6e2626",
+            "#682424",
+            "#923333",
+            "#bb4141",
+            "#e55050"
+        ],
         "tailwind_colors_name": "cy-red",
         "tailwind_colors": {
             "50": "#6e2626",
@@ -3326,7 +4376,13 @@
     },
     {
         "name": "Floret",
-        "colors": ["#00272c", "#515b41", "#8b8650", "#c5b15e", "#ffdd6d"],
+        "colors": [
+            "#00272c",
+            "#515b41",
+            "#8b8650",
+            "#c5b15e",
+            "#ffdd6d"
+        ],
         "tailwind_colors_name": "floret",
         "tailwind_colors": {
             "50": "#00272c",
@@ -3345,7 +4401,13 @@
     },
     {
         "name": "Lilac Mist",
-        "colors": ["#fffbfe", "#dfb5d4", "#d28ebb", "#c567a2", "#b94189"],
+        "colors": [
+            "#fffbfe",
+            "#dfb5d4",
+            "#d28ebb",
+            "#c567a2",
+            "#b94189"
+        ],
         "tailwind_colors_name": "lilac-mist",
         "tailwind_colors": {
             "50": "#fffbfe",
@@ -3364,7 +4426,13 @@
     },
     {
         "name": "Terrazzo",
-        "colors": ["#f1e5da", "#e2bca8", "#e1a68a", "#e08f6c", "#e0794e"],
+        "colors": [
+            "#f1e5da",
+            "#e2bca8",
+            "#e1a68a",
+            "#e08f6c",
+            "#e0794e"
+        ],
         "tailwind_colors_name": "terrazzo",
         "tailwind_colors": {
             "50": "#f1e5da",
@@ -3380,5 +4448,30 @@
         },
         "background": "#e0794e",
         "text": "#688e8f"
+    },
+    {
+        "name": "Suisei",
+        "colors": [
+            "#3b4a62",
+            "#546a7f",
+            "#7797aa",
+            "#9ac3d4",
+            "#bef0ff"
+        ],
+        "tailwind_colors_name": "suisei",
+        "tailwind_colors": {
+            "50": "#3b4a62",
+            "100": "#4d6177",
+            "200": "#5b7388",
+            "300": "#698599",
+            "400": "#7797aa",
+            "500": "#85a8bb",
+            "600": "#93bacc",
+            "700": "#a1ccdd",
+            "800": "#afdeee",
+            "900": "#bef0ff"
+        },
+        "background": "#bef0ff",
+        "text": "#fe9841"
     }
 ]
