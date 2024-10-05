@@ -17,7 +17,7 @@ export default function HueLinkCopy() {
 
     return (
         <button
-            className="flex items-center gap-x-2 rounded-lg border bg-white p-2 transition-colors duration-300 hover:bg-slate-100"
+            className="flex items-center gap-x-2 rounded-lg border bg-white p-2 text-black transition-colors duration-300 hover:bg-slate-100"
             onClick={() => handleHueLinkCopy()}
         >
             <span className="font-mono text-xs font-semibold">Hue Link</span>

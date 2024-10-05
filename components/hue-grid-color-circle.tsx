@@ -44,7 +44,7 @@ export default function HueGridColorCircle({
                     style={{ backgroundColor: color }}
                 ></div>
             </div>
-            <div className="mt-2 select-none font-mono text-xs font-bold tracking-wider">
+            <div className="mt-2 select-none font-mono text-xs font-bold tracking-wider text-black">
                 {color}
             </div>
         </motion.div>

@@ -201,7 +201,7 @@ export default function HueGenerator() {
                 )}
 
                 <div className="h-fit">
-                    <div className="relative flex h-full items-center">
+                    <div className="relative flex h-full items-center text-black">
                         <input
                             type="text"
                             className="h-[3.5rem] w-[14rem] rounded-lg border text-center font-mono font-semibold text-black shadow-xl placeholder:text-black sm:h-[4.5rem] sm:w-[20rem] lg:w-[28rem] lg:text-xl"
@@ -282,7 +282,7 @@ export default function HueGenerator() {
                     <SquareArrowUpRight strokeWidth={2} size={20} />
                 </div>
             </div>
-            <div className="mt-5 flex w-full justify-center gap-x-2">
+            <div className="mt-5 flex w-full justify-center gap-x-2 text-black">
                 <button
                     className="flex items-center gap-x-2 rounded-lg border bg-white p-2 px-4 py-2 transition-colors duration-300 hover:bg-slate-100"
                     onClick={handleGenerateButton}

@@ -20,7 +20,7 @@ export default function HueGridTailwindCode({
                 duration: 0.5,
                 delay: 0.04,
             }}
-            className="m-4 h-[20rem] rounded-xl bg-slate-100 bg-opacity-70 p-4 font-mono text-sm font-semibold tracking-wider sm:text-base"
+            className="m-4 h-[20rem] rounded-xl bg-slate-100 bg-opacity-70 p-4 font-mono text-sm font-semibold tracking-wider text-black sm:text-base"
         >
             {`${tailwindColorsName}:`}
             <pre className="inline">

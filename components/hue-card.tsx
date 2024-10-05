@@ -52,7 +52,7 @@ export default function HueCard({
                 </div>
             </div>
             <div className="h-16">
-                <div className="flex h-full w-full items-center justify-between">
+                <div className="flex h-full w-full items-center justify-between text-black">
                     <span className="ml-4 select-none font-pacifico text-xl font-bold">
                         {name}
                     </span>

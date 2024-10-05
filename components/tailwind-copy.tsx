@@ -28,7 +28,7 @@ export default function TailwindCopy({
 
     return (
         <button
-            className="flex items-center gap-x-2 rounded-lg border bg-white p-2 transition-colors duration-300 hover:bg-slate-100"
+            className="flex items-center gap-x-2 rounded-lg border bg-white p-2 text-black transition-colors duration-300 hover:bg-slate-100"
             onClick={() =>
                 handleTailwindColorCopy(tailwind_colors_name, tailwind_colors)
             }
