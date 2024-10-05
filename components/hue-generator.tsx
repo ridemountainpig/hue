@@ -268,7 +268,7 @@ export default function HueGenerator() {
                 </div>
             </div>
             <div className="flex h-fit w-full justify-center">
-                <div className="mt-6 flex h-fit w-full items-center justify-center gap-x-2 text-center">
+                <div className="mt-6 flex h-fit w-full items-center justify-center gap-x-2 text-center text-black">
                     <SquareArrowUpLeft strokeWidth={2} size={20} />
                     <span className="font-mono text-xs font-semibold lg:text-sm">
                         select color and enter Hue name
