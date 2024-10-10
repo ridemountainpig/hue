@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     title: "Hue Palette",
     description: "Painting Your World In Vibrant Hues",
     keywords:
-        "hue, palette, hue palette, hue generator, hues, hues generator, hues palette, hues generator, hues palette, hue generator, hue palette generator, hue palette generator, tailwind css, tailwind, tailwind css generator, tailwind generator, tailwind css palette, tailwind palette, tailwind css palette generator, tailwind palette generator",
+        "color palette generator, hue palette, custom color palettes, Tailwind CSS colors, Tailwind CSS palette generator, web design color tool, CSS color config, color schemes for web design, custom hue palette, Tailwind color customizer, UI/UX color palette, online color tool, frontend design color tool, web development color palettes, Tailwind CSS config generator, accessible color palettes, hue picker, Tailwind theme colors",
     authors: [
         {
             name: "ridemountainpig",
