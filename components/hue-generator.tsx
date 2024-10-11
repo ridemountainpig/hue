@@ -100,7 +100,7 @@ export default function HueGenerator() {
 
     const handleHueNameInfo = () => {
         toast(
-            "The hue name's maximum length is 15 characters, and it can only contain letters, numbers, and spaces.",
+            "The hue name's maximum length is 14 characters, and it can only contain letters, numbers, and spaces.",
             {
                 icon: "📝",
                 style: {

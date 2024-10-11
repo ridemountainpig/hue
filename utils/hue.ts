@@ -48,12 +48,12 @@ function generateHue(colorOne: string, colorTwo: string) {
     const tailwind_count = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900];
     const colors = [];
     const mixColorsTmp = [];
-    colors.push(colorOne);
+    colors.push(colorOne.toLowerCase());
     for (let i = 0; i < percentage.length; i++) {
         mixColorsTmp.push(mixColors(colorOne, colorTwo, percentage[i]));
     }
     colors.push(...mixColorsTmp.reverse());
-    colors.push(colorTwo);
+    colors.push(colorTwo.toLowerCase());
 
     const tailwind_colors: Record<string, string> = {};
 
