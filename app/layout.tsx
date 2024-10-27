@@ -15,7 +15,8 @@ const pacifico = Pacifico({
 
 export const metadata: Metadata = {
     title: "Hue Palette",
-    description: "Painting Your World In Vibrant Hues",
+    description:
+        "Bring your vision to life with beautiful, customizable color palettes! Hue Palette empowers everyone from creators to enthusiasts to explore, design, and apply unique color combinations effortlessly. Add a touch of creativity to any project. Create custom hue palettes and generate Tailwind CSS configuration code in seconds. Hue Palette is perfect for both designers and developers!",
     keywords:
         "color palette generator, hue palette, custom color palettes, Tailwind CSS colors, Tailwind CSS palette generator, web design color tool, CSS color config, color schemes for web design, custom hue palette, Tailwind color customizer, UI/UX color palette, online color tool, frontend design color tool, web development color palettes, Tailwind CSS config generator, accessible color palettes, hue picker, Tailwind theme colors",
     authors: [

@@ -82,11 +82,41 @@ export default function Header() {
                     </Link>
                     <Link
                         passHref
+                        href="https://www.raycast.com/ridemountainpig/hue-palette"
+                        rel="noreferrer"
+                        target="_blank"
+                        className="p-1"
+                    >
+                        <button
+                            className="flex h-8 w-8 items-center transition-colors duration-300 md:h-10 md:w-10 lg:h-fit lg:w-fit"
+                            title="Hue Palette Raycast Extension"
+                        >
+                            <Image
+                                src="raycast.svg"
+                                alt="Raycast"
+                                width={30}
+                                height={30}
+                                className="lg:hidden"
+                            ></Image>
+                            <Image
+                                src="raycast.svg"
+                                alt="Raycast"
+                                width={38}
+                                height={38}
+                                className="hidden lg:block"
+                            ></Image>
+                        </button>
+                    </Link>
+                    <Link
+                        passHref
                         href="https://github.com/ridemountainpig/hue"
                         rel="noreferrer"
                         target="_blank"
                     >
-                        <button className="flex h-8 w-8 items-center transition-colors duration-300 md:h-10 md:w-10 lg:h-fit lg:w-fit">
+                        <button
+                            className="flex h-8 w-8 items-center transition-colors duration-300 md:h-10 md:w-10 lg:h-fit lg:w-fit"
+                            title="Hue Palette Github"
+                        >
                             {iconGitHub}
                         </button>
                     </Link>

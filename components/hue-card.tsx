@@ -56,7 +56,7 @@ export default function HueCard({
                     <span className="ml-4 select-none font-pacifico text-xl font-bold">
                         {name}
                     </span>
-                    <a href={`/${name}`}>
+                    <a href={`/${name}`} title={`${name} Hue Palette`}>
                         <div className="mr-4 flex cursor-pointer items-center rounded-lg border bg-white p-2 hover:bg-slate-100">
                             <SquareArrowOutUpRight
                                 strokeWidth={2.25}
