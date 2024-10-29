@@ -92,14 +92,14 @@ export default function Header() {
                             title="Hue Palette Raycast Extension"
                         >
                             <Image
-                                src="raycast.svg"
+                                src="/raycast.svg"
                                 alt="Raycast"
                                 width={30}
                                 height={30}
                                 className="lg:hidden"
                             ></Image>
                             <Image
-                                src="raycast.svg"
+                                src="/raycast.svg"
                                 alt="Raycast"
                                 width={38}
                                 height={38}
