@@ -10,7 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     let hueJsonSitemap = [];
 
     for (const hue of hueData) {
-        const url = `https://hue-palette.com/${hue.name}/`;
+        const url = `https://www.hue-palette.com/${hue.name}/`;
         hueJsonSitemap.push({
             url: url,
             priority: 0.8,
@@ -20,12 +20,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     return [
         {
-            url: "https://hue-palette.com",
+            url: "https://www.hue-palette.com",
             priority: 1,
             lastModified: new Date(),
         },
         {
-            url: "https://hue-palette.com/hue-generator",
+            url: "https://www.hue-palette.com/hue-generator",
             priority: 0.8,
         },
         ...hueJsonSitemap,

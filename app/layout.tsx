@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     description:
         "Bring your vision to life with beautiful, customizable color palettes! Hue Palette empowers everyone from creators to enthusiasts to explore, design, and apply unique color combinations effortlessly. Add a touch of creativity to any project. Create custom hue palettes and generate Tailwind CSS configuration code in seconds. Hue Palette is perfect for both designers and developers!",
     keywords:
-        "color palette generator, hue palette, custom color palettes, Tailwind CSS colors, Tailwind CSS palette generator, web design color tool, CSS color config, color schemes for web design, custom hue palette, Tailwind color customizer, UI/UX color palette, online color tool, frontend design color tool, web development color palettes, Tailwind CSS config generator, accessible color palettes, hue picker, Tailwind theme colors",
+        "Color Palette Generator, Hue Palette, Custom Color Palettes, Tailwind CSS Colors, Tailwind CSS Palette Generator, Web Design Color Tool, CSS Color Configurator, Color Schemes for Web Design, Custom Hue Palette, Tailwind Color Customizer, UI/UX Color Palette, Online Color Tool, Frontend Design Color Tool, Web Development Color Palettes, Tailwind CSS Config Generator, Accessible Color Palettes, Hue Picker, Tailwind Theme Colors",
     authors: [
         {
             name: "ridemountainpig",
