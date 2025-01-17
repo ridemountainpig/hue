@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: "/",
             disallow: ["/api/", "/_next/static/media/"],
         },
-        sitemap: "https://hue-palette.com/sitemap.xml",
+        sitemap: "https://www.hue-palette.com/sitemap.xml",
     };
 }
