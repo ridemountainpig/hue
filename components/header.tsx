@@ -8,7 +8,7 @@ export default function Header() {
         <header className="flex w-full justify-center">
             <div className="flex w-full items-center justify-between px-2 py-8 lg:w-3/4 lg:py-14">
                 <Link href="/">
-                    <span className="flex cursor-pointer select-none items-center">
+                    <span className="flex cursor-pointer items-center select-none">
                         <Image
                             width={75}
                             height={75}
@@ -31,7 +31,7 @@ export default function Header() {
                             src="/hue-icon.png"
                         />
                         <span
-                            className="ml-3 hidden font-pacifico text-4xl font-extrabold tracking-widest text-slate-600 md:inline xl:text-5xl"
+                            className="font-pacifico ml-3 hidden text-4xl font-extrabold tracking-widest text-slate-600 md:inline xl:text-5xl"
                             translate="no"
                         >
                             Hue
@@ -39,14 +39,14 @@ export default function Header() {
                     </span>
                 </Link>
 
-                <div className="flex h-fit items-center gap-x-1 font-pacifico text-xs font-semibold text-slate-600 sm:text-lg lg:gap-x-2 lg:text-xl">
+                <div className="font-pacifico flex h-fit items-center gap-x-1 text-xs font-semibold text-slate-600 sm:text-lg lg:gap-x-2 lg:text-xl">
                     <Link
                         passHref
                         className="group mr-2 rounded-lg p-1"
                         href="/"
                         rel="noreferrer"
                     >
-                        <button className="flex items-center gap-x-2 transition-colors">
+                        <div className="flex items-center gap-x-2 transition-colors">
                             <span>Hues</span>
                             <ArrowUpRight
                                 size={18}
@@ -58,7 +58,7 @@ export default function Header() {
                                 strokeWidth={4}
                                 className="sm:hidden"
                             />
-                        </button>
+                        </div>
                     </Link>
                     <Link
                         passHref
@@ -66,7 +66,7 @@ export default function Header() {
                         href="/hue-generator"
                         rel="noreferrer"
                     >
-                        <button className="flex items-center gap-x-2 transition-colors">
+                        <div className="flex items-center gap-x-2 transition-colors">
                             <span>Hue Generator</span>
                             <ArrowUpRight
                                 size={18}
@@ -78,7 +78,7 @@ export default function Header() {
                                 strokeWidth={4}
                                 className="sm:hidden"
                             />
-                        </button>
+                        </div>
                     </Link>
                     <Link
                         passHref
@@ -87,7 +87,7 @@ export default function Header() {
                         target="_blank"
                         className="p-1"
                     >
-                        <button
+                        <div
                             className="flex h-8 w-8 items-center transition-colors duration-300 md:h-10 md:w-10 lg:h-fit lg:w-fit"
                             title="Hue Palette Raycast Extension"
                         >
@@ -105,7 +105,7 @@ export default function Header() {
                                 height={38}
                                 className="hidden lg:block"
                             ></Image>
-                        </button>
+                        </div>
                     </Link>
                     <Link
                         passHref
@@ -113,12 +113,12 @@ export default function Header() {
                         rel="noreferrer"
                         target="_blank"
                     >
-                        <button
+                        <div
                             className="flex h-8 w-8 items-center transition-colors duration-300 md:h-10 md:w-10 lg:h-fit lg:w-fit"
                             title="Hue Palette Github"
                         >
                             {iconGitHub}
-                        </button>
+                        </div>
                     </Link>
                 </div>
             </div>

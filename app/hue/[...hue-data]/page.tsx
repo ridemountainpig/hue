@@ -2,11 +2,10 @@ import hueUtils from "@/utils/hue";
 import HueGridLayout from "@/components/hue-grid-layout";
 import HueError from "@/components/hue-error";
 
-export async function generateMetadata({
-    params,
-}: {
-    params: { "hue-data": string[] };
+export async function generateMetadata(props: {
+    params: Promise<{ "hue-data": string[] }>;
 }) {
+    const params = await props.params;
     return {
         title: params["hue-data"][0].replaceAll("%20", " ") + " | Hue",
         description: "Painting Your World In Vibrant Hues",
@@ -38,11 +37,10 @@ export async function generateMetadata({
     };
 }
 
-export default function HuePage({
-    params,
-}: {
-    params: { "hue-data": string[] };
+export default async function HuePage(props: {
+    params: Promise<{ "hue-data": string[] }>;
 }) {
+    const params = await props.params;
     const hueName = params["hue-data"][0];
     const hueColor = params["hue-data"][1];
 

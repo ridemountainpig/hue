@@ -34,7 +34,7 @@ export default function HueColorSquare({ color, copy }: HueColorSquareProps) {
             />
             {copy && (
                 <div
-                    className="absolute left-0 top-0 hidden h-full w-full cursor-pointer rounded-lg group-hover:block"
+                    className="absolute top-0 left-0 hidden h-full w-full cursor-pointer rounded-lg group-hover:block"
                     onClick={handleCopy}
                 >
                     <div className="h-full w-full"></div>

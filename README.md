@@ -1,14 +1,14 @@
-![CleanShot 2024-08-31 at 15 58 09@2x](https://github.com/user-attachments/assets/d4a9d508-e80e-4c51-a745-31389bfd40ee)
-
 # Hue Palette
+
+![CleanShot 2024-08-31 at 15 58 09@2x](https://github.com/user-attachments/assets/d4a9d508-e80e-4c51-a745-31389bfd40ee)
 
 Hue Palette is a tool designed to help developers and designers effortlessly create custom hue palettes for their projects. With a user-friendly interface and powerful features, Hue Palette makes it easy to generate, preview, and use hue colors in your design and development workflows.
 
 ## Features
 
--   **Pre-built Hue Samples**: Explore a wide range of pre-built hue samples to find the perfect color scheme for your project.
--   **Custom Hue Generator**: Easily generate custom hues tailored to your specific needs with the intuitive hue generator tool.
--   **Tailwind CSS Integration**: Instantly generate Tailwind CSS configuration code for the hues you create, allowing for seamless integration into your projects.
+- **Pre-built Hue Samples**: Explore a wide range of pre-built hue samples to find the perfect color scheme for your project.
+- **Custom Hue Generator**: Easily generate custom hues tailored to your specific needs with the intuitive hue generator tool.
+- **Tailwind CSS Integration**: Instantly generate Tailwind CSS configuration code for the hues you create, allowing for seamless integration into your projects.
 
 ## Getting Started
 
@@ -31,7 +31,7 @@ After generating your hue palette, you can quickly integrate it into your Tailwi
 2. Paste the code into your `tailwind.config.js` file.
 3. Start using your custom hues in your CSS classes.
 
-### Example:
+### Example
 
 ```javascript
 module.exports = {

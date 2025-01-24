@@ -44,7 +44,7 @@ export default function HueGridColorSquare({ color }: HueGridColorSquareProps) {
                 style={{ backgroundColor: color }}
             >
                 <button
-                    className="select-none px-3 py-2 font-mono text-sm font-bold tracking-wide"
+                    className="cursor-pointer px-3 py-2 font-mono text-sm font-bold tracking-wide select-none"
                     style={{ color: textColor }}
                     onClick={() => handleCopy()}
                 >

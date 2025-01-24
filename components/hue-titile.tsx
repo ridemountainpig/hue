@@ -9,7 +9,7 @@ export default function HueTitle({ h1Title, h2Title }: HueTitleProps) {
             <h1 className="hidden">{h1Title}</h1>
             {h2Title != "" && (
                 <div className="flex w-full justify-center">
-                    <h2 className="select-none font-pacifico text-3xl font-bold tracking-widest text-slate-600 sm:text-4xl xl:text-5xl">
+                    <h2 className="font-pacifico text-3xl font-bold tracking-widest text-slate-600 select-none sm:text-4xl xl:text-5xl">
                         {h2Title}
                     </h2>
                 </div>

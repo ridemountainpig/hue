@@ -21,7 +21,7 @@ export default function HueGridColorText({
                     backgroundImage: `linear-gradient(to right, ${colorOne}, ${colorTwo})`,
                 }}
             >
-                <span className="select-none break-words px-4 text-center font-pacifico text-5xl font-bold tracking-widest text-white">
+                <span className="font-pacifico px-4 text-center text-5xl font-bold tracking-widest break-words text-white select-none">
                     {hueName.split("").map((char, index) => {
                         return (
                             <motion.span

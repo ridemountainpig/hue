@@ -14,13 +14,13 @@ export default function HueGridTailwindCode({
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            animate={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{
                 duration: 0.5,
                 delay: 0.04,
             }}
-            className="m-4 h-[20rem] rounded-xl bg-slate-100 bg-opacity-70 p-4 font-mono text-sm font-semibold tracking-wider text-black sm:text-base"
+            className="bg-opacity-70 m-4 h-[20rem] rounded-xl bg-slate-100 p-4 font-mono text-sm font-semibold tracking-wider text-black sm:text-base"
         >
             {`${tailwindColorsName}:`}
             <pre className="inline">

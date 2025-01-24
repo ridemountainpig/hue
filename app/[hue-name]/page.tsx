@@ -4,11 +4,10 @@ import { HueData } from "@/types/hue-type";
 import HueGridLayout from "@/components/hue-grid-layout";
 import HueError from "@/components/hue-error";
 
-export async function generateMetadata({
-    params,
-}: {
-    params: { "hue-name": string };
+export async function generateMetadata(props: {
+    params: Promise<{ "hue-name": string }>;
 }) {
+    const params = await props.params;
     return {
         title: params["hue-name"].replaceAll("%20", " ") + " | Hue",
         description: "Painting Your World In Vibrant Hues",
@@ -36,11 +35,10 @@ export async function generateMetadata({
     };
 }
 
-export default function HuePage({
-    params,
-}: {
-    params: { "hue-name": string };
+export default async function HuePage(props: {
+    params: Promise<{ "hue-name": string }>;
 }) {
+    const params = await props.params;
     const filePath = path.join(process.cwd(), "public/hue.json");
     const fileContents = fs.readFileSync(filePath, "utf8");
     const hueData: HueData[] = JSON.parse(fileContents);

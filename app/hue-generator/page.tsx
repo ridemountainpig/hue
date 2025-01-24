@@ -36,7 +36,7 @@ export default function HueGeneratorPage() {
     return (
         <>
             <HueTitle h1Title="Hue" h2Title="Hue Generator" />
-            <div className="pb-20 pt-10">
+            <div className="pt-10 pb-20">
                 <HueGenerator></HueGenerator>
             </div>
         </>

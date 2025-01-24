@@ -29,7 +29,7 @@ export default function HueGridColorCircle({
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            animate={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{
                 duration: 0.5,
@@ -44,7 +44,7 @@ export default function HueGridColorCircle({
                     style={{ backgroundColor: color }}
                 ></div>
             </div>
-            <div className="mt-2 select-none font-mono text-xs font-bold tracking-wider text-black">
+            <div className="mt-2 font-mono text-xs font-bold tracking-wider text-black select-none">
                 {color}
             </div>
         </motion.div>

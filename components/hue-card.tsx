@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import HueColorDock from "@/components/hue-color-dock";
 import { SquareArrowOutUpRight } from "lucide-react";
 import { motion } from "framer-motion";
@@ -53,17 +54,17 @@ export default function HueCard({
             </div>
             <div className="h-16">
                 <div className="flex h-full w-full items-center justify-between text-black">
-                    <span className="ml-4 select-none font-pacifico text-xl font-bold">
+                    <span className="font-pacifico ml-4 text-xl font-bold select-none">
                         {name}
                     </span>
-                    <a href={`/${name}`} title={`${name} Hue Palette`}>
+                    <Link href={`/${name}`} title={`${name} Hue Palette`}>
                         <div className="mr-4 flex cursor-pointer items-center rounded-lg border bg-white p-2 hover:bg-slate-100">
                             <SquareArrowOutUpRight
                                 strokeWidth={2.25}
                                 size={20}
                             />
                         </div>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </motion.div>

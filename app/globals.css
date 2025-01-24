@@ -1,45 +1,108 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-@layer components {
-    .bg-decoration {
-        background:
-            linear-gradient(180deg, transparent 18em, #fff 30em),
-            url("../public/grid-cell.svg") 0 0 repeat;
-        background-attachment: local;
-        background-size:
-            100% 100%,
-            40px 40px;
+@theme {
+    --animate-aurora: aurora 60s linear infinite;
+
+    --background-image-gradient-radial: radial-gradient(
+        var(--tw-gradient-stops)
+    );
+    --background-image-gradient-conic: conic-gradient(
+        from 180deg at 50% 50%,
+        var(--tw-gradient-stops)
+    );
+
+    --color-peach: #fcd2c8;
+    --color-sky: #85afd4;
+    --color-lavender: #aa9ec4;
+    --color-ivory: #f8f7f3;
+    --color-light-blue: #acc5e0;
+    --color-soft-gray: #cfcfe7;
+    --color-pink: #f0b1bd;
+    --color-gold: #fdd175;
+    --color-aqua: #cbe7f1;
+    --color-gray-blue: #7884ac;
+
+    --shadow-peach: 0 4px 6px rgba(252, 210, 200, 0.5);
+    --shadow-sky: 0 4px 6px rgba(133, 175, 220, 0.5);
+    --shadow-lavender: 0 4px 6px rgba(170, 158, 196, 0.5);
+    --shadow-ivory: 0 4px 6px rgba(248, 247, 243, 0.5);
+    --shadow-light-blue: 0 4px 6px rgba(172, 197, 224, 0.5);
+    --shadow-soft-gray: 0 4px 6px rgba(207, 207, 231, 0.5);
+    --shadow-pink: 0 4px 6px rgba(240, 177, 189, 0.5);
+    --shadow-gold: 0 4px 6px rgba(253, 209, 117, 0.5);
+    --shadow-aqua: 0 4px 6px rgba(203, 231, 241, 0.5);
+    --shadow-gray-blue: 0 4px 6px rgba(120, 132, 172, 0.5);
+
+    --font-pacifico: var(--font-pacifico);
+
+    @keyframes aurora {
+        from {
+            background-position:
+                50% 50%,
+                50% 50%;
+        }
+        to {
+            background-position:
+                350% 50%,
+                350% 50%;
+        }
     }
 }
 
-:root {
-    --foreground-rgb: 0, 0, 0;
-    --background-start-rgb: 214, 219, 220;
-    --background-end-rgb: 255, 255, 255;
-}
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --foreground-rgb: 255, 255, 255;
-        --background-start-rgb: 0, 0, 0;
-        --background-end-rgb: 0, 0, 0;
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: var(--color-gray-200, currentColor);
     }
 }
 
-body {
-    color: rgb(var(--foreground-rgb));
-    background: linear-gradient(
-            to bottom,
-            transparent,
-            rgb(var(--background-end-rgb))
-        )
-        rgb(var(--background-start-rgb));
+@utility bg-decoration {
+    background:
+        linear-gradient(180deg, transparent 18em, #fff 30em),
+        url("../public/grid-cell.svg") 0 0 repeat;
+    background-attachment: local;
+    background-size:
+        100% 100%,
+        40px 40px;
+}
+
+@utility text-balance {
+    text-wrap: balance;
 }
 
 @layer utilities {
-    .text-balance {
-        text-wrap: balance;
+    :root {
+        --foreground-rgb: 0, 0, 0;
+        --background-start-rgb: 214, 219, 220;
+        --background-end-rgb: 255, 255, 255;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --foreground-rgb: 255, 255, 255;
+            --background-start-rgb: 0, 0, 0;
+            --background-end-rgb: 0, 0, 0;
+        }
+    }
+
+    body {
+        color: rgb(var(--foreground-rgb));
+        background: linear-gradient(
+                to bottom,
+                transparent,
+                rgb(var(--background-end-rgb))
+            )
+            rgb(var(--background-start-rgb));
     }
 }
