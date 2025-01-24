@@ -3,12 +3,10 @@
 import { motion } from "framer-motion";
 
 interface HueGridTailwindCodeProps {
-    tailwindColorsName: string;
-    tailwindColors: Record<string, string>;
+    tailwindColors: string;
 }
 
-export default function HueGridTailwindCode({
-    tailwindColorsName,
+export default function HueGridTailwindCodeV4({
     tailwindColors,
 }: HueGridTailwindCodeProps) {
     return (
@@ -20,11 +18,13 @@ export default function HueGridTailwindCode({
                 duration: 0.5,
                 delay: 0.04,
             }}
-            className="bg-opacity-70 m-4 h-[20rem] rounded-xl bg-slate-100 p-4 font-mono text-sm font-semibold tracking-wider text-black sm:text-base"
+            className="bg-opacity-70 mx-2 my-4 h-[20rem] rounded-xl bg-slate-100 p-4 font-mono text-base font-semibold tracking-wider text-black sm:mx-4"
         >
-            {`${tailwindColorsName}:`}
-            <pre className="inline">
-                <code>{JSON.stringify(tailwindColors, null, 4)}</code>
+            <pre
+                className="h-full overflow-auto"
+                style={{ scrollbarWidth: "thin" }}
+            >
+                <code>{tailwindColors}</code>
             </pre>
         </motion.div>
     );

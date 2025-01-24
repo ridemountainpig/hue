@@ -14,7 +14,7 @@ Hue Palette is a tool designed to help developers and designers effortlessly cre
 
 ### Visit the Application
 
-To get started, visit [Hue Palette](https://www.hue-palette.com/) and explore the available hue samples or start generating your custom hues.
+To get started, visit [Hue Palette](https://www.hue-palette.com/) or the [Hue Palette Raycast Extension](https://www.raycast.com/ridemountainpig/hue-palette) and explore the available hue samples or start generating your custom hues.
 
 ### Creating a Hue Palette
 
@@ -28,10 +28,20 @@ To get started, visit [Hue Palette](https://www.hue-palette.com/) and explore th
 After generating your hue palette, you can quickly integrate it into your Tailwind CSS setup:
 
 1. Copy the generated Tailwind config code.
-2. Paste the code into your `tailwind.config.js` file.
+2. Paste the code into your `CSS` file for Tailwind V4 or your `tailwind.config.js` file for Tailwind V3.
 3. Start using your custom hues in your CSS classes.
 
 ### Example
+
+#### Tailwind V4
+
+```css
+@theme {
+    // Your custom hue palette here
+}
+```
+
+#### Tailwind V3
 
 ```javascript
 module.exports = {

@@ -1,10 +1,14 @@
+"use client";
+
+import { useState } from "react";
 import HueTitle from "@/components/hue-titile";
 import HueColorDock from "@/components/hue-color-dock";
 import TailwindCopy from "@/components/tailwind-copy";
 import HueGridColorSquare from "@/components/hue-grid-color-square";
 import HueGridColorText from "@/components/hue-grid-color-text";
 import HueGridColorCircle from "@/components/hue-grid-color-circle";
-import HueGridTailwindCode from "@/components/hue-grid-tailwind-code";
+import HueGridTailwindCodeV3 from "@/components/hue-grid-tailwind-code-v3";
+import HueGridTailwindCodeV4 from "@/components/hue-grid-tailwind-code-v4";
 import HueLinkCopy from "@/components/hue-link-copy";
 
 interface HueGridLayoutProps {
@@ -20,6 +24,19 @@ export default function HueGridLayout({
     tailwind_colors_name,
     tailwind_colors,
 }: HueGridLayoutProps) {
+    const [tailwindVersionToggle, setTailwindVersionToggle] = useState(false);
+
+    function convertToV4(colors = {}) {
+        let cssVariables = "@theme {\n";
+        for (const [colorLevel, hex] of Object.entries(colors)) {
+            cssVariables += ` --color-${tailwind_colors_name}-${colorLevel}: ${hex};\n`;
+        }
+        cssVariables += "}";
+        return cssVariables;
+    }
+    const tailwindColorsV3 = tailwind_colors;
+    const tailwindColorsV4 = convertToV4(tailwindColorsV3);
+
     return (
         <>
             <HueTitle h1Title="Hue" h2Title={hueName}></HueTitle>
@@ -41,25 +58,55 @@ export default function HueGridLayout({
                         <div className="col-span-2">
                             <div className="flex h-[25rem] items-start rounded-xl border bg-white py-4 shadow-xl">
                                 <div className="w-full">
-                                    <div className="flex w-full justify-center gap-x-2 px-4 lg:justify-end">
-                                        <HueLinkCopy />
-                                        <TailwindCopy
-                                            tailwind_colors_name={
+                                    <div className="flex w-full justify-between px-2 sm:px-4">
+                                        <div className="flex gap-x-2">
+                                            <HueLinkCopy />
+                                            <TailwindCopy
+                                                tailwind_colors_name={
+                                                    tailwind_colors_name
+                                                }
+                                                tailwind_colors={
+                                                    tailwindVersionToggle
+                                                        ? Array.isArray(
+                                                              tailwindColorsV3,
+                                                          )
+                                                            ? {}
+                                                            : tailwindColorsV3
+                                                        : tailwindColorsV4
+                                                }
+                                                tailwindVersionToggle={
+                                                    tailwindVersionToggle
+                                                }
+                                            />
+                                        </div>
+                                        <label className="inline-flex cursor-pointer items-center">
+                                            <input
+                                                type="checkbox"
+                                                className="peer sr-only"
+                                                onChange={() =>
+                                                    setTailwindVersionToggle(
+                                                        !tailwindVersionToggle,
+                                                    )
+                                                }
+                                            />
+                                            <div className="peer relative h-6 w-11 rounded-full bg-gray-200 peer-checked:bg-slate-600 after:absolute after:start-[2px] after:top-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:after:translate-x-full peer-checked:after:border-white rtl:peer-checked:after:-translate-x-full"></div>
+                                            <span className="text-2xs ml-1 font-mono font-semibold text-black sm:text-xs">
+                                                Tailwind V3
+                                            </span>
+                                        </label>
+                                    </div>
+                                    {tailwindVersionToggle ? (
+                                        <HueGridTailwindCodeV3
+                                            tailwindColorsName={
                                                 tailwind_colors_name
                                             }
-                                            tailwind_colors={
-                                                Array.isArray(tailwind_colors)
-                                                    ? {}
-                                                    : tailwind_colors
-                                            }
-                                        />
-                                    </div>
-                                    <HueGridTailwindCode
-                                        tailwindColorsName={
-                                            tailwind_colors_name
-                                        }
-                                        tailwindColors={tailwind_colors}
-                                    ></HueGridTailwindCode>
+                                            tailwindColors={tailwindColorsV3}
+                                        ></HueGridTailwindCodeV3>
+                                    ) : (
+                                        <HueGridTailwindCodeV4
+                                            tailwindColors={tailwindColorsV4}
+                                        ></HueGridTailwindCodeV4>
+                                    )}
                                 </div>
                             </div>
                         </div>

@@ -35,6 +35,8 @@
 
     --font-pacifico: var(--font-pacifico);
 
+    --text-2xs: 0.625rem;
+
     @keyframes aurora {
         from {
             background-position:
