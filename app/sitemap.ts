@@ -10,7 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     let hueJsonSitemap = [];
 
     for (const hue of hueData) {
-        const url = `https://www.hue-palette.com/${hue.name}/`;
+        const url = `https://www.hue-palette.com/${hue.name}`;
         hueJsonSitemap.push({
             url: url,
             priority: 0.8,
