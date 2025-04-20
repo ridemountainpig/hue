@@ -32,7 +32,7 @@ export const metadata: Metadata = {
         description: "Painting Your World In Vibrant Hues",
         images: [
             {
-                url: "https://hue-palette.com/hue-icon.png",
+                url: "/api/og",
                 width: 1200,
                 height: 630,
                 alt: "Hue icon",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
         title: "Hue Palette",
         description: "Painting Your World In Vibrant Hues",
         creator: "@ridemountainpig",
-        images: ["https://hue-palette.com/hue-icon.png"],
+        images: ["/api/og"],
     },
 };
 

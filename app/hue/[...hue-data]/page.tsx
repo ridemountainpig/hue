@@ -6,33 +6,31 @@ export async function generateMetadata(props: {
     params: Promise<{ "hue-data": string[] }>;
 }) {
     const params = await props.params;
+    const hueName = params["hue-data"][0];
+    const hueColor = params["hue-data"][1];
     return {
-        title: params["hue-data"][0].replaceAll("%20", " ") + " | Hue",
+        title: hueName.replaceAll("%20", " ") + " | Hue",
         description: "Painting Your World In Vibrant Hues",
         openGraph: {
             type: "website",
-            url:
-                "https://hue-palette.com/hue/" +
-                params["hue-data"][0] +
-                "/" +
-                params["hue-data"][1],
-            title: params["hue-data"][0].replaceAll("%20", " ") + " | Hue",
+            url: `https://hue-palette.com/hue/${hueName}/${hueColor}`,
+            title: hueName.replaceAll("%20", " ") + " | Hue",
             description: "Painting Your World In Vibrant Hues",
             images: [
                 {
-                    url: "https://hue-palette.com/hue-icon.png",
+                    url: `/api/og?hueName=${hueName}&hueColor=${hueColor}`,
                     width: 1200,
                     height: 630,
-                    alt: "Hue icon",
+                    alt: `Hue ${hueName}`,
                 },
             ],
         },
         twitter: {
             card: "summary_large_image",
-            title: params["hue-data"][0].replaceAll("%20", " ") + " | Hue",
+            title: hueName.replaceAll("%20", " ") + " | Hue",
             description: "Painting Your World In Vibrant Hues",
             creator: "@ridemountainpig",
-            images: ["https://hue-palette.com/hue-icon.png"],
+            images: [`/api/og?hueName=${hueName}&hueColor=${hueColor}`],
         },
     };
 }

@@ -8,17 +8,37 @@ export async function generateMetadata(props: {
     params: Promise<{ "hue-name": string }>;
 }) {
     const params = await props.params;
+    const filePath = path.join(process.cwd(), "public/hue.json");
+    const fileContents = fs.readFileSync(filePath, "utf8");
+    const hueData: HueData[] = JSON.parse(fileContents);
+
+    const hue: HueData | undefined = hueData.find(
+        (hue) => hue.name === params["hue-name"].replaceAll("%20", " "),
+    );
+
+    if (!hue) {
+        return {};
+    }
+
+    const colors = hue?.tailwind_colors
+        ? Object.values(hue.tailwind_colors)
+        : [];
+
+    const hueName = params["hue-name"].replaceAll("%20", " ");
+    const colorOne = colors[0] ? colors[0].replace("#", "") : "";
+    const colorTwo = colors[4] ? colors[4].replace("#", "") : "";
+
     return {
-        title: params["hue-name"].replaceAll("%20", " ") + " | Hue",
+        title: hueName + " | Hue",
         description: "Painting Your World In Vibrant Hues",
         openGraph: {
             type: "website",
             url: "https://hue-palette.com/" + params["hue-name"],
-            title: params["hue-name"].replaceAll("%20", " ") + " | Hue",
+            title: hueName + " | Hue",
             description: "Painting Your World In Vibrant Hues",
             images: [
                 {
-                    url: "https://hue-palette.com/hue-icon.png",
+                    url: `/api/og?hueName=${hueName}&hueColor=${colorOne}-${colorTwo}`,
                     width: 1200,
                     height: 630,
                     alt: "Hue icon",
@@ -27,10 +47,12 @@ export async function generateMetadata(props: {
         },
         twitter: {
             card: "summary_large_image",
-            title: params["hue-name"].replaceAll("%20", " ") + " | Hue",
+            title: hueName + " | Hue",
             description: "Painting Your World In Vibrant Hues",
             creator: "@ridemountainpig",
-            images: ["https://hue-palette.com/hue-icon.png"],
+            images: [
+                `/api/og?hueName=${hueName}&hueColor=${colorOne}-${colorTwo}`,
+            ],
         },
     };
 }
