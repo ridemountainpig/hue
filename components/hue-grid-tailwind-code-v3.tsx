@@ -20,10 +20,10 @@ export default function HueGridTailwindCodeV3({
                 duration: 0.5,
                 delay: 0.04,
             }}
-            className="bg-opacity-70 mx-2 my-4 h-[20rem] rounded-xl bg-slate-100 p-4 font-mono text-base font-semibold tracking-wider text-black sm:mx-4"
+            className="mx-2 my-4 h-[20rem] rounded-xl bg-slate-100/70 font-mono text-base font-semibold tracking-wider text-black sm:mx-4"
         >
             <pre
-                className="h-full overflow-auto"
+                className="h-full overflow-auto p-4"
                 style={{ scrollbarWidth: "thin" }}
             >
                 <code>
