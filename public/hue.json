@@ -4598,5 +4598,30 @@
         },
         "background": "#f79777",
         "text": "#5b578e"
+    },
+    {
+        "name": "Pale Nimbus",
+        "colors": [
+            "#433e4c",
+            "#737b77",
+            "#7ea790",
+            "#89d3a9",
+            "#94ffc2"
+        ],
+        "tailwind_colors_name": "pale-nimbus",
+        "tailwind_colors": {
+            "50": "#433e4c",
+            "100": "#717272",
+            "200": "#75837c",
+            "300": "#7a9586",
+            "400": "#7ea790",
+            "500": "#82b89a",
+            "600": "#87caa4",
+            "700": "#8bdbae",
+            "800": "#8fedb8",
+            "900": "#94ffc2"
+        },
+        "background": "#94ffc2",
+        "text": "#ffaca3"
     }
 ]
