@@ -4600,6 +4600,31 @@
         "text": "#5b578e"
     },
     {
+        "name": "Vesper Light",
+        "colors": [
+            "#ffffff",
+            "#fed6b7",
+            "#fdb47a",
+            "#fc923d",
+            "#fb7100"
+        ],
+        "tailwind_colors_name": "vesper-light",
+        "tailwind_colors": {
+            "50": "#ffffff",
+            "100": "#feddc3",
+            "200": "#fdcfaa",
+            "300": "#fdc292",
+            "400": "#fdb47a",
+            "500": "#fca761",
+            "600": "#fc9949",
+            "700": "#fb8c30",
+            "800": "#fb7e18",
+            "900": "#fb7100"
+        },
+        "background": "#fb7100",
+        "text": "#a0a0a0"
+    },
+    {
         "name": "Pale Nimbus",
         "colors": [
             "#433e4c",
