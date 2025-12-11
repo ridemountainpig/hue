@@ -18,30 +18,28 @@ export default async function (request: NextRequest) {
 
     if (!hueName || !hueColor || hueName.length > 14) {
         return new ImageResponse(
-            (
-                <div
-                    style={{
-                        height: "100%",
-                        width: "100%",
-                        display: "flex",
-                        flexDirection: "column",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        background: "white",
-                    }}
-                >
-                    <div tw="flex items-center justify-center">
-                        <img
-                            src="https://www.hue-palette.com/hue-icon.png"
-                            alt="Hue Icon"
-                            width={450}
-                        />
-                        <span tw="font-pacifico text-[12rem] font-bold tracking-widest text-slate-600 ml-22">
-                            Hue
-                        </span>
-                    </div>
+            <div
+                style={{
+                    height: "100%",
+                    width: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    background: "white",
+                }}
+            >
+                <div tw="flex items-center justify-center">
+                    <img
+                        src="https://www.hue-palette.com/hue-icon.png"
+                        alt="Hue Icon"
+                        width={450}
+                    />
+                    <span tw="font-pacifico text-[12rem] font-bold tracking-widest text-slate-600 ml-22">
+                        Hue
+                    </span>
                 </div>
-            ),
+            </div>,
             {
                 width: 1200,
                 height: 630,
@@ -57,23 +55,21 @@ export default async function (request: NextRequest) {
     }
 
     return new ImageResponse(
-        (
-            <div
-                style={{
-                    height: "100%",
-                    width: "100%",
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    backgroundImage: `linear-gradient(to right, ${colorOne}, ${colorTwo})`,
-                }}
-            >
-                <span tw="font-pacifico text-[10rem] font-bold tracking-widest text-white">
-                    {hueName}
-                </span>
-            </div>
-        ),
+        <div
+            style={{
+                height: "100%",
+                width: "100%",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+                backgroundImage: `linear-gradient(to right, ${colorOne}, ${colorTwo})`,
+            }}
+        >
+            <span tw="font-pacifico text-[10rem] font-bold tracking-widest text-white">
+                {hueName}
+            </span>
+        </div>,
         {
             width: 1200,
             height: 630,
